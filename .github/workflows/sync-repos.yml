@@ -1,0 +1,55 @@
+name: Sync Forked Repositories
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  list-repos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      repository-projects: write
+      pull-requests: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: install dependencies
+      run: |
+        sudo apt update
+        sudo apt install jq gh -y
+  
+    - name: Login to GitHub
+      run: |
+        echo "${{ secrets.WRITE_TOKEN }}" | gh auth login --with-token
+
+    - name: List all repositories in the organization and sync them
+      env:
+        ORG_NAME: "fork-the-planet"
+      run: |
+        # List all forks in the organization
+        forks=$(gh api orgs/$ORG_NAME/repos --jq '.[] | select(.fork==true) | .full_name' --paginate)
+
+        # Loop through each fork and update
+        for fork in $forks; do
+          echo "Updating $fork"
+          gh repo sync $fork
+        done
+
+    - name: Save datetime of the last run
+      run: date '+%Y-%m-%d %H:%M:%S' > sync.log
+    
+    - name: Commit and push sync log
+      run: |
+        DATE=$(date '+%Y-%m-%d %H:%M:%S')
+        echo $DATE > sync.log
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add sync.log
+        git commit -m "Update sync log with the latest run date and time: $DATE"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.WRITE_TOKEN }}
