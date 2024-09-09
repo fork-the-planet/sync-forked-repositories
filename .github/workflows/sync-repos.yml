@@ -36,7 +36,7 @@ jobs:
         # Loop through each fork and update
         for fork in $forks; do
           echo "Updating $fork"
-          gh repo sync $fork
+          gh repo sync $fork --force
         done
 
     - name: Save datetime of the last run
