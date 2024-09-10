@@ -17,27 +17,43 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     
-    - name: install dependencies
+    - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install jq gh -y
+        sudo apt install jq gh parallel -y
   
     - name: Login to GitHub
       run: |
         echo "${{ secrets.WRITE_TOKEN }}" | gh auth login --with-token
 
-    - name: List all repositories in the organization and sync them
+    - name: List all repositories in the organization and sync them in parallel
       env:
         ORG_NAME: "fork-the-planet"
       run: |
         # List all forks in the organization
         forks=$(gh api orgs/$ORG_NAME/repos --jq '.[] | select(.fork==true) | .full_name' --paginate)
-
-        # Loop through each fork and update
-        for fork in $forks; do
+        
+        # Function to sync a repository and capture failures
+        sync_repo() {
+          fork=$1
           echo "Updating $fork"
-          gh repo sync $fork --force
-        done
+          if ! gh repo sync $fork --force; then
+            echo "$fork failed" >> failed_repos.log
+            return 1
+          fi
+        }
+
+        export -f sync_repo
+
+        # Run sync for each fork in parallel and ensure the job fails if any fail
+        echo "$forks" | parallel -j 5 sync_repo {}
+
+        # Check if any sync failed
+        if [ -f failed_repos.log ]; then
+          echo "Some repositories failed to sync:"
+          cat failed_repos.log
+          exit 1
+        fi
 
     - name: Save datetime of the last run
       run: date '+%Y-%m-%d %H:%M:%S' > sync.log
