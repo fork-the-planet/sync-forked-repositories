@@ -46,7 +46,7 @@ jobs:
         export -f sync_repo
 
         # Run sync for each fork in parallel and ensure the job fails if any fail
-        echo "$forks" | parallel -j 5 sync_repo {}
+        echo "$forks" | parallel -j 2 sync_repo {}
 
         # Check if any sync failed
         if [ -f failed_repos.log ]; then
