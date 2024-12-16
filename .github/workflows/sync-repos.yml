@@ -67,11 +67,11 @@ jobs:
           workflows=$(gh api repos/$repo/actions/workflows --jq '
             .workflows[] | 
             select(
-              .state == "active" and 
-              not (
-                (.name == "CodeQL" and .path == "dynamic/github-code-scanning/codeql") or
-                (.name == "Sync Forked Repositories" and .path == ".github/workflows/sync-repos.yml") or
-                (.name == "Dependabot Updates" and .path == "dynamic/dependabot/dependabot-updates")
+              (.state == "active") and 
+              (
+                (.name != "CodeQL" or .path != "dynamic/github-code-scanning/codeql") and
+                (.name != "Sync Forked Repositories" or .path != ".github/workflows/sync-repos.yml") and
+                (.name != "Dependabot Updates" or .path != "dynamic/dependabot/dependabot-updates")
               )
             ) | .id')
           for workflow_id in $workflows; do
