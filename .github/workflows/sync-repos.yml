@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+env:
+  ORG_NAME: "fork-the-planet"
+
 jobs:
   list-repos:
     runs-on: ubuntu-latest
@@ -27,8 +30,6 @@ jobs:
         echo "${{ secrets.WRITE_TOKEN }}" | gh auth login --with-token
 
     - name: List all repositories in the organization and sync them in parallel
-      env:
-        ORG_NAME: "fork-the-planet"
       run: |
         # List all forks in the organization
         forks=$(gh api orgs/$ORG_NAME/repos --jq '.[] | select(.fork==true) | .full_name' --paginate)
@@ -54,6 +55,26 @@ jobs:
           cat failed_repos.log
           exit 1
         fi
+
+    - name: Disable actions for all except CodeQL in parallel
+      run: |
+        # List all repositories in the organization
+        repos=$(gh api orgs/$ORG_NAME/repos --jq '.[] | .full_name' --paginate)
+
+        # Function to disable workflows
+        disable_workflows() {
+          repo=$1
+          workflows=$(gh api repos/$repo/actions/workflows --jq '.workflows[] | select((.name != "CodeQL" or .path != "dynamic/github-code-scanning/codeql") and .state == "active") | .id')
+          for workflow_id in $workflows; do
+            echo "Disabling workflow $workflow_id in $repo"
+            gh api repos/$repo/actions/workflows/$workflow_id/disable -X PUT
+          done
+        }
+
+        export -f disable_workflows
+
+        # Run disable workflows in parallel
+        echo "$repos" | parallel -j 2 disable_workflows {}
 
     - name: Save datetime of the last run
       run: date '+%Y-%m-%d %H:%M:%S' > sync.log
