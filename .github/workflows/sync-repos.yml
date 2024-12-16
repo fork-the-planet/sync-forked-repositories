@@ -64,7 +64,7 @@ jobs:
         # Function to disable workflows
         disable_workflows() {
           repo=$1
-          workflows=$(gh api repos/$repo/actions/workflows --jq '
+          workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
             .workflows[] | 
             select(
               (.state == "active") and 
