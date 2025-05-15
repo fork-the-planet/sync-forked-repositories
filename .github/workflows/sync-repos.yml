@@ -7,6 +7,7 @@ on:
 
 env:
   ORG_NAME: "fork-the-planet"
+  SYNC_METADATA_FILE: "sync-metadata.json"
 
 jobs:
   list-repos:
@@ -29,73 +30,172 @@ jobs:
       run: |
         echo "${{ secrets.WRITE_TOKEN }}" | gh auth login --with-token
 
-    - name: List all repositories in the organization and sync them in parallel
+    - name: Initialize or load sync metadata
       run: |
+        if [ ! -f "$SYNC_METADATA_FILE" ]; then
+          echo '{}' > "$SYNC_METADATA_FILE"
+        fi
+
+    - name: List and sync repositories with rate limit handling
+      run: |
+        # Load existing metadata
+        METADATA=$(cat "$SYNC_METADATA_FILE")
+        
         # List all forks in the organization
         forks=$(gh api orgs/$ORG_NAME/repos --jq '.[] | select(.fork==true) | .full_name' --paginate)
         
-        # Function to sync a repository and capture failures
+        # Convert forks to array and sort by last update time (oldest first)
+        readarray -t fork_array <<< "$forks"
+        
+        # Function to get last update time from metadata
+        get_last_update() {
+          echo "$METADATA" | jq -r --arg repo "$1" '.[$repo].last_update // "1970-01-01T00:00:00Z"'
+        }
+        
+        # Sort repositories by last update time (oldest first)
+        sorted_forks=""
+        for fork in "${fork_array[@]}"; do
+          if [ -n "$fork" ]; then
+            last_update=$(get_last_update "$fork")
+            echo "$last_update $fork"
+          fi
+        done | sort | cut -d' ' -f2- > sorted_forks.txt
+        
+        # Function to sync a repository with rate limit handling
         sync_repo() {
           fork=$1
           echo "Updating $fork"
-          if ! gh repo sync $fork --force; then
+          
+          # Attempt to sync the repository
+          OUTPUT=$(gh repo sync $fork --force 2>&1)
+          EXIT_CODE=$?
+          
+          # Check for rate limit error
+          if echo "$OUTPUT" | grep -qi "rate limit" || echo "$OUTPUT" | grep -qi "API rate limit exceeded"; then
+            echo "Rate limit reached while syncing $fork"
+            echo "$fork rate_limited" >> rate_limited_repos.log
+            return 2
+          elif [ $EXIT_CODE -ne 0 ]; then
             echo "$fork failed" >> failed_repos.log
             return 1
           fi
+          
+          # Update metadata with successful sync
+          current_time=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          jq --arg repo "$fork" --arg time "$current_time" '.[$repo] = {"last_update": $time}' "$SYNC_METADATA_FILE" > temp.json
+          mv temp.json "$SYNC_METADATA_FILE"
+          
+          return 0
         }
 
         export -f sync_repo
+        export SYNC_METADATA_FILE
+        export METADATA
 
-        # Run sync for each fork in parallel and ensure the job fails if any fail
-        echo "$forks" | parallel -j 2 sync_repo {}
+        # Track number of successful syncs
+        SYNC_COUNT=0
+        
+        # Process repositories one by one, stopping on rate limit
+        while IFS= read -r fork; do
+          if [ -n "$fork" ]; then
+            sync_repo "$fork"
+            RESULT=$?
+            
+            # If rate limited, stop processing
+            if [ $RESULT -eq 2 ]; then
+              echo "Rate limit reached, stopping sync process"
+              break
+            elif [ $RESULT -eq 0 ]; then
+              SYNC_COUNT=$((SYNC_COUNT + 1))
+              
+              # Commit progress every 10 successful syncs
+              if [ $((SYNC_COUNT % 10)) -eq 0 ]; then
+                echo "Committing progress after $SYNC_COUNT successful syncs..."
+                git add "$SYNC_METADATA_FILE"
+                git commit -m "Update sync metadata - $SYNC_COUNT repositories synced" || true
+              fi
+            fi
+          fi
+        done < sorted_forks.txt
 
-        # Check if any sync failed
+        # Report results
         if [ -f failed_repos.log ]; then
           echo "Some repositories failed to sync:"
           cat failed_repos.log
-          exit 1
+        fi
+        
+        if [ -f rate_limited_repos.log ]; then
+          echo "Rate limit reached for these repositories:"
+          cat rate_limited_repos.log
+        fi
+        
+        echo "Total repositories successfully synced: $SYNC_COUNT"
+
+    - name: Disable actions for all except whitelisted workflows
+      run: |
+        # Only run if we didn't hit rate limit
+        if [ ! -f rate_limited_repos.log ]; then
+          # List all repositories in the organization
+          repos=$(gh api orgs/$ORG_NAME/repos --jq '.[] | .full_name' --paginate)
+
+          # Function to disable workflows
+          disable_workflows() {
+            repo=$1
+            workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
+              .workflows[] | 
+              select(
+                (.state == "active") and 
+                (
+                  (.name != "CodeQL" or .path != "dynamic/github-code-scanning/codeql") and
+                  (.name != "Sync Forked Repositories" or .path != ".github/workflows/sync-repos.yml") and
+                  (.name != "Dependabot Updates" or .path != "dynamic/dependabot/dependabot-updates")
+                )
+              ) | .id')
+            for workflow_id in $workflows; do
+              echo "Disabling workflow $workflow_id in $repo"
+              gh api repos/$repo/actions/workflows/$workflow_id/disable -X PUT
+            done
+          }
+
+          export -f disable_workflows
+
+          # Run disable workflows in parallel
+          echo "$repos" | parallel -j 2 disable_workflows {}
         fi
 
-    - name: Disable actions for all except whitelisted workflows in parallel
-      run: |
-        # List all repositories in the organization
-        repos=$(gh api orgs/$ORG_NAME/repos --jq '.[] | .full_name' --paginate)
-
-        # Function to disable workflows
-        disable_workflows() {
-          repo=$1
-          workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
-            .workflows[] | 
-            select(
-              (.state == "active") and 
-              (
-                (.name != "CodeQL" or .path != "dynamic/github-code-scanning/codeql") and
-                (.name != "Sync Forked Repositories" or .path != ".github/workflows/sync-repos.yml") and
-                (.name != "Dependabot Updates" or .path != "dynamic/dependabot/dependabot-updates")
-              )
-            ) | .id')
-          for workflow_id in $workflows; do
-            echo "Disabling workflow $workflow_id in $repo"
-            gh api repos/$repo/actions/workflows/$workflow_id/disable -X PUT
-          done
-        }
-
-        export -f disable_workflows
-
-        # Run disable workflows in parallel
-        echo "$repos" | parallel -j 2 disable_workflows {}
-
-    - name: Save datetime of the last run
-      run: date '+%Y-%m-%d %H:%M:%S' > sync.log
-    
-    - name: Commit and push sync log
+    - name: Update sync log
       run: |
         DATE=$(date '+%Y-%m-%d %H:%M:%S')
         echo $DATE > sync.log
+        
+        # Also update a summary in the metadata file
+        if [ -f "$SYNC_METADATA_FILE" ]; then
+          jq --arg date "$DATE" '. + {"last_run": $date}' "$SYNC_METADATA_FILE" > temp.json
+          mv temp.json "$SYNC_METADATA_FILE"
+        fi
+    
+    - name: Commit and push changes
+      run: |
+        DATE=$(date '+%Y-%m-%d %H:%M:%S')
         git config --global user.name "github-actions"
-        git config --global user.email "github-actions@github.com"
-        git add sync.log
-        git commit -m "Update sync log with the latest run date and time: $DATE"
+        git config --global user.email "github@secologist.com"
+        
+        # Configure git to handle potential conflicts
+        git config pull.rebase false
+        
+        # Pull latest changes in case there were intermediate commits
+        git pull origin main || true
+        
+        # Add all changes
+        git add sync.log "$SYNC_METADATA_FILE"
+        
+        if [ -f failed_repos.log ] || [ -f rate_limited_repos.log ]; then
+          git commit -m "Update sync log - Rate limit or failures encountered: $DATE" || true
+        else
+          git commit -m "Update sync log with the latest run date and time: $DATE" || true
+        fi
+        
+        # Push changes
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.WRITE_TOKEN }}
