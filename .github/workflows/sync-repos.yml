@@ -30,6 +30,12 @@ jobs:
       run: |
         echo "${{ secrets.WRITE_TOKEN }}" | gh auth login --with-token
 
+    - name: Configure git
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github@secologist.com"
+        git config pull.rebase false
+
     - name: Initialize or load sync metadata
       run: |
         if [ ! -f "$SYNC_METADATA_FILE" ]; then
@@ -177,11 +183,6 @@ jobs:
     - name: Commit and push changes
       run: |
         DATE=$(date '+%Y-%m-%d %H:%M:%S')
-        git config --global user.name "github-actions"
-        git config --global user.email "github@secologist.com"
-        
-        # Configure git to handle potential conflicts
-        git config pull.rebase false
         
         # Pull latest changes in case there were intermediate commits
         git pull origin main || true
