@@ -598,5 +598,35 @@
   },
   "fork-the-planet/dashboard": {
     "last_update": "2026-01-01T16:21:52Z"
+  },
+  "fork-the-planet/databricks-sdk-py": {
+    "last_update": "2026-01-01T16:21:52Z"
+  },
+  "fork-the-planet/databricks-sql-python": {
+    "last_update": "2026-01-01T16:21:53Z"
+  },
+  "fork-the-planet/datasets": {
+    "last_update": "2026-01-01T16:21:53Z"
+  },
+  "fork-the-planet/dbeaver": {
+    "last_update": "2026-01-01T16:21:54Z"
+  },
+  "fork-the-planet/devdocs": {
+    "last_update": "2026-01-01T16:21:55Z"
+  },
+  "fork-the-planet/device-management": {
+    "last_update": "2026-01-01T16:21:55Z"
+  },
+  "fork-the-planet/differential-privacy-library": {
+    "last_update": "2026-01-01T16:21:58Z"
+  },
+  "fork-the-planet/diffusers": {
+    "last_update": "2026-01-01T16:21:59Z"
+  },
+  "fork-the-planet/dify": {
+    "last_update": "2026-01-01T16:21:59Z"
+  },
+  "fork-the-planet/discourse": {
+    "last_update": "2026-01-01T16:22:00Z"
   }
 }
