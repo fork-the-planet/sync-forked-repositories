@@ -8,6 +8,7 @@ on:
 env:
   ORG_NAME: "fork-the-planet"
   SYNC_METADATA_FILE: "sync-metadata.json"
+  DISABLE_METADATA_FILE: "disable-metadata.json"
 
 jobs:
   list-repos:
@@ -40,6 +41,9 @@ jobs:
       run: |
         if [ ! -f "$SYNC_METADATA_FILE" ]; then
           echo '{}' > "$SYNC_METADATA_FILE"
+        fi
+        if [ ! -f "$DISABLE_METADATA_FILE" ]; then
+          echo '{}' > "$DISABLE_METADATA_FILE"
         fi
 
     - name: List and sync repositories with rate limit handling
@@ -113,6 +117,9 @@ jobs:
             if [ $RESULT -eq 2 ]; then
               echo "Rate limit reached, stopping sync process"
               break
+            elif [ $RESULT -eq 1 ]; then
+              echo "Error encountered, stopping sync process (will resume next run)"
+              break
             elif [ $RESULT -eq 0 ]; then
               SYNC_COUNT=$((SYNC_COUNT + 1))
               
@@ -145,6 +152,18 @@ jobs:
         if [ ! -f rate_limited_repos.log ]; then
           # List all repositories in the organization
           repos=$(gh api orgs/$ORG_NAME/repos --jq '.[] | .full_name' --paginate)
+
+          # Load existing disable metadata
+          DISABLE_METADATA=$(cat "$DISABLE_METADATA_FILE")
+
+          # Sort repositories by last disable time (oldest first)
+          readarray -t repo_array <<< "$repos"
+          for repo in "${repo_array[@]}"; do
+            if [ -n "$repo" ]; then
+              last_disable=$(echo "$DISABLE_METADATA" | jq -r --arg repo "$repo" '.[$repo].last_disable // "1970-01-01T00:00:00Z"')
+              echo "$last_disable $repo"
+            fi
+          done | sort | cut -d' ' -f2- > sorted_repos.txt
 
           disable_workflow_with_retry() {
             repo=$1
@@ -188,7 +207,7 @@ jobs:
               fi
 
               echo "$repo $workflow_id $workflow_name $workflow_path failed: $OUTPUT" >> disable_failed_workflows.log
-              return 0
+              return 1
             done
 
             # 422 is typically permanent for some GitHub-managed workflows; record and continue.
@@ -196,42 +215,53 @@ jobs:
             return 0
           }
 
-        # Process repositories one by one, stopping on rate limit (like the sync step).
-        while IFS= read -r repo; do
-          [ -z "$repo" ] && continue
+          # Process repositories one by one, stopping on rate limit or errors.
+          while IFS= read -r repo; do
+            [ -z "$repo" ] && continue
 
-          set +e
-          workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
-            .workflows[] |
-            select(
-              (.state == "active") and
-              (
+            set +e
+            workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
+              .workflows[] |
+              select(
+                (.state == "active") and
+                (
+                  (.path | startswith("dynamic/") | not) and
                   (.name != "CodeQL" or .path != "dynamic/github-code-scanning/codeql") and
                   (.name != "Sync Forked Repositories" or .path != ".github/workflows/sync-repos.yml") and
                   (.name != "Dependabot Updates" or .path != "dynamic/dependabot/dependabot-updates")
                 )
-            ) | "\(.id)\t\(.name)\t\(.path)"')
-          workflows_exit_code=$?
-          set -e
-
-          if [ $workflows_exit_code -ne 0 ]; then
-            echo "$repo workflows_list_failed" >> disable_failed_workflows.log
-            continue
-          fi
-
-          while IFS=$'\t' read -r workflow_id workflow_name workflow_path; do
-            [ -z "$workflow_id" ] && continue
-            echo "Disabling workflow $workflow_id in $repo"
-            set +e
-            disable_workflow_with_retry "$repo" "$workflow_id" "$workflow_name" "$workflow_path"
-            RESULT=$?
+              ) | "\(.id)\t\(.name)\t\(.path)"')
+            workflows_exit_code=$?
             set -e
-            if [ $RESULT -eq 2 ]; then
-              echo "Rate limit reached, stopping disable process"
-              break 2
+
+            if [ $workflows_exit_code -ne 0 ]; then
+              echo "$repo workflows_list_failed" >> disable_failed_workflows.log
+              echo "Error encountered, stopping disable process (will resume next run)"
+              break
             fi
+
+            while IFS=$'\t' read -r workflow_id workflow_name workflow_path; do
+              [ -z "$workflow_id" ] && continue
+              echo "Disabling workflow $workflow_id in $repo"
+              set +e
+              disable_workflow_with_retry "$repo" "$workflow_id" "$workflow_name" "$workflow_path"
+              RESULT=$?
+              set -e
+              if [ $RESULT -eq 2 ]; then
+                echo "Rate limit reached, stopping disable process"
+                break 2
+              elif [ $RESULT -eq 1 ]; then
+                echo "Error encountered, stopping disable process (will resume next run)"
+                echo "$repo $workflow_id $workflow_name $workflow_path stopped_on_error" >> disable_failed_workflows.log
+                break 2
+              fi
             done <<< "$workflows"
-          done <<< "$repos"
+
+            # Mark this repo as processed for disable ordering.
+            current_time=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            jq --arg repo "$repo" --arg time "$current_time" '.[$repo] = (.[$repo] // {}) + {"last_disable": $time}' "$DISABLE_METADATA_FILE" > temp.json
+            mv temp.json "$DISABLE_METADATA_FILE"
+          done < sorted_repos.txt
 
           if [ -f disable_failed_workflows.log ]; then
             echo "Some workflows failed to disable:"
@@ -268,9 +298,9 @@ jobs:
         git pull origin main || true
         
         # Add all changes
-        git add sync.log "$SYNC_METADATA_FILE"
+        git add sync.log "$SYNC_METADATA_FILE" "$DISABLE_METADATA_FILE"
         
-        if [ -f failed_repos.log ] || [ -f rate_limited_repos.log ]; then
+        if [ -f failed_repos.log ] || [ -f rate_limited_repos.log ] || [ -f disable_failed_workflows.log ] || [ -f disable_rate_limited_workflows.log ]; then
           git commit -m "Update sync log - Rate limit or failures encountered: $DATE" || true
         else
           git commit -m "Update sync log with the latest run date and time: $DATE" || true
