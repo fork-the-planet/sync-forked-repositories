@@ -28,5 +28,35 @@
   },
   "fork-the-planet/CF": {
     "last_update": "2026-01-01T16:19:49Z"
+  },
+  "fork-the-planet/Carbon": {
+    "last_update": "2026-01-01T16:19:50Z"
+  },
+  "fork-the-planet/ChatDev": {
+    "last_update": "2026-01-01T16:19:50Z"
+  },
+  "fork-the-planet/ChatTTS": {
+    "last_update": "2026-01-01T16:19:51Z"
+  },
+  "fork-the-planet/Claude-Usage-Tracker": {
+    "last_update": "2026-01-01T16:19:51Z"
+  },
+  "fork-the-planet/Cloud-AWS": {
+    "last_update": "2026-01-01T16:19:52Z"
+  },
+  "fork-the-planet/CodeCompass": {
+    "last_update": "2026-01-01T16:19:53Z"
+  },
+  "fork-the-planet/CodeIgniter": {
+    "last_update": "2026-01-01T16:19:53Z"
+  },
+  "fork-the-planet/ComfyUI": {
+    "last_update": "2026-01-01T16:19:54Z"
+  },
+  "fork-the-planet/DNSQueryMirror": {
+    "last_update": "2026-01-01T16:19:54Z"
+  },
+  "fork-the-planet/DeepSpeed": {
+    "last_update": "2026-01-01T16:19:55Z"
   }
 }
