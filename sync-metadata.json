@@ -238,5 +238,35 @@
   },
   "fork-the-planet/SoftetherVPN-docker": {
     "last_update": "2026-01-01T16:20:35Z"
+  },
+  "fork-the-planet/Stable-Diffusion-WebUI-TensorRT": {
+    "last_update": "2026-01-01T16:20:36Z"
+  },
+  "fork-the-planet/SuperMem": {
+    "last_update": "2026-01-01T16:20:37Z"
+  },
+  "fork-the-planet/SwiftUsd-Tests": {
+    "last_update": "2026-01-01T16:20:37Z"
+  },
+  "fork-the-planet/Swin-Transformer": {
+    "last_update": "2026-01-01T16:20:38Z"
+  },
+  "fork-the-planet/TabFormer": {
+    "last_update": "2026-01-01T16:20:38Z"
+  },
+  "fork-the-planet/ThinVPN-Ultra": {
+    "last_update": "2026-01-01T16:20:39Z"
+  },
+  "fork-the-planet/TransformerEngine": {
+    "last_update": "2026-01-01T16:20:40Z"
+  },
+  "fork-the-planet/USDShellExtension": {
+    "last_update": "2026-01-01T16:20:40Z"
+  },
+  "fork-the-planet/VILA": {
+    "last_update": "2026-01-01T16:20:41Z"
+  },
+  "fork-the-planet/WASI": {
+    "last_update": "2026-01-01T16:20:42Z"
   }
 }
