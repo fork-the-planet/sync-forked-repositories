@@ -1108,5 +1108,35 @@
   },
   "fork-the-planet/minikube": {
     "last_update": "2026-01-01T16:23:37Z"
+  },
+  "fork-the-planet/ml-acn-embed": {
+    "last_update": "2026-01-01T16:23:38Z"
+  },
+  "fork-the-planet/ml-act": {
+    "last_update": "2026-01-01T16:23:38Z"
+  },
+  "fork-the-planet/ml-ademamix": {
+    "last_update": "2026-01-01T16:23:39Z"
+  },
+  "fork-the-planet/ml-aim": {
+    "last_update": "2026-01-01T16:23:40Z"
+  },
+  "fork-the-planet/ml-ane-transformers": {
+    "last_update": "2026-01-01T16:23:40Z"
+  },
+  "fork-the-planet/ml-cross-entropy": {
+    "last_update": "2026-01-01T16:23:41Z"
+  },
+  "fork-the-planet/ml-cvnets": {
+    "last_update": "2026-01-01T16:23:42Z"
+  },
+  "fork-the-planet/ml-depth-pro": {
+    "last_update": "2026-01-01T16:23:43Z"
+  },
+  "fork-the-planet/ml-divide-or-conquer": {
+    "last_update": "2026-01-01T16:23:44Z"
+  },
+  "fork-the-planet/ml-fastvit": {
+    "last_update": "2026-01-01T16:23:44Z"
   }
 }
