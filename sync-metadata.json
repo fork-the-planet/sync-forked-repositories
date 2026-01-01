@@ -1678,5 +1678,35 @@
   },
   "fork-the-planet/servicetalk": {
     "last_update": "2026-01-01T16:25:32Z"
+  },
+  "fork-the-planet/setup-hcloud": {
+    "last_update": "2026-01-01T16:25:32Z"
+  },
+  "fork-the-planet/shell_cmds": {
+    "last_update": "2026-01-01T16:25:33Z"
+  },
+  "fork-the-planet/sidekiq": {
+    "last_update": "2026-01-01T16:25:33Z"
+  },
+  "fork-the-planet/skylink": {
+    "last_update": "2026-01-01T16:25:34Z"
+  },
+  "fork-the-planet/snipe-it": {
+    "last_update": "2026-01-01T16:25:34Z"
+  },
+  "fork-the-planet/sonar-cryptography": {
+    "last_update": "2026-01-01T16:25:35Z"
+  },
+  "fork-the-planet/spark": {
+    "last_update": "2026-01-01T16:25:35Z"
+  },
+  "fork-the-planet/spawn-fcgi": {
+    "last_update": "2026-01-01T16:25:36Z"
+  },
+  "fork-the-planet/speedtest": {
+    "last_update": "2026-01-01T16:25:37Z"
+  },
+  "fork-the-planet/spreed": {
+    "last_update": "2026-01-01T16:25:37Z"
   }
 }
