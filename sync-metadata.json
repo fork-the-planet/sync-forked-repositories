@@ -1138,5 +1138,35 @@
   },
   "fork-the-planet/ml-fastvit": {
     "last_update": "2026-01-01T16:23:44Z"
+  },
+  "fork-the-planet/ml-ferret": {
+    "last_update": "2026-01-01T16:23:45Z"
+  },
+  "fork-the-planet/ml-hierarchical-confusion-matrix": {
+    "last_update": "2026-01-01T16:23:45Z"
+  },
+  "fork-the-planet/ml-hypercloning": {
+    "last_update": "2026-01-01T16:23:46Z"
+  },
+  "fork-the-planet/ml-hypersim": {
+    "last_update": "2026-01-01T16:23:46Z"
+  },
+  "fork-the-planet/ml-kg-mt": {
+    "last_update": "2026-01-01T16:23:47Z"
+  },
+  "fork-the-planet/ml-kpconvx": {
+    "last_update": "2026-01-01T16:23:48Z"
+  },
+  "fork-the-planet/ml-mdm": {
+    "last_update": "2026-01-01T16:23:48Z"
+  },
+  "fork-the-planet/ml-mgie": {
+    "last_update": "2026-01-01T16:23:49Z"
+  },
+  "fork-the-planet/ml-mobileclip": {
+    "last_update": "2026-01-01T16:23:49Z"
+  },
+  "fork-the-planet/ml-negative-sampling": {
+    "last_update": "2026-01-01T16:23:50Z"
   }
 }
