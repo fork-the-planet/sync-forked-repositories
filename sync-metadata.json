@@ -1348,5 +1348,35 @@
   },
   "fork-the-planet/owncloud-android": {
     "last_update": "2026-01-01T16:24:27Z"
+  },
+  "fork-the-planet/owncloud-client": {
+    "last_update": "2026-01-01T16:24:27Z"
+  },
+  "fork-the-planet/owncloud-contacts": {
+    "last_update": "2026-01-01T16:24:28Z"
+  },
+  "fork-the-planet/owncloud-core": {
+    "last_update": "2026-01-01T16:24:28Z"
+  },
+  "fork-the-planet/owncloud-davclient.js": {
+    "last_update": "2026-01-01T16:24:29Z"
+  },
+  "fork-the-planet/owncloud-docs": {
+    "last_update": "2026-01-01T16:24:30Z"
+  },
+  "fork-the-planet/owncloud-encryption": {
+    "last_update": "2026-01-01T16:24:30Z"
+  },
+  "fork-the-planet/owncloud-files_antivirus": {
+    "last_update": "2026-01-01T16:24:31Z"
+  },
+  "fork-the-planet/owncloud-files_external_gdrive": {
+    "last_update": "2026-01-01T16:24:32Z"
+  },
+  "fork-the-planet/owncloud-files_mediaviewer": {
+    "last_update": "2026-01-01T16:24:33Z"
+  },
+  "fork-the-planet/owncloud-files_pdfviewer": {
+    "last_update": "2026-01-01T16:24:33Z"
   }
 }
