@@ -178,5 +178,35 @@
   },
   "fork-the-planet/Open-Assistant": {
     "last_update": "2026-01-01T16:20:23Z"
+  },
+  "fork-the-planet/OpenCryptographyKitC": {
+    "last_update": "2026-01-01T16:20:23Z"
+  },
+  "fork-the-planet/OpenGFW": {
+    "last_update": "2026-01-01T16:20:24Z"
+  },
+  "fork-the-planet/OpenHands": {
+    "last_update": "2026-01-01T16:20:25Z"
+  },
+  "fork-the-planet/OpenSSH": {
+    "last_update": "2026-01-01T16:20:25Z"
+  },
+  "fork-the-planet/Overpass": {
+    "last_update": "2026-01-01T16:20:26Z"
+  },
+  "fork-the-planet/PowerManagement": {
+    "last_update": "2026-01-01T16:20:26Z"
+  },
+  "fork-the-planet/Project_CodeNet": {
+    "last_update": "2026-01-01T16:20:27Z"
+  },
+  "fork-the-planet/PyProf": {
+    "last_update": "2026-01-01T16:20:28Z"
+  },
+  "fork-the-planet/PyRIT": {
+    "last_update": "2026-01-01T16:20:28Z"
+  },
+  "fork-the-planet/Security": {
+    "last_update": "2026-01-01T16:20:29Z"
   }
 }
