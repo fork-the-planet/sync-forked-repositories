@@ -2038,5 +2038,35 @@
   },
   "fork-the-planet/yarn": {
     "last_update": "2026-01-01T16:26:49Z"
+  },
+  "fork-the-planet/youtube-dl": {
+    "last_update": "2026-01-01T16:26:49Z"
+  },
+  "fork-the-planet/yt-dlp": {
+    "last_update": "2026-01-01T16:26:50Z"
+  },
+  "fork-the-planet/zaproxy": {
+    "last_update": "2026-01-01T16:26:51Z"
+  },
+  "fork-the-planet/zephyr": {
+    "last_update": "2026-01-01T16:26:51Z"
+  },
+  "fork-the-planet/zephyrproject-rtos-mbedtls": {
+    "last_update": "2026-01-01T16:26:52Z"
+  },
+  "fork-the-planet/zettarepl": {
+    "last_update": "2026-01-01T16:26:52Z"
+  },
+  "fork-the-planet/zm-mailbox": {
+    "last_update": "2026-01-01T16:26:53Z"
+  },
+  "fork-the-planet/zm-web-client": {
+    "last_update": "2026-01-01T16:26:53Z"
+  },
+  "fork-the-planet/zscilib": {
+    "last_update": "2026-01-01T16:26:54Z"
+  },
+  "fork-the-planet/zsh": {
+    "last_update": "2026-01-01T16:26:54Z"
   }
 }
