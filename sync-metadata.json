@@ -478,5 +478,35 @@
   },
   "fork-the-planet/cf-workers-status-page": {
     "last_update": "2026-01-01T16:21:26Z"
+  },
+  "fork-the-planet/cfssl": {
+    "last_update": "2026-01-01T16:21:27Z"
+  },
+  "fork-the-planet/chalice": {
+    "last_update": "2026-01-01T16:21:28Z"
+  },
+  "fork-the-planet/chanfana": {
+    "last_update": "2026-01-01T16:21:28Z"
+  },
+  "fork-the-planet/charts": {
+    "last_update": "2026-01-01T16:21:29Z"
+  },
+  "fork-the-planet/chat-llamaindex": {
+    "last_update": "2026-01-01T16:21:29Z"
+  },
+  "fork-the-planet/chatbox": {
+    "last_update": "2026-01-01T16:21:30Z"
+  },
+  "fork-the-planet/checkov": {
+    "last_update": "2026-01-01T16:21:31Z"
+  },
+  "fork-the-planet/circl": {
+    "last_update": "2026-01-01T16:21:31Z"
+  },
+  "fork-the-planet/claudie": {
+    "last_update": "2026-01-01T16:21:32Z"
+  },
+  "fork-the-planet/cli": {
+    "last_update": "2026-01-01T16:21:32Z"
   }
 }
