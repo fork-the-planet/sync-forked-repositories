@@ -144,29 +144,95 @@ jobs:
           # List all repositories in the organization
           repos=$(gh api orgs/$ORG_NAME/repos --jq '.[] | .full_name' --paginate)
 
-          # Function to disable workflows
-          disable_workflows() {
+          disable_workflow_with_retry() {
             repo=$1
+            workflow_id=$2
+            workflow_name=$3
+            workflow_path=$4
+
+            max_attempts=4
+            attempt=1
+            sleep_seconds=5
+
+            while [ $attempt -le $max_attempts ]; do
+              OUTPUT=$(gh api repos/$repo/actions/workflows/$workflow_id/disable -X PUT 2>&1)
+              EXIT_CODE=$?
+
+              if [ $EXIT_CODE -eq 0 ]; then
+                return 0
+              fi
+
+              # If it's already disabled, treat as success.
+              if echo "$OUTPUT" | grep -q "Unable to disable a workflow that is not active"; then
+                return 0
+              fi
+
+              # Rate limits: stop processing like the sync step.
+              if echo "$OUTPUT" | grep -qi "rate limit" || echo "$OUTPUT" | grep -qi "API rate limit exceeded" || echo "$OUTPUT" | grep -qi "secondary rate limit"; then
+                echo "Rate limit reached while disabling workflow $workflow_id in $repo"
+                echo "$repo $workflow_id $workflow_name $workflow_path rate_limited" >> disable_rate_limited_workflows.log
+                return 2
+              fi
+
+              # Retry on 422 with backoff.
+              if echo "$OUTPUT" | grep -q "HTTP 422"; then
+                echo "HTTP 422 when disabling workflow $workflow_id in $repo (attempt $attempt/$max_attempts). Sleeping ${sleep_seconds}s and retrying..."
+                sleep "$sleep_seconds"
+                attempt=$((attempt + 1))
+                sleep_seconds=$((sleep_seconds * 2))
+                continue
+              fi
+
+              echo "$repo $workflow_id $workflow_name $workflow_path failed: $OUTPUT" >> disable_failed_workflows.log
+              return 0
+            done
+
+            # 422 is typically permanent for some GitHub-managed workflows; record and continue.
+            echo "$repo $workflow_id $workflow_name $workflow_path unprocessable (HTTP 422)" >> disable_422_workflows.log
+            return 0
+          }
+
+          # Process repositories one by one, stopping on rate limit (like the sync step).
+          while IFS= read -r repo; do
+            [ -z "$repo" ] && continue
+
             workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
-              .workflows[] | 
+              .workflows[] |
               select(
-                (.state == "active") and 
+                (.state == "active") and
                 (
                   (.name != "CodeQL" or .path != "dynamic/github-code-scanning/codeql") and
                   (.name != "Sync Forked Repositories" or .path != ".github/workflows/sync-repos.yml") and
                   (.name != "Dependabot Updates" or .path != "dynamic/dependabot/dependabot-updates")
                 )
-              ) | .id')
-            for workflow_id in $workflows; do
+              ) | "\(.id)\t\(.name)\t\(.path)"')
+
+            while IFS=$'\t' read -r workflow_id workflow_name workflow_path; do
+              [ -z "$workflow_id" ] && continue
               echo "Disabling workflow $workflow_id in $repo"
-              gh api repos/$repo/actions/workflows/$workflow_id/disable -X PUT
-            done
-          }
+              disable_workflow_with_retry "$repo" "$workflow_id" "$workflow_name" "$workflow_path"
+              RESULT=$?
+              if [ $RESULT -eq 2 ]; then
+                echo "Rate limit reached, stopping disable process"
+                break 2
+              fi
+            done <<< "$workflows"
+          done <<< "$repos"
 
-          export -f disable_workflows
+          if [ -f disable_failed_workflows.log ]; then
+            echo "Some workflows failed to disable:"
+            cat disable_failed_workflows.log
+          fi
 
-          # Run disable workflows in parallel
-          echo "$repos" | parallel -j 2 disable_workflows {}
+          if [ -f disable_422_workflows.log ]; then
+            echo "Some workflows could not be disabled (HTTP 422):"
+            cat disable_422_workflows.log
+          fi
+
+          if [ -f disable_rate_limited_workflows.log ]; then
+            echo "Rate limit reached while disabling workflows:"
+            cat disable_rate_limited_workflows.log
+          fi
         fi
 
     - name: Update sync log
