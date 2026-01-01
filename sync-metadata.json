@@ -1378,5 +1378,35 @@
   },
   "fork-the-planet/owncloud-files_pdfviewer": {
     "last_update": "2026-01-01T16:24:33Z"
+  },
+  "fork-the-planet/owncloud-files_primary_s3": {
+    "last_update": "2026-01-01T16:24:34Z"
+  },
+  "fork-the-planet/owncloud-files_texteditor": {
+    "last_update": "2026-01-01T16:24:34Z"
+  },
+  "fork-the-planet/owncloud-files_videoplayer": {
+    "last_update": "2026-01-01T16:24:35Z"
+  },
+  "fork-the-planet/owncloud-gallery": {
+    "last_update": "2026-01-01T16:24:36Z"
+  },
+  "fork-the-planet/owncloud-ios-app": {
+    "last_update": "2026-01-01T16:24:36Z"
+  },
+  "fork-the-planet/owncloud-ios-library": {
+    "last_update": "2026-01-01T16:24:37Z"
+  },
+  "fork-the-planet/owncloud-music": {
+    "last_update": "2026-01-01T16:24:37Z"
+  },
+  "fork-the-planet/owncloud-news-iOS-App": {
+    "last_update": "2026-01-01T16:24:38Z"
+  },
+  "fork-the-planet/owncloud-notes": {
+    "last_update": "2026-01-01T16:24:38Z"
+  },
+  "fork-the-planet/owncloud-oauth2": {
+    "last_update": "2026-01-01T16:24:39Z"
   }
 }
