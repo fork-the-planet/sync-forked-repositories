@@ -1168,5 +1168,35 @@
   },
   "fork-the-planet/ml-negative-sampling": {
     "last_update": "2026-01-01T16:23:50Z"
+  },
+  "fork-the-planet/ml-pgdvs": {
+    "last_update": "2026-01-01T16:23:51Z"
+  },
+  "fork-the-planet/ml-recurrent-drafter": {
+    "last_update": "2026-01-01T16:23:52Z"
+  },
+  "fork-the-planet/ml-stable-diffusion": {
+    "last_update": "2026-01-01T16:23:52Z"
+  },
+  "fork-the-planet/ml-tarflow": {
+    "last_update": "2026-01-01T16:23:53Z"
+  },
+  "fork-the-planet/mmap-sync": {
+    "last_update": "2026-01-01T16:23:53Z"
+  },
+  "fork-the-planet/mobx-react-router": {
+    "last_update": "2026-01-01T16:23:54Z"
+  },
+  "fork-the-planet/modulus": {
+    "last_update": "2026-01-01T16:23:54Z"
+  },
+  "fork-the-planet/msdosfs": {
+    "last_update": "2026-01-01T16:23:55Z"
+  },
+  "fork-the-planet/mt76": {
+    "last_update": "2026-01-01T16:23:55Z"
+  },
+  "fork-the-planet/multiwatch": {
+    "last_update": "2026-01-01T16:23:56Z"
   }
 }
