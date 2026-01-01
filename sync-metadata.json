@@ -118,5 +118,35 @@
   },
   "fork-the-planet/JsonPath": {
     "last_update": "2026-01-01T16:20:09Z"
+  },
+  "fork-the-planet/LLaMA-Factory": {
+    "last_update": "2026-01-01T16:20:09Z"
+  },
+  "fork-the-planet/LayerZero-v2": {
+    "last_update": "2026-01-01T16:20:10Z"
+  },
+  "fork-the-planet/Libc": {
+    "last_update": "2026-01-01T16:20:11Z"
+  },
+  "fork-the-planet/LinuxKI": {
+    "last_update": "2026-01-01T16:20:11Z"
+  },
+  "fork-the-planet/LlamaIndexTS": {
+    "last_update": "2026-01-01T16:20:12Z"
+  },
+  "fork-the-planet/LoRA": {
+    "last_update": "2026-01-01T16:20:13Z"
+  },
+  "fork-the-planet/MAX-Image-Resolution-Enhancer": {
+    "last_update": "2026-01-01T16:20:13Z"
+  },
+  "fork-the-planet/MAX-Object-Detector": {
+    "last_update": "2026-01-01T16:20:14Z"
+  },
+  "fork-the-planet/MachineLearningNotebooks": {
+    "last_update": "2026-01-01T16:20:14Z"
+  },
+  "fork-the-planet/Mailu": {
+    "last_update": "2026-01-01T16:20:15Z"
   }
 }
