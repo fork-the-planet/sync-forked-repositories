@@ -104,8 +104,10 @@ jobs:
         # Process repositories one by one, stopping on rate limit
         while IFS= read -r fork; do
           if [ -n "$fork" ]; then
+            set +e
             sync_repo "$fork"
             RESULT=$?
+            set -e
             
             # If rate limited, stop processing
             if [ $RESULT -eq 2 ]; then
@@ -155,8 +157,10 @@ jobs:
             sleep_seconds=5
 
             while [ $attempt -le $max_attempts ]; do
+              set +e
               OUTPUT=$(gh api repos/$repo/actions/workflows/$workflow_id/disable -X PUT 2>&1)
               EXIT_CODE=$?
+              set -e
 
               if [ $EXIT_CODE -eq 0 ]; then
                 return 0
@@ -192,30 +196,40 @@ jobs:
             return 0
           }
 
-          # Process repositories one by one, stopping on rate limit (like the sync step).
-          while IFS= read -r repo; do
-            [ -z "$repo" ] && continue
+        # Process repositories one by one, stopping on rate limit (like the sync step).
+        while IFS= read -r repo; do
+          [ -z "$repo" ] && continue
 
-            workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
-              .workflows[] |
-              select(
-                (.state == "active") and
-                (
+          set +e
+          workflows=$(gh api repos/$repo/actions/workflows --paginate --jq '
+            .workflows[] |
+            select(
+              (.state == "active") and
+              (
                   (.name != "CodeQL" or .path != "dynamic/github-code-scanning/codeql") and
                   (.name != "Sync Forked Repositories" or .path != ".github/workflows/sync-repos.yml") and
                   (.name != "Dependabot Updates" or .path != "dynamic/dependabot/dependabot-updates")
                 )
-              ) | "\(.id)\t\(.name)\t\(.path)"')
+            ) | "\(.id)\t\(.name)\t\(.path)"')
+          workflows_exit_code=$?
+          set -e
 
-            while IFS=$'\t' read -r workflow_id workflow_name workflow_path; do
-              [ -z "$workflow_id" ] && continue
-              echo "Disabling workflow $workflow_id in $repo"
-              disable_workflow_with_retry "$repo" "$workflow_id" "$workflow_name" "$workflow_path"
-              RESULT=$?
-              if [ $RESULT -eq 2 ]; then
-                echo "Rate limit reached, stopping disable process"
-                break 2
-              fi
+          if [ $workflows_exit_code -ne 0 ]; then
+            echo "$repo workflows_list_failed" >> disable_failed_workflows.log
+            continue
+          fi
+
+          while IFS=$'\t' read -r workflow_id workflow_name workflow_path; do
+            [ -z "$workflow_id" ] && continue
+            echo "Disabling workflow $workflow_id in $repo"
+            set +e
+            disable_workflow_with_retry "$repo" "$workflow_id" "$workflow_name" "$workflow_path"
+            RESULT=$?
+            set -e
+            if [ $RESULT -eq 2 ]; then
+              echo "Rate limit reached, stopping disable process"
+              break 2
+            fi
             done <<< "$workflows"
           done <<< "$repos"
 
