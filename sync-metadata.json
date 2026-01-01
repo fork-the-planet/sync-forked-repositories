@@ -1288,5 +1288,35 @@
   },
   "fork-the-planet/openpilot": {
     "last_update": "2026-01-01T16:24:14Z"
+  },
+  "fork-the-planet/openresty": {
+    "last_update": "2026-01-01T16:24:14Z"
+  },
+  "fork-the-planet/openrmf-docs": {
+    "last_update": "2026-01-01T16:24:15Z"
+  },
+  "fork-the-planet/openssh-portable": {
+    "last_update": "2026-01-01T16:24:16Z"
+  },
+  "fork-the-planet/openssl": {
+    "last_update": "2026-01-01T16:24:16Z"
+  },
+  "fork-the-planet/openthread": {
+    "last_update": "2026-01-01T16:24:17Z"
+  },
+  "fork-the-planet/openwayback": {
+    "last_update": "2026-01-01T16:24:18Z"
+  },
+  "fork-the-planet/openwhisk-workshops": {
+    "last_update": "2026-01-01T16:24:18Z"
+  },
+  "fork-the-planet/openwrt": {
+    "last_update": "2026-01-01T16:24:19Z"
+  },
+  "fork-the-planet/opnsense-core": {
+    "last_update": "2026-01-01T16:24:20Z"
+  },
+  "fork-the-planet/opnsense-plugins": {
+    "last_update": "2026-01-01T16:24:21Z"
   }
 }
