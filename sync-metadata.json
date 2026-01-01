@@ -208,5 +208,35 @@
   },
   "fork-the-planet/Security": {
     "last_update": "2026-01-01T16:20:29Z"
+  },
+  "fork-the-planet/Signal-Android": {
+    "last_update": "2026-01-01T16:20:29Z"
+  },
+  "fork-the-planet/Signal-Calling-Service": {
+    "last_update": "2026-01-01T16:20:30Z"
+  },
+  "fork-the-planet/Signal-Desktop": {
+    "last_update": "2026-01-01T16:20:31Z"
+  },
+  "fork-the-planet/Signal-Server": {
+    "last_update": "2026-01-01T16:20:32Z"
+  },
+  "fork-the-planet/Signal-TLS-Proxy": {
+    "last_update": "2026-01-01T16:20:32Z"
+  },
+  "fork-the-planet/Signal-iOS": {
+    "last_update": "2026-01-01T16:20:33Z"
+  },
+  "fork-the-planet/SoftEtherVPN": {
+    "last_update": "2026-01-01T16:20:33Z"
+  },
+  "fork-the-planet/SoftEtherVPN_Stable": {
+    "last_update": "2026-01-01T16:20:34Z"
+  },
+  "fork-the-planet/SoftHSMv2": {
+    "last_update": "2026-01-01T16:20:35Z"
+  },
+  "fork-the-planet/SoftetherVPN-docker": {
+    "last_update": "2026-01-01T16:20:35Z"
   }
 }
