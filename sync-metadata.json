@@ -778,5 +778,35 @@
   },
   "fork-the-planet/gSOAP": {
     "last_update": "2026-01-01T16:22:30Z"
+  },
+  "fork-the-planet/gc": {
+    "last_update": "2026-01-01T16:22:31Z"
+  },
+  "fork-the-planet/generative-ai-python": {
+    "last_update": "2026-01-01T16:22:31Z"
+  },
+  "fork-the-planet/ghostty": {
+    "last_update": "2026-01-01T16:22:32Z"
+  },
+  "fork-the-planet/ghostunnel": {
+    "last_update": "2026-01-01T16:22:32Z"
+  },
+  "fork-the-planet/git-sync-normalization": {
+    "last_update": "2026-01-01T16:22:33Z"
+  },
+  "fork-the-planet/gitbook": {
+    "last_update": "2026-01-01T16:22:34Z"
+  },
+  "fork-the-planet/glide": {
+    "last_update": "2026-01-01T16:22:34Z"
+  },
+  "fork-the-planet/go": {
+    "last_update": "2026-01-01T16:22:35Z"
+  },
+  "fork-the-planet/go-etcd-rules": {
+    "last_update": "2026-01-01T16:22:35Z"
+  },
+  "fork-the-planet/go-plugin": {
+    "last_update": "2026-01-01T16:22:36Z"
   }
 }
