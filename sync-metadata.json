@@ -958,5 +958,35 @@
   },
   "fork-the-planet/koel": {
     "last_update": "2026-01-01T16:23:07Z"
+  },
+  "fork-the-planet/kompose": {
+    "last_update": "2026-01-01T16:23:08Z"
+  },
+  "fork-the-planet/kops": {
+    "last_update": "2026-01-01T16:23:08Z"
+  },
+  "fork-the-planet/kubeone": {
+    "last_update": "2026-01-01T16:23:09Z"
+  },
+  "fork-the-planet/kubernetes": {
+    "last_update": "2026-01-01T16:23:09Z"
+  },
+  "fork-the-planet/kubernetes-cost-exporter": {
+    "last_update": "2026-01-01T16:23:10Z"
+  },
+  "fork-the-planet/lale": {
+    "last_update": "2026-01-01T16:23:11Z"
+  },
+  "fork-the-planet/laravel": {
+    "last_update": "2026-01-01T16:23:11Z"
+  },
+  "fork-the-planet/launchd": {
+    "last_update": "2026-01-01T16:23:12Z"
+  },
+  "fork-the-planet/layerindex-web": {
+    "last_update": "2026-01-01T16:23:13Z"
+  },
+  "fork-the-planet/ld64": {
+    "last_update": "2026-01-01T16:23:13Z"
   }
 }
