@@ -1888,5 +1888,35 @@
   },
   "fork-the-planet/transition-amr-parser": {
     "last_update": "2026-01-01T16:26:18Z"
+  },
+  "fork-the-planet/travel-laptop": {
+    "last_update": "2026-01-01T16:26:18Z"
+  },
+  "fork-the-planet/tree-sitter-pkl": {
+    "last_update": "2026-01-01T16:26:19Z"
+  },
+  "fork-the-planet/trl": {
+    "last_update": "2026-01-01T16:26:20Z"
+  },
+  "fork-the-planet/trusted-firmware-a": {
+    "last_update": "2026-01-01T16:26:20Z"
+  },
+  "fork-the-planet/trusted-firmware-m": {
+    "last_update": "2026-01-01T16:26:21Z"
+  },
+  "fork-the-planet/typeshed": {
+    "last_update": "2026-01-01T16:26:21Z"
+  },
+  "fork-the-planet/typing": {
+    "last_update": "2026-01-01T16:26:22Z"
+  },
+  "fork-the-planet/unilm": {
+    "last_update": "2026-01-01T16:26:23Z"
+  },
+  "fork-the-planet/uptime-kuma": {
+    "last_update": "2026-01-01T16:26:23Z"
+  },
+  "fork-the-planet/uv": {
+    "last_update": "2026-01-01T16:26:24Z"
   }
 }
