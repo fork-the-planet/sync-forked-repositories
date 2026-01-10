@@ -1,2186 +1,2186 @@
 {
   "fork-the-planet/AKS": {
-    "last_disable": "2026-01-09T00:16:27Z"
+    "last_disable": "2026-01-10T00:16:15Z"
   },
   "fork-the-planet/AppleFileSystemDriver": {
-    "last_disable": "2026-01-09T00:16:28Z"
+    "last_disable": "2026-01-10T00:16:15Z"
   },
   "fork-the-planet/AutoGPT": {
-    "last_disable": "2026-01-09T00:16:28Z"
+    "last_disable": "2026-01-10T00:16:15Z"
   },
   "fork-the-planet/AutoMLPipeline.jl": {
-    "last_disable": "2026-01-09T00:16:28Z"
+    "last_disable": "2026-01-10T00:16:16Z"
   },
   "fork-the-planet/Awesome-WAF": {
-    "last_disable": "2026-01-09T00:16:29Z"
+    "last_disable": "2026-01-10T00:16:16Z"
   },
   "fork-the-planet/Azure-Sentinel": {
-    "last_disable": "2026-01-09T00:16:29Z"
+    "last_disable": "2026-01-10T00:16:16Z"
   },
   "fork-the-planet/Azurite": {
-    "last_disable": "2026-01-09T00:16:29Z"
+    "last_disable": "2026-01-10T00:16:17Z"
   },
   "fork-the-planet/BigVGAN": {
-    "last_disable": "2026-01-09T00:16:30Z"
+    "last_disable": "2026-01-10T00:16:17Z"
   },
   "fork-the-planet/BotBuilder-Samples": {
-    "last_disable": "2026-01-09T00:16:30Z"
+    "last_disable": "2026-01-10T00:16:17Z"
   },
   "fork-the-planet/CF": {
-    "last_disable": "2026-01-09T00:16:30Z"
+    "last_disable": "2026-01-10T00:16:18Z"
   },
   "fork-the-planet/Carbon": {
-    "last_disable": "2026-01-09T00:16:31Z"
+    "last_disable": "2026-01-10T00:16:18Z"
   },
   "fork-the-planet/ChatDev": {
-    "last_disable": "2026-01-09T00:16:31Z"
+    "last_disable": "2026-01-10T00:16:18Z"
   },
   "fork-the-planet/ChatTTS": {
-    "last_disable": "2026-01-09T00:16:31Z"
+    "last_disable": "2026-01-10T00:16:19Z"
   },
   "fork-the-planet/Claude-Usage-Tracker": {
-    "last_disable": "2026-01-09T00:16:32Z"
+    "last_disable": "2026-01-10T00:16:19Z"
   },
   "fork-the-planet/Cloud-AWS": {
-    "last_disable": "2026-01-09T00:16:32Z"
+    "last_disable": "2026-01-10T00:16:19Z"
   },
   "fork-the-planet/CodeCompass": {
-    "last_disable": "2026-01-09T00:16:32Z"
+    "last_disable": "2026-01-10T00:16:20Z"
   },
   "fork-the-planet/CodeIgniter": {
-    "last_disable": "2026-01-09T00:16:33Z"
+    "last_disable": "2026-01-10T00:16:20Z"
   },
   "fork-the-planet/ComfyUI": {
-    "last_disable": "2026-01-09T00:16:33Z"
+    "last_disable": "2026-01-10T00:16:20Z"
   },
   "fork-the-planet/DNSQueryMirror": {
-    "last_disable": "2026-01-09T00:16:33Z"
+    "last_disable": "2026-01-10T00:16:21Z"
   },
   "fork-the-planet/DeepSpeed": {
-    "last_disable": "2026-01-09T00:16:34Z"
+    "last_disable": "2026-01-10T00:16:21Z"
   },
   "fork-the-planet/DotNetty": {
-    "last_disable": "2026-01-09T00:16:34Z"
+    "last_disable": "2026-01-10T00:16:21Z"
   },
   "fork-the-planet/DragGAN": {
-    "last_disable": "2026-01-09T00:16:34Z"
+    "last_disable": "2026-01-10T00:16:22Z"
   },
   "fork-the-planet/Dromedary": {
-    "last_disable": "2026-01-09T00:16:35Z"
+    "last_disable": "2026-01-10T00:16:22Z"
   },
   "fork-the-planet/ETCPACK": {
-    "last_disable": "2026-01-09T00:16:35Z"
+    "last_disable": "2026-01-10T00:16:23Z"
   },
   "fork-the-planet/EtherLogger": {
-    "last_disable": "2026-01-09T00:16:35Z"
+    "last_disable": "2026-01-10T00:16:23Z"
   },
   "fork-the-planet/EtherMirror": {
-    "last_disable": "2026-01-09T00:16:36Z"
+    "last_disable": "2026-01-10T00:16:23Z"
   },
   "fork-the-planet/Falcon-Toolkit": {
-    "last_disable": "2026-01-09T00:16:36Z"
+    "last_disable": "2026-01-10T00:16:24Z"
   },
   "fork-the-planet/FastChat": {
-    "last_disable": "2026-01-09T00:16:36Z"
+    "last_disable": "2026-01-10T00:16:24Z"
   },
   "fork-the-planet/FastPhotoStyle": {
-    "last_disable": "2026-01-09T00:16:37Z"
+    "last_disable": "2026-01-10T00:16:24Z"
   },
   "fork-the-planet/FfDL": {
-    "last_disable": "2026-01-09T00:16:37Z"
+    "last_disable": "2026-01-10T00:16:25Z"
   },
   "fork-the-planet/Flowise": {
-    "last_disable": "2026-01-09T00:16:37Z"
+    "last_disable": "2026-01-10T00:16:25Z"
   },
   "fork-the-planet/FreeBSD-ports": {
-    "last_disable": "2026-01-09T00:16:38Z"
+    "last_disable": "2026-01-10T00:16:25Z"
   },
   "fork-the-planet/FreeBSD-src": {
-    "last_disable": "2026-01-09T00:16:38Z"
+    "last_disable": "2026-01-10T00:16:26Z"
   },
   "fork-the-planet/FreeRTOS": {
-    "last_disable": "2026-01-09T00:16:38Z"
+    "last_disable": "2026-01-10T00:16:26Z"
   },
   "fork-the-planet/FreeRTOS-Kernel": {
-    "last_disable": "2026-01-09T00:16:39Z"
+    "last_disable": "2026-01-10T00:16:27Z"
   },
   "fork-the-planet/HomeKitADK": {
-    "last_disable": "2026-01-09T00:16:39Z"
+    "last_disable": "2026-01-10T00:16:27Z"
   },
   "fork-the-planet/IBM-Z-zOS": {
-    "last_disable": "2026-01-09T00:16:39Z"
+    "last_disable": "2026-01-10T00:16:27Z"
   },
   "fork-the-planet/ImHex": {
-    "last_disable": "2026-01-09T00:16:39Z"
+    "last_disable": "2026-01-10T00:16:28Z"
   },
   "fork-the-planet/JARVIS": {
-    "last_disable": "2026-01-09T00:16:40Z"
+    "last_disable": "2026-01-10T00:16:28Z"
   },
   "fork-the-planet/JsonPath": {
-    "last_disable": "2026-01-09T00:16:40Z"
+    "last_disable": "2026-01-10T00:16:28Z"
   },
   "fork-the-planet/LLaMA-Factory": {
-    "last_disable": "2026-01-09T00:16:40Z"
+    "last_disable": "2026-01-10T00:16:29Z"
   },
   "fork-the-planet/LayerZero-v2": {
-    "last_disable": "2026-01-09T00:16:41Z"
+    "last_disable": "2026-01-10T00:16:29Z"
   },
   "fork-the-planet/Libc": {
-    "last_disable": "2026-01-09T00:16:41Z"
+    "last_disable": "2026-01-10T00:16:29Z"
   },
   "fork-the-planet/LinuxKI": {
-    "last_disable": "2026-01-09T00:16:41Z"
+    "last_disable": "2026-01-10T00:16:30Z"
   },
   "fork-the-planet/LlamaIndexTS": {
-    "last_disable": "2026-01-09T00:16:42Z"
+    "last_disable": "2026-01-10T00:16:30Z"
   },
   "fork-the-planet/LoRA": {
-    "last_disable": "2026-01-09T00:16:42Z"
+    "last_disable": "2026-01-10T00:16:30Z"
   },
   "fork-the-planet/MAX-Image-Resolution-Enhancer": {
-    "last_disable": "2026-01-09T00:16:42Z"
+    "last_disable": "2026-01-10T00:16:31Z"
   },
   "fork-the-planet/MAX-Object-Detector": {
-    "last_disable": "2026-01-09T00:16:43Z"
+    "last_disable": "2026-01-10T00:16:31Z"
   },
   "fork-the-planet/MachineLearningNotebooks": {
-    "last_disable": "2026-01-09T00:16:43Z"
+    "last_disable": "2026-01-10T00:16:31Z"
   },
   "fork-the-planet/MailKit": {
-    "last_disable": "2026-01-09T00:16:43Z"
+    "last_disable": "2026-01-10T00:16:32Z"
   },
   "fork-the-planet/Mailu": {
-    "last_disable": "2026-01-09T00:16:44Z"
+    "last_disable": "2026-01-10T00:16:32Z"
   },
   "fork-the-planet/Megatron-LM": {
-    "last_disable": "2026-01-09T00:16:44Z"
+    "last_disable": "2026-01-10T00:16:33Z"
   },
   "fork-the-planet/Microsoft-Defender-for-Cloud": {
-    "last_disable": "2026-01-09T00:16:44Z"
+    "last_disable": "2026-01-10T00:16:33Z"
   },
   "fork-the-planet/MinkowskiEngine": {
-    "last_disable": "2026-01-09T00:16:45Z"
+    "last_disable": "2026-01-10T00:16:33Z"
   },
   "fork-the-planet/NVFlare": {
-    "last_disable": "2026-01-09T00:16:45Z"
+    "last_disable": "2026-01-10T00:16:34Z"
   },
   "fork-the-planet/NeMo": {
-    "last_disable": "2026-01-09T00:16:45Z"
+    "last_disable": "2026-01-10T00:16:34Z"
   },
   "fork-the-planet/NeMo-Guardrails": {
-    "last_disable": "2026-01-09T00:16:46Z"
+    "last_disable": "2026-01-10T00:16:34Z"
   },
   "fork-the-planet/Nettacker": {
-    "last_disable": "2026-01-09T00:16:46Z"
+    "last_disable": "2026-01-10T00:16:35Z"
   },
   "fork-the-planet/Network-MultiTool": {
-    "last_disable": "2026-01-09T00:16:46Z"
+    "last_disable": "2026-01-10T00:16:35Z"
   },
   "fork-the-planet/OmniParser": {
-    "last_disable": "2026-01-09T00:16:47Z"
+    "last_disable": "2026-01-10T00:16:35Z"
   },
   "fork-the-planet/Open-Assistant": {
-    "last_disable": "2026-01-09T00:16:47Z"
+    "last_disable": "2026-01-10T00:16:36Z"
   },
   "fork-the-planet/OpenCryptographyKitC": {
-    "last_disable": "2026-01-09T00:16:47Z"
+    "last_disable": "2026-01-10T00:16:36Z"
   },
   "fork-the-planet/OpenGFW": {
-    "last_disable": "2026-01-09T00:16:48Z"
+    "last_disable": "2026-01-10T00:16:36Z"
   },
   "fork-the-planet/OpenHands": {
-    "last_disable": "2026-01-09T00:16:48Z"
+    "last_disable": "2026-01-10T00:16:37Z"
   },
   "fork-the-planet/OpenSMTPD": {
-    "last_disable": "2026-01-09T00:16:48Z"
+    "last_disable": "2026-01-10T00:16:37Z"
   },
   "fork-the-planet/OpenSSH": {
-    "last_disable": "2026-01-09T00:16:49Z"
+    "last_disable": "2026-01-10T00:16:37Z"
   },
   "fork-the-planet/Overpass": {
-    "last_disable": "2026-01-09T00:16:49Z"
+    "last_disable": "2026-01-10T00:16:38Z"
   },
   "fork-the-planet/PowerManagement": {
-    "last_disable": "2026-01-09T00:16:49Z"
+    "last_disable": "2026-01-10T00:16:38Z"
   },
   "fork-the-planet/Project_CodeNet": {
-    "last_disable": "2026-01-09T00:16:49Z"
+    "last_disable": "2026-01-10T00:16:38Z"
   },
   "fork-the-planet/PyProf": {
-    "last_disable": "2026-01-09T00:16:50Z"
+    "last_disable": "2026-01-10T00:16:39Z"
   },
   "fork-the-planet/PyRIT": {
-    "last_disable": "2026-01-09T00:16:50Z"
+    "last_disable": "2026-01-10T00:16:39Z"
   },
   "fork-the-planet/Security": {
-    "last_disable": "2026-01-09T00:16:50Z"
+    "last_disable": "2026-01-10T00:16:39Z"
   },
   "fork-the-planet/Signal-Android": {
-    "last_disable": "2026-01-09T00:16:51Z"
+    "last_disable": "2026-01-10T00:16:40Z"
   },
   "fork-the-planet/Signal-Calling-Service": {
-    "last_disable": "2026-01-09T00:16:51Z"
+    "last_disable": "2026-01-10T00:16:40Z"
   },
   "fork-the-planet/Signal-Desktop": {
-    "last_disable": "2026-01-09T00:16:51Z"
+    "last_disable": "2026-01-10T00:16:41Z"
   },
   "fork-the-planet/Signal-Server": {
-    "last_disable": "2026-01-09T00:16:52Z"
+    "last_disable": "2026-01-10T00:16:41Z"
   },
   "fork-the-planet/Signal-TLS-Proxy": {
-    "last_disable": "2026-01-09T00:16:52Z"
+    "last_disable": "2026-01-10T00:16:41Z"
   },
   "fork-the-planet/Signal-iOS": {
-    "last_disable": "2026-01-09T00:16:52Z"
+    "last_disable": "2026-01-10T00:16:42Z"
   },
   "fork-the-planet/SoftEtherVPN": {
-    "last_disable": "2026-01-09T00:16:53Z"
+    "last_disable": "2026-01-10T00:16:42Z"
   },
   "fork-the-planet/SoftEtherVPN_Stable": {
-    "last_disable": "2026-01-09T00:16:53Z"
+    "last_disable": "2026-01-10T00:16:42Z"
   },
   "fork-the-planet/SoftHSMv2": {
-    "last_disable": "2026-01-09T00:16:53Z"
+    "last_disable": "2026-01-10T00:16:43Z"
   },
   "fork-the-planet/SoftetherVPN-docker": {
-    "last_disable": "2026-01-09T00:16:54Z"
+    "last_disable": "2026-01-10T00:16:43Z"
   },
   "fork-the-planet/Stable-Diffusion-WebUI-TensorRT": {
-    "last_disable": "2026-01-09T00:16:54Z"
+    "last_disable": "2026-01-10T00:16:43Z"
   },
   "fork-the-planet/SuperMem": {
-    "last_disable": "2026-01-09T00:16:54Z"
+    "last_disable": "2026-01-10T00:16:44Z"
   },
   "fork-the-planet/SwiftUsd-Tests": {
-    "last_disable": "2026-01-09T00:16:55Z"
+    "last_disable": "2026-01-10T00:16:44Z"
   },
   "fork-the-planet/Swin-Transformer": {
-    "last_disable": "2026-01-09T00:16:55Z"
+    "last_disable": "2026-01-10T00:16:44Z"
   },
   "fork-the-planet/TabFormer": {
-    "last_disable": "2026-01-09T00:16:55Z"
+    "last_disable": "2026-01-10T00:16:45Z"
   },
   "fork-the-planet/ThinVPN-Ultra": {
-    "last_disable": "2026-01-09T00:16:56Z"
+    "last_disable": "2026-01-10T00:16:45Z"
   },
   "fork-the-planet/TransformerEngine": {
-    "last_disable": "2026-01-09T00:16:56Z"
+    "last_disable": "2026-01-10T00:16:45Z"
   },
   "fork-the-planet/USDShellExtension": {
-    "last_disable": "2026-01-09T00:16:56Z"
+    "last_disable": "2026-01-10T00:16:46Z"
   },
   "fork-the-planet/VILA": {
-    "last_disable": "2026-01-09T00:16:57Z"
+    "last_disable": "2026-01-10T00:16:46Z"
   },
   "fork-the-planet/WASI": {
-    "last_disable": "2026-01-09T00:16:57Z"
+    "last_disable": "2026-01-10T00:16:46Z"
   },
   "fork-the-planet/WebKit": {
-    "last_disable": "2026-01-09T00:16:57Z"
+    "last_disable": "2026-01-10T00:16:47Z"
   },
   "fork-the-planet/WhatWaf": {
-    "last_disable": "2026-01-09T00:16:58Z"
+    "last_disable": "2026-01-10T00:16:47Z"
   },
   "fork-the-planet/Win10Pcap": {
-    "last_disable": "2026-01-09T00:16:58Z"
+    "last_disable": "2026-01-10T00:16:47Z"
   },
   "fork-the-planet/WordPress": {
-    "last_disable": "2026-01-09T00:16:58Z"
+    "last_disable": "2026-01-10T00:16:48Z"
   },
   "fork-the-planet/adaptive-federated-learning": {
-    "last_disable": "2026-01-09T00:16:58Z"
+    "last_disable": "2026-01-10T00:16:48Z"
   },
   "fork-the-planet/agents": {
-    "last_disable": "2026-01-09T00:16:59Z"
+    "last_disable": "2026-01-10T00:16:48Z"
   },
   "fork-the-planet/agents-starter": {
-    "last_disable": "2026-01-09T00:16:59Z"
+    "last_disable": "2026-01-10T00:16:49Z"
   },
   "fork-the-planet/ahocorasick": {
-    "last_disable": "2026-01-09T00:16:59Z"
+    "last_disable": "2026-01-10T00:16:49Z"
   },
   "fork-the-planet/ai": {
-    "last_disable": "2026-01-09T00:17:00Z"
+    "last_disable": "2026-01-10T00:16:50Z"
   },
   "fork-the-planet/aihwkit": {
-    "last_disable": "2026-01-09T00:17:00Z"
+    "last_disable": "2026-01-10T00:16:50Z"
   },
   "fork-the-planet/aiobotocore": {
-    "last_disable": "2026-01-09T00:17:00Z"
+    "last_disable": "2026-01-10T00:16:50Z"
   },
   "fork-the-planet/aiohttp": {
-    "last_disable": "2026-01-09T00:17:01Z"
+    "last_disable": "2026-01-10T00:16:51Z"
   },
   "fork-the-planet/aiomysql": {
-    "last_disable": "2026-01-09T00:17:01Z"
+    "last_disable": "2026-01-10T00:16:51Z"
   },
   "fork-the-planet/aiopg": {
-    "last_disable": "2026-01-09T00:17:01Z"
+    "last_disable": "2026-01-10T00:16:51Z"
   },
   "fork-the-planet/aiosmtpd": {
-    "last_disable": "2026-01-09T00:17:02Z"
+    "last_disable": "2026-01-10T00:16:52Z"
   },
   "fork-the-planet/airflow": {
-    "last_disable": "2026-01-09T00:17:02Z"
+    "last_disable": "2026-01-10T00:16:52Z"
   },
   "fork-the-planet/alertmanager": {
-    "last_disable": "2026-01-09T00:17:02Z"
+    "last_disable": "2026-01-10T00:16:52Z"
   },
   "fork-the-planet/all-in-one": {
-    "last_disable": "2026-01-09T00:17:03Z"
+    "last_disable": "2026-01-10T00:16:54Z"
   },
   "fork-the-planet/ansible-collection-ibm": {
-    "last_disable": "2026-01-09T00:17:03Z"
+    "last_disable": "2026-01-10T00:16:54Z"
   },
   "fork-the-planet/ansible_collection_falcon": {
-    "last_disable": "2026-01-09T00:17:03Z"
+    "last_disable": "2026-01-10T00:16:54Z"
   },
   "fork-the-planet/apex": {
-    "last_disable": "2026-01-09T00:17:04Z"
+    "last_disable": "2026-01-10T00:16:55Z"
   },
   "fork-the-planet/apollo": {
-    "last_disable": "2026-01-09T00:17:04Z"
+    "last_disable": "2026-01-10T00:16:55Z"
   },
   "fork-the-planet/apps": {
-    "last_disable": "2026-01-09T00:17:04Z"
+    "last_disable": "2026-01-10T00:16:55Z"
   },
   "fork-the-planet/asciimatics": {
-    "last_disable": "2026-01-09T00:17:05Z"
+    "last_disable": "2026-01-10T00:16:56Z"
   },
   "fork-the-planet/asu": {
-    "last_disable": "2026-01-09T00:17:05Z"
+    "last_disable": "2026-01-10T00:16:56Z"
   },
   "fork-the-planet/audit-ci": {
-    "last_disable": "2026-01-09T00:17:05Z"
+    "last_disable": "2026-01-10T00:16:56Z"
   },
   "fork-the-planet/authentik": {
-    "last_disable": "2026-01-09T00:17:06Z"
+    "last_disable": "2026-01-10T00:16:57Z"
   },
   "fork-the-planet/automactc": {
-    "last_disable": "2026-01-09T00:17:06Z"
+    "last_disable": "2026-01-10T00:16:57Z"
   },
   "fork-the-planet/autorest": {
-    "last_disable": "2026-01-09T00:17:06Z"
+    "last_disable": "2026-01-10T00:16:57Z"
   },
   "fork-the-planet/autoscaler": {
-    "last_disable": "2026-01-09T00:17:07Z"
+    "last_disable": "2026-01-10T00:16:58Z"
   },
   "fork-the-planet/avahi": {
-    "last_disable": "2026-01-09T00:17:07Z"
+    "last_disable": "2026-01-10T00:16:58Z"
   },
   "fork-the-planet/aws-cdk": {
-    "last_disable": "2026-01-09T00:17:07Z"
+    "last_disable": "2026-01-10T00:16:58Z"
   },
   "fork-the-planet/aws-cli": {
-    "last_disable": "2026-01-09T00:17:08Z"
+    "last_disable": "2026-01-10T00:16:59Z"
   },
   "fork-the-planet/aws-cost-exporter": {
-    "last_disable": "2026-01-09T00:17:08Z"
+    "last_disable": "2026-01-10T00:16:59Z"
   },
   "fork-the-planet/aws-cryptographic-material-providers-library": {
-    "last_disable": "2026-01-09T00:17:08Z"
+    "last_disable": "2026-01-10T00:16:59Z"
   },
   "fork-the-planet/aws-sam-cli": {
-    "last_disable": "2026-01-09T00:17:09Z"
+    "last_disable": "2026-01-10T00:17:00Z"
   },
   "fork-the-planet/aws-sdk-go": {
-    "last_disable": "2026-01-09T00:17:09Z"
+    "last_disable": "2026-01-10T00:17:00Z"
   },
   "fork-the-planet/aws-sdk-js": {
-    "last_disable": "2026-01-09T00:17:10Z"
+    "last_disable": "2026-01-10T00:17:01Z"
   },
   "fork-the-planet/aws-sdk-php": {
-    "last_disable": "2026-01-09T00:17:10Z"
+    "last_disable": "2026-01-10T00:17:01Z"
   },
   "fork-the-planet/aws-ssm-distributor": {
-    "last_disable": "2026-01-09T00:17:10Z"
+    "last_disable": "2026-01-10T00:17:01Z"
   },
   "fork-the-planet/axlearn": {
-    "last_disable": "2026-01-09T00:17:11Z"
+    "last_disable": "2026-01-10T00:17:02Z"
   },
   "fork-the-planet/azure-cli": {
-    "last_disable": "2026-01-09T00:17:11Z"
+    "last_disable": "2026-01-10T00:17:02Z"
   },
   "fork-the-planet/azure-cost-exporter": {
-    "last_disable": "2026-01-09T00:17:11Z"
+    "last_disable": "2026-01-10T00:17:03Z"
   },
   "fork-the-planet/azure-devops-python-api": {
-    "last_disable": "2026-01-09T00:17:12Z"
+    "last_disable": "2026-01-10T00:17:03Z"
   },
   "fork-the-planet/azure-functions-host": {
-    "last_disable": "2026-01-09T00:17:12Z"
+    "last_disable": "2026-01-10T00:17:03Z"
   },
   "fork-the-planet/azure-powershell": {
-    "last_disable": "2026-01-09T00:17:12Z"
+    "last_disable": "2026-01-10T00:17:04Z"
   },
   "fork-the-planet/azure-sdk-for-java": {
-    "last_disable": "2026-01-09T00:17:13Z"
+    "last_disable": "2026-01-10T00:17:04Z"
   },
   "fork-the-planet/azure-sdk-for-js": {
-    "last_disable": "2026-01-09T00:17:13Z"
+    "last_disable": "2026-01-10T00:17:04Z"
   },
   "fork-the-planet/azure-sdk-for-net": {
-    "last_disable": "2026-01-09T00:17:13Z"
+    "last_disable": "2026-01-10T00:17:05Z"
   },
   "fork-the-planet/azure-sdk-for-python": {
-    "last_disable": "2026-01-09T00:17:13Z"
+    "last_disable": "2026-01-10T00:17:05Z"
   },
   "fork-the-planet/bank-vaults": {
-    "last_disable": "2026-01-09T00:17:14Z"
+    "last_disable": "2026-01-10T00:17:05Z"
   },
   "fork-the-planet/bicep": {
-    "last_disable": "2026-01-09T00:17:14Z"
+    "last_disable": "2026-01-10T00:17:06Z"
   },
   "fork-the-planet/binaryen": {
-    "last_disable": "2026-01-09T00:17:15Z"
+    "last_disable": "2026-01-10T00:17:06Z"
   },
   "fork-the-planet/bluemix-go": {
-    "last_disable": "2026-01-09T00:17:15Z"
+    "last_disable": "2026-01-10T00:17:06Z"
   },
   "fork-the-planet/boa": {
-    "last_disable": "2026-01-09T00:17:15Z"
+    "last_disable": "2026-01-10T00:17:07Z"
   },
   "fork-the-planet/bookreader": {
-    "last_disable": "2026-01-09T00:17:16Z"
+    "last_disable": "2026-01-10T00:17:07Z"
   },
   "fork-the-planet/boringtun": {
-    "last_disable": "2026-01-09T00:17:16Z"
+    "last_disable": "2026-01-10T00:17:07Z"
   },
   "fork-the-planet/bpftools": {
-    "last_disable": "2026-01-09T00:17:16Z"
+    "last_disable": "2026-01-10T00:17:08Z"
   },
   "fork-the-planet/brew": {
-    "last_disable": "2026-01-09T00:17:16Z"
+    "last_disable": "2026-01-10T00:17:08Z"
   },
   "fork-the-planet/brozzler": {
-    "last_disable": "2026-01-09T00:17:17Z"
+    "last_disable": "2026-01-10T00:17:09Z"
   },
   "fork-the-planet/build-blockchain-insurance-app": {
-    "last_disable": "2026-01-09T00:17:17Z"
+    "last_disable": "2026-01-10T00:17:09Z"
   },
   "fork-the-planet/cacti": {
-    "last_disable": "2026-01-09T00:17:18Z"
+    "last_disable": "2026-01-10T00:17:09Z"
   },
   "fork-the-planet/caesonia": {
-    "last_disable": "2026-01-09T00:17:18Z"
+    "last_disable": "2026-01-10T00:17:10Z"
   },
   "fork-the-planet/caldera": {
-    "last_disable": "2026-01-09T00:17:18Z"
+    "last_disable": "2026-01-10T00:17:10Z"
   },
   "fork-the-planet/candle": {
-    "last_disable": "2026-01-09T00:17:19Z"
+    "last_disable": "2026-01-10T00:17:10Z"
   },
   "fork-the-planet/caracara": {
-    "last_disable": "2026-01-09T00:17:19Z"
+    "last_disable": "2026-01-10T00:17:11Z"
   },
   "fork-the-planet/cascadia-code": {
-    "last_disable": "2026-01-09T00:17:19Z"
+    "last_disable": "2026-01-10T00:17:11Z"
   },
   "fork-the-planet/cctools": {
-    "last_disable": "2026-01-09T00:17:19Z"
+    "last_disable": "2026-01-10T00:17:11Z"
   },
   "fork-the-planet/celery": {
-    "last_disable": "2026-01-09T00:17:20Z"
+    "last_disable": "2026-01-10T00:17:12Z"
   },
   "fork-the-planet/ceph-s3-box": {
-    "last_disable": "2026-01-09T00:17:20Z"
+    "last_disable": "2026-01-10T00:17:12Z"
   },
   "fork-the-planet/certbot": {
-    "last_disable": "2026-01-09T00:17:20Z"
+    "last_disable": "2026-01-10T00:17:12Z"
   },
   "fork-the-planet/cf-workers-status-page": {
-    "last_disable": "2026-01-09T00:17:21Z"
+    "last_disable": "2026-01-10T00:17:13Z"
   },
   "fork-the-planet/cfssl": {
-    "last_disable": "2026-01-09T00:17:21Z"
+    "last_disable": "2026-01-10T00:17:13Z"
   },
   "fork-the-planet/chalice": {
-    "last_disable": "2026-01-09T00:17:22Z"
+    "last_disable": "2026-01-10T00:17:13Z"
   },
   "fork-the-planet/chanfana": {
-    "last_disable": "2026-01-09T00:17:22Z"
+    "last_disable": "2026-01-10T00:17:14Z"
   },
   "fork-the-planet/charts": {
-    "last_disable": "2026-01-09T00:17:22Z"
+    "last_disable": "2026-01-10T00:17:14Z"
   },
   "fork-the-planet/chat-llamaindex": {
-    "last_disable": "2026-01-09T00:17:23Z"
+    "last_disable": "2026-01-10T00:17:14Z"
   },
   "fork-the-planet/chatbox": {
-    "last_disable": "2026-01-09T00:17:23Z"
+    "last_disable": "2026-01-10T00:17:15Z"
   },
   "fork-the-planet/checkov": {
-    "last_disable": "2026-01-09T00:17:23Z"
+    "last_disable": "2026-01-10T00:17:15Z"
   },
   "fork-the-planet/circl": {
-    "last_disable": "2026-01-09T00:17:24Z"
+    "last_disable": "2026-01-10T00:17:15Z"
   },
   "fork-the-planet/claudie": {
-    "last_disable": "2026-01-09T00:17:24Z"
+    "last_disable": "2026-01-10T00:17:16Z"
   },
   "fork-the-planet/cli": {
-    "last_disable": "2026-01-09T00:17:24Z"
+    "last_disable": "2026-01-10T00:17:16Z"
   },
   "fork-the-planet/client-go": {
-    "last_disable": "2026-01-09T00:17:25Z"
+    "last_disable": "2026-01-10T00:17:16Z"
   },
   "fork-the-planet/client_python": {
-    "last_disable": "2026-01-09T00:17:25Z"
+    "last_disable": "2026-01-10T00:17:17Z"
   },
   "fork-the-planet/cloud-pov": {
-    "last_disable": "2026-01-09T00:17:25Z"
+    "last_disable": "2026-01-10T00:17:17Z"
   },
   "fork-the-planet/cloudflare-blog": {
-    "last_disable": "2026-01-09T00:17:26Z"
+    "last_disable": "2026-01-10T00:17:18Z"
   },
   "fork-the-planet/cloudflare-go": {
-    "last_disable": "2026-01-09T00:17:26Z"
+    "last_disable": "2026-01-10T00:17:18Z"
   },
   "fork-the-planet/cloudflare-php": {
-    "last_disable": "2026-01-09T00:17:26Z"
+    "last_disable": "2026-01-10T00:17:18Z"
   },
   "fork-the-planet/cloudflare-python": {
-    "last_disable": "2026-01-09T00:17:27Z"
+    "last_disable": "2026-01-10T00:17:19Z"
   },
   "fork-the-planet/cloudflare-rs": {
-    "last_disable": "2026-01-09T00:17:27Z"
+    "last_disable": "2026-01-10T00:17:19Z"
   },
   "fork-the-planet/cloudflared": {
-    "last_disable": "2026-01-09T00:17:27Z"
+    "last_disable": "2026-01-10T00:17:19Z"
   },
   "fork-the-planet/codechecker": {
-    "last_disable": "2026-01-09T00:17:28Z"
+    "last_disable": "2026-01-10T00:17:20Z"
   },
   "fork-the-planet/cog": {
-    "last_disable": "2026-01-09T00:17:28Z"
+    "last_disable": "2026-01-10T00:17:20Z"
   },
   "fork-the-planet/coi": {
-    "last_disable": "2026-01-09T00:17:28Z"
+    "last_disable": "2026-01-10T00:17:20Z"
   },
   "fork-the-planet/community": {
-    "last_disable": "2026-01-09T00:17:28Z"
+    "last_disable": "2026-01-10T00:17:21Z"
   },
   "fork-the-planet/component-model": {
-    "last_disable": "2026-01-09T00:17:29Z"
+    "last_disable": "2026-01-10T00:17:21Z"
   },
   "fork-the-planet/composer": {
-    "last_disable": "2026-01-09T00:17:29Z"
+    "last_disable": "2026-01-10T00:17:21Z"
   },
   "fork-the-planet/consul": {
-    "last_disable": "2026-01-09T00:17:29Z"
+    "last_disable": "2026-01-10T00:17:22Z"
   },
   "fork-the-planet/container": {
-    "last_disable": "2026-01-09T00:17:30Z"
+    "last_disable": "2026-01-10T00:17:22Z"
   },
   "fork-the-planet/coolify": {
-    "last_disable": "2026-01-09T00:17:30Z"
+    "last_disable": "2026-01-10T00:17:22Z"
   },
   "fork-the-planet/copilot-cli": {
-    "last_disable": "2026-01-09T00:17:31Z"
+    "last_disable": "2026-01-10T00:17:23Z"
   },
   "fork-the-planet/core": {
-    "last_disable": "2026-01-09T00:17:31Z"
+    "last_disable": "2026-01-10T00:17:23Z"
   },
   "fork-the-planet/core-build": {
-    "last_disable": "2026-01-09T00:17:31Z"
+    "last_disable": "2026-01-10T00:17:24Z"
   },
   "fork-the-planet/coremltools": {
-    "last_disable": "2026-01-09T00:17:32Z"
+    "last_disable": "2026-01-10T00:17:24Z"
   },
   "fork-the-planet/corenet": {
-    "last_disable": "2026-01-09T00:17:32Z"
+    "last_disable": "2026-01-10T00:17:24Z"
   },
   "fork-the-planet/courier": {
-    "last_disable": "2026-01-09T00:17:32Z"
+    "last_disable": "2026-01-10T00:17:25Z"
   },
   "fork-the-planet/cpython": {
-    "last_disable": "2026-01-09T00:17:33Z"
+    "last_disable": "2026-01-10T00:17:25Z"
   },
   "fork-the-planet/csi-driver": {
-    "last_disable": "2026-01-09T00:17:33Z"
+    "last_disable": "2026-01-10T00:17:25Z"
   },
   "fork-the-planet/cuda-python": {
-    "last_disable": "2026-01-09T00:17:33Z"
+    "last_disable": "2026-01-10T00:17:26Z"
   },
   "fork-the-planet/cups": {
-    "last_disable": "2026-01-09T00:17:34Z"
+    "last_disable": "2026-01-10T00:17:26Z"
   },
   "fork-the-planet/curl": {
-    "last_disable": "2026-01-09T00:17:34Z"
+    "last_disable": "2026-01-10T00:17:26Z"
   },
   "fork-the-planet/cwl-data": {
-    "last_disable": "2026-01-09T00:17:34Z"
+    "last_disable": "2026-01-10T00:17:27Z"
   },
   "fork-the-planet/cyrus-imapd": {
-    "last_disable": "2026-01-09T00:17:35Z"
+    "last_disable": "2026-01-10T00:17:27Z"
   },
   "fork-the-planet/cyrus-sasl": {
-    "last_disable": "2026-01-09T00:17:35Z"
+    "last_disable": "2026-01-10T00:17:27Z"
   },
   "fork-the-planet/cyruslibs": {
-    "last_disable": "2026-01-09T00:17:35Z"
+    "last_disable": "2026-01-10T00:17:28Z"
   },
   "fork-the-planet/dash": {
-    "last_disable": "2026-01-09T00:17:36Z"
+    "last_disable": "2026-01-10T00:17:28Z"
   },
   "fork-the-planet/dashboard": {
-    "last_disable": "2026-01-09T00:17:36Z"
+    "last_disable": "2026-01-10T00:17:28Z"
   },
   "fork-the-planet/databricks-sdk-py": {
-    "last_disable": "2026-01-09T00:17:36Z"
+    "last_disable": "2026-01-10T00:17:29Z"
   },
   "fork-the-planet/databricks-sql-python": {
-    "last_disable": "2026-01-09T00:17:37Z"
+    "last_disable": "2026-01-10T00:17:29Z"
   },
   "fork-the-planet/datasets": {
-    "last_disable": "2026-01-09T00:17:37Z"
+    "last_disable": "2026-01-10T00:17:29Z"
   },
   "fork-the-planet/dbeaver": {
-    "last_disable": "2026-01-09T00:17:37Z"
+    "last_disable": "2026-01-10T00:17:30Z"
   },
   "fork-the-planet/devdocs": {
-    "last_disable": "2026-01-09T00:17:38Z"
+    "last_disable": "2026-01-10T00:17:30Z"
   },
   "fork-the-planet/device-management": {
-    "last_disable": "2026-01-09T00:17:38Z"
+    "last_disable": "2026-01-10T00:17:31Z"
   },
   "fork-the-planet/differential-privacy-library": {
-    "last_disable": "2026-01-09T00:17:38Z"
+    "last_disable": "2026-01-10T00:17:31Z"
   },
   "fork-the-planet/diffusers": {
-    "last_disable": "2026-01-09T00:17:39Z"
+    "last_disable": "2026-01-10T00:17:31Z"
   },
   "fork-the-planet/dify": {
-    "last_disable": "2026-01-09T00:17:39Z"
+    "last_disable": "2026-01-10T00:17:32Z"
   },
   "fork-the-planet/discourse": {
-    "last_disable": "2026-01-09T00:17:40Z"
+    "last_disable": "2026-01-10T00:17:32Z"
   },
   "fork-the-planet/distribution-Developer_Tools": {
-    "last_disable": "2026-01-09T00:17:40Z"
+    "last_disable": "2026-01-10T00:17:33Z"
   },
   "fork-the-planet/distribution-OS_X_Server": {
-    "last_disable": "2026-01-09T00:17:40Z"
+    "last_disable": "2026-01-10T00:17:33Z"
   },
   "fork-the-planet/distribution-iOS": {
-    "last_disable": "2026-01-09T00:17:41Z"
+    "last_disable": "2026-01-10T00:17:33Z"
   },
   "fork-the-planet/distribution-macOS": {
-    "last_disable": "2026-01-09T00:17:41Z"
+    "last_disable": "2026-01-10T00:17:34Z"
   },
   "fork-the-planet/django": {
-    "last_disable": "2026-01-09T00:17:41Z"
+    "last_disable": "2026-01-10T00:17:34Z"
   },
   "fork-the-planet/doveadm-http-cli": {
-    "last_disable": "2026-01-09T00:17:42Z"
+    "last_disable": "2026-01-10T00:17:34Z"
   },
   "fork-the-planet/dovecat-core": {
     "last_disable": "2026-01-02T04:38:42Z"
   },
   "fork-the-planet/dovecot-core": {
-    "last_disable": "2026-01-09T00:17:42Z"
+    "last_disable": "2026-01-10T00:17:35Z"
   },
   "fork-the-planet/dovecot-message-hashing": {
-    "last_disable": "2026-01-09T00:17:42Z"
+    "last_disable": "2026-01-10T00:17:35Z"
   },
   "fork-the-planet/dovecot-tools": {
-    "last_disable": "2026-01-09T00:17:42Z"
+    "last_disable": "2026-01-10T00:17:35Z"
   },
   "fork-the-planet/dropbear": {
-    "last_disable": "2026-01-09T00:17:43Z"
+    "last_disable": "2026-01-10T00:17:36Z"
   },
   "fork-the-planet/dubbo": {
-    "last_disable": "2026-01-09T00:17:43Z"
+    "last_disable": "2026-01-10T00:17:36Z"
   },
   "fork-the-planet/dweb-mirror": {
-    "last_disable": "2026-01-09T00:17:43Z"
+    "last_disable": "2026-01-10T00:17:36Z"
   },
   "fork-the-planet/dyld": {
-    "last_disable": "2026-01-09T00:17:44Z"
+    "last_disable": "2026-01-10T00:17:37Z"
   },
   "fork-the-planet/ebpf_exporter": {
-    "last_disable": "2026-01-09T00:17:44Z"
+    "last_disable": "2026-01-10T00:17:37Z"
   },
   "fork-the-planet/echarts": {
-    "last_disable": "2026-01-09T00:17:45Z"
+    "last_disable": "2026-01-10T00:17:38Z"
   },
   "fork-the-planet/eks-anywhere": {
-    "last_disable": "2026-01-09T00:17:45Z"
+    "last_disable": "2026-01-10T00:17:38Z"
   },
   "fork-the-planet/elasticsearch": {
-    "last_disable": "2026-01-09T00:17:45Z"
+    "last_disable": "2026-01-10T00:17:38Z"
   },
   "fork-the-planet/election-insights": {
-    "last_disable": "2026-01-09T00:17:45Z"
+    "last_disable": "2026-01-10T00:17:39Z"
   },
   "fork-the-planet/electrolux-oss.github.io": {
-    "last_disable": "2026-01-09T00:17:46Z"
+    "last_disable": "2026-01-10T00:17:39Z"
   },
   "fork-the-planet/ember-headless-form": {
-    "last_disable": "2026-01-09T00:17:46Z"
+    "last_disable": "2026-01-10T00:17:39Z"
   },
   "fork-the-planet/ember-headless-table": {
-    "last_disable": "2026-01-09T00:17:46Z"
+    "last_disable": "2026-01-10T00:17:40Z"
   },
   "fork-the-planet/ember-three": {
-    "last_disable": "2026-01-09T00:17:47Z"
+    "last_disable": "2026-01-10T00:17:40Z"
   },
   "fork-the-planet/ember-toucan-core": {
-    "last_disable": "2026-01-09T00:17:47Z"
+    "last_disable": "2026-01-10T00:17:40Z"
   },
   "fork-the-planet/escrow-buddy": {
-    "last_disable": "2026-01-09T00:17:47Z"
+    "last_disable": "2026-01-10T00:17:41Z"
   },
   "fork-the-planet/evote": {
-    "last_disable": "2026-01-09T00:17:48Z"
+    "last_disable": "2026-01-10T00:17:41Z"
   },
   "fork-the-planet/exim": {
-    "last_disable": "2026-01-09T00:17:48Z"
+    "last_disable": "2026-01-10T00:17:41Z"
   },
   "fork-the-planet/fail2ban": {
-    "last_disable": "2026-01-09T00:17:49Z"
+    "last_disable": "2026-01-10T00:17:42Z"
   },
   "fork-the-planet/falcon-operator": {
-    "last_disable": "2026-01-09T00:17:49Z"
+    "last_disable": "2026-01-10T00:17:42Z"
   },
   "fork-the-planet/falconpy": {
-    "last_disable": "2026-01-09T00:17:49Z"
+    "last_disable": "2026-01-10T00:17:42Z"
   },
   "fork-the-planet/faltest": {
-    "last_disable": "2026-01-09T00:17:50Z"
+    "last_disable": "2026-01-10T00:17:43Z"
   },
   "fork-the-planet/fastlane": {
-    "last_disable": "2026-01-09T00:17:50Z"
+    "last_disable": "2026-01-10T00:17:43Z"
   },
   "fork-the-planet/fastnetmon": {
-    "last_disable": "2026-01-09T00:17:50Z"
+    "last_disable": "2026-01-10T00:17:43Z"
   },
   "fork-the-planet/fcgi-cgi": {
-    "last_disable": "2026-01-09T00:17:51Z"
+    "last_disable": "2026-01-10T00:17:44Z"
   },
   "fork-the-planet/federated-learning-lib": {
-    "last_disable": "2026-01-09T00:17:51Z"
+    "last_disable": "2026-01-10T00:17:44Z"
   },
   "fork-the-planet/ferenda": {
-    "last_disable": "2026-01-09T00:17:51Z"
+    "last_disable": "2026-01-10T00:17:44Z"
   },
   "fork-the-planet/fhe-toolkit-macos": {
-    "last_disable": "2026-01-09T00:17:52Z"
+    "last_disable": "2026-01-10T00:17:45Z"
   },
   "fork-the-planet/filament": {
-    "last_disable": "2026-01-09T00:17:52Z"
+    "last_disable": "2026-01-10T00:17:45Z"
   },
   "fork-the-planet/firecrawl": {
-    "last_disable": "2026-01-09T00:17:52Z"
+    "last_disable": "2026-01-10T00:17:45Z"
   },
   "fork-the-planet/flan": {
-    "last_disable": "2026-01-09T00:17:53Z"
+    "last_disable": "2026-01-10T00:17:46Z"
   },
   "fork-the-planet/flask": {
-    "last_disable": "2026-01-09T00:17:53Z"
+    "last_disable": "2026-01-10T00:17:46Z"
   },
   "fork-the-planet/flownet2-pytorch": {
-    "last_disable": "2026-01-09T00:17:53Z"
+    "last_disable": "2026-01-10T00:17:46Z"
   },
   "fork-the-planet/foundationdb": {
-    "last_disable": "2026-01-09T00:17:54Z"
+    "last_disable": "2026-01-10T00:17:47Z"
   },
   "fork-the-planet/foundations": {
-    "last_disable": "2026-01-09T00:17:54Z"
+    "last_disable": "2026-01-10T00:17:47Z"
   },
   "fork-the-planet/foundry-fn-go": {
-    "last_disable": "2026-01-09T00:17:54Z"
+    "last_disable": "2026-01-10T00:17:47Z"
   },
   "fork-the-planet/foundry-fn-python": {
-    "last_disable": "2026-01-09T00:17:55Z"
+    "last_disable": "2026-01-10T00:17:48Z"
   },
   "fork-the-planet/foundry-js": {
-    "last_disable": "2026-01-09T00:17:55Z"
+    "last_disable": "2026-01-10T00:17:48Z"
   },
   "fork-the-planet/fp-go": {
-    "last_disable": "2026-01-09T00:17:55Z"
+    "last_disable": "2026-01-10T00:17:48Z"
   },
   "fork-the-planet/fprime": {
-    "last_disable": "2026-01-09T00:17:56Z"
+    "last_disable": "2026-01-10T00:17:49Z"
   },
   "fork-the-planet/framework": {
-    "last_disable": "2026-01-09T00:17:56Z"
+    "last_disable": "2026-01-10T00:17:49Z"
   },
   "fork-the-planet/frp": {
-    "last_disable": "2026-01-09T00:17:56Z"
+    "last_disable": "2026-01-10T00:17:49Z"
   },
   "fork-the-planet/fscrypt-multiuser": {
-    "last_disable": "2026-01-09T00:17:57Z"
+    "last_disable": "2026-01-10T00:17:50Z"
   },
   "fork-the-planet/ftpd": {
-    "last_disable": "2026-01-09T00:17:57Z"
+    "last_disable": "2026-01-10T00:17:50Z"
   },
   "fork-the-planet/full-stack-fastapi-template": {
-    "last_disable": "2026-01-09T00:17:57Z"
+    "last_disable": "2026-01-10T00:17:50Z"
   },
   "fork-the-planet/full-temperature-wallet-solution": {
-    "last_disable": "2026-01-09T00:17:58Z"
+    "last_disable": "2026-01-10T00:17:51Z"
   },
   "fork-the-planet/gSOAP": {
-    "last_disable": "2026-01-09T00:17:58Z"
+    "last_disable": "2026-01-10T00:17:51Z"
   },
   "fork-the-planet/gc": {
-    "last_disable": "2026-01-09T00:17:58Z"
+    "last_disable": "2026-01-10T00:17:51Z"
   },
   "fork-the-planet/generative-ai-python": {
-    "last_disable": "2026-01-09T00:17:59Z"
+    "last_disable": "2026-01-10T00:17:52Z"
   },
   "fork-the-planet/ghostty": {
-    "last_disable": "2026-01-09T00:17:59Z"
+    "last_disable": "2026-01-10T00:17:52Z"
   },
   "fork-the-planet/ghostunnel": {
-    "last_disable": "2026-01-09T00:17:59Z"
+    "last_disable": "2026-01-10T00:17:52Z"
   },
   "fork-the-planet/git-perl-utils": {
-    "last_disable": "2026-01-09T00:18:00Z"
+    "last_disable": "2026-01-10T00:17:53Z"
   },
   "fork-the-planet/git-sync-normalization": {
-    "last_disable": "2026-01-09T00:18:00Z"
+    "last_disable": "2026-01-10T00:17:53Z"
   },
   "fork-the-planet/gitbook": {
-    "last_disable": "2026-01-09T00:18:00Z"
+    "last_disable": "2026-01-10T00:17:53Z"
   },
   "fork-the-planet/glide": {
-    "last_disable": "2026-01-09T00:18:01Z"
+    "last_disable": "2026-01-10T00:17:54Z"
   },
   "fork-the-planet/go": {
-    "last_disable": "2026-01-09T00:18:01Z"
+    "last_disable": "2026-01-10T00:17:54Z"
   },
   "fork-the-planet/go-etcd-rules": {
-    "last_disable": "2026-01-09T00:18:01Z"
+    "last_disable": "2026-01-10T00:17:54Z"
   },
   "fork-the-planet/go-plugin": {
-    "last_disable": "2026-01-09T00:18:02Z"
+    "last_disable": "2026-01-10T00:17:55Z"
   },
   "fork-the-planet/gofalcon": {
-    "last_disable": "2026-01-09T00:18:02Z"
+    "last_disable": "2026-01-10T00:17:55Z"
   },
   "fork-the-planet/gokey": {
-    "last_disable": "2026-01-09T00:18:02Z"
+    "last_disable": "2026-01-10T00:17:55Z"
   },
   "fork-the-planet/gokeyless": {
-    "last_disable": "2026-01-09T00:18:03Z"
+    "last_disable": "2026-01-10T00:17:56Z"
   },
   "fork-the-planet/google-api-python-client": {
-    "last_disable": "2026-01-09T00:18:03Z"
+    "last_disable": "2026-01-10T00:17:56Z"
   },
   "fork-the-planet/govmomi": {
-    "last_disable": "2026-01-09T00:18:04Z"
+    "last_disable": "2026-01-10T00:17:56Z"
   },
   "fork-the-planet/gpt4all": {
-    "last_disable": "2026-01-09T00:18:04Z"
+    "last_disable": "2026-01-10T00:17:57Z"
   },
   "fork-the-planet/graphql-query-generator": {
-    "last_disable": "2026-01-09T00:18:04Z"
+    "last_disable": "2026-01-10T00:17:57Z"
   },
   "fork-the-planet/graphrag": {
-    "last_disable": "2026-01-09T00:18:05Z"
+    "last_disable": "2026-01-10T00:17:57Z"
   },
   "fork-the-planet/grav": {
-    "last_disable": "2026-01-09T00:18:05Z"
+    "last_disable": "2026-01-10T00:17:58Z"
   },
   "fork-the-planet/grok-1": {
-    "last_disable": "2026-01-09T00:18:05Z"
+    "last_disable": "2026-01-10T00:17:58Z"
   },
   "fork-the-planet/guava": {
-    "last_disable": "2026-01-09T00:18:06Z"
+    "last_disable": "2026-01-10T00:17:58Z"
   },
   "fork-the-planet/guzzle": {
-    "last_disable": "2026-01-09T00:18:06Z"
+    "last_disable": "2026-01-10T00:17:59Z"
   },
   "fork-the-planet/hadoop": {
-    "last_disable": "2026-01-09T00:18:06Z"
+    "last_disable": "2026-01-10T00:17:59Z"
   },
   "fork-the-planet/hal_stm32": {
-    "last_disable": "2026-01-09T00:18:07Z"
+    "last_disable": "2026-01-10T00:17:59Z"
   },
   "fork-the-planet/hcl": {
-    "last_disable": "2026-01-09T00:18:07Z"
+    "last_disable": "2026-01-10T00:18:00Z"
   },
   "fork-the-planet/hcloud-cloud-controller-manager": {
-    "last_disable": "2026-01-09T00:18:07Z"
+    "last_disable": "2026-01-10T00:18:00Z"
   },
   "fork-the-planet/hcloud-go": {
-    "last_disable": "2026-01-09T00:18:08Z"
+    "last_disable": "2026-01-10T00:18:00Z"
   },
   "fork-the-planet/hcloud-python": {
-    "last_disable": "2026-01-09T00:18:08Z"
+    "last_disable": "2026-01-10T00:18:01Z"
   },
   "fork-the-planet/headscale": {
-    "last_disable": "2026-01-09T00:18:08Z"
+    "last_disable": "2026-01-10T00:18:01Z"
   },
   "fork-the-planet/health-blockchain": {
-    "last_disable": "2026-01-09T00:18:09Z"
+    "last_disable": "2026-01-10T00:18:01Z"
   },
   "fork-the-planet/helayers-examples": {
-    "last_disable": "2026-01-09T00:18:09Z"
+    "last_disable": "2026-01-10T00:18:02Z"
   },
   "fork-the-planet/heritrix3": {
-    "last_disable": "2026-01-09T00:18:09Z"
+    "last_disable": "2026-01-10T00:18:02Z"
   },
   "fork-the-planet/hfs": {
-    "last_disable": "2026-01-09T00:18:10Z"
+    "last_disable": "2026-01-10T00:18:02Z"
   },
   "fork-the-planet/homebrew-apple": {
-    "last_disable": "2026-01-09T00:18:10Z"
+    "last_disable": "2026-01-10T00:18:03Z"
   },
   "fork-the-planet/hpc-container-maker": {
-    "last_disable": "2026-01-09T00:18:11Z"
+    "last_disable": "2026-01-10T00:18:03Z"
   },
   "fork-the-planet/html2md": {
-    "last_disable": "2026-01-09T00:18:11Z"
+    "last_disable": "2026-01-10T00:18:03Z"
   },
   "fork-the-planet/html2text": {
-    "last_disable": "2026-01-09T00:18:11Z"
+    "last_disable": "2026-01-10T00:18:04Z"
   },
   "fork-the-planet/httpd": {
-    "last_disable": "2026-01-09T00:18:12Z"
+    "last_disable": "2026-01-10T00:18:04Z"
   },
   "fork-the-planet/huginn": {
-    "last_disable": "2026-01-09T00:18:12Z"
+    "last_disable": "2026-01-10T00:18:04Z"
   },
   "fork-the-planet/hutool": {
-    "last_disable": "2026-01-09T00:18:12Z"
+    "last_disable": "2026-01-10T00:18:05Z"
   },
   "fork-the-planet/ibm-charts": {
-    "last_disable": "2026-01-09T00:18:12Z"
+    "last_disable": "2026-01-10T00:18:05Z"
   },
   "fork-the-planet/ibm-cloud-cli-release": {
-    "last_disable": "2026-01-09T00:18:13Z"
+    "last_disable": "2026-01-10T00:18:05Z"
   },
   "fork-the-planet/ibm-generative-ai": {
-    "last_disable": "2026-01-09T00:18:13Z"
+    "last_disable": "2026-01-10T00:18:06Z"
   },
   "fork-the-planet/ilo-ansible-collection": {
-    "last_disable": "2026-01-09T00:18:13Z"
+    "last_disable": "2026-01-10T00:18:06Z"
   },
   "fork-the-planet/ilo-sdk-ruby": {
-    "last_disable": "2026-01-09T00:18:14Z"
+    "last_disable": "2026-01-10T00:18:06Z"
   },
   "fork-the-planet/imap": {
-    "last_disable": "2026-01-09T00:18:14Z"
+    "last_disable": "2026-01-10T00:18:07Z"
   },
   "fork-the-planet/imapd": {
-    "last_disable": "2026-01-09T00:18:15Z"
+    "last_disable": "2026-01-10T00:18:07Z"
   },
   "fork-the-planet/import-tracker": {
-    "last_disable": "2026-01-09T00:18:15Z"
+    "last_disable": "2026-01-10T00:18:07Z"
   },
   "fork-the-planet/infisical": {
-    "last_disable": "2026-01-09T00:18:15Z"
+    "last_disable": "2026-01-10T00:18:08Z"
   },
   "fork-the-planet/infrawallet": {
-    "last_disable": "2026-01-09T00:18:16Z"
+    "last_disable": "2026-01-10T00:18:08Z"
   },
   "fork-the-planet/infrawallet-default-category-mappings": {
-    "last_disable": "2026-01-09T00:18:16Z"
+    "last_disable": "2026-01-10T00:18:08Z"
   },
   "fork-the-planet/ingress-nginx": {
-    "last_disable": "2026-01-09T00:18:16Z"
+    "last_disable": "2026-01-10T00:18:08Z"
   },
   "fork-the-planet/installimage": {
-    "last_disable": "2026-01-09T00:18:17Z"
+    "last_disable": "2026-01-10T00:18:09Z"
   },
   "fork-the-planet/integrations": {
-    "last_disable": "2026-01-09T00:18:17Z"
+    "last_disable": "2026-01-10T00:18:09Z"
   },
   "fork-the-planet/internetarchivebot": {
-    "last_disable": "2026-01-09T00:18:17Z"
+    "last_disable": "2026-01-10T00:18:09Z"
   },
   "fork-the-planet/jekyll": {
-    "last_disable": "2026-01-09T00:18:18Z"
+    "last_disable": "2026-01-10T00:18:10Z"
   },
   "fork-the-planet/jetson-gpio": {
-    "last_disable": "2026-01-09T00:18:18Z"
+    "last_disable": "2026-01-10T00:18:10Z"
   },
   "fork-the-planet/jlink-zephyr": {
-    "last_disable": "2026-01-09T00:18:18Z"
+    "last_disable": "2026-01-10T00:18:10Z"
   },
   "fork-the-planet/karpenter-provider-aws": {
-    "last_disable": "2026-01-09T00:18:19Z"
+    "last_disable": "2026-01-10T00:18:11Z"
   },
   "fork-the-planet/keycloak": {
-    "last_disable": "2026-01-09T00:18:19Z"
+    "last_disable": "2026-01-10T00:18:11Z"
   },
   "fork-the-planet/koalas": {
-    "last_disable": "2026-01-09T00:18:19Z"
+    "last_disable": "2026-01-10T00:18:11Z"
   },
   "fork-the-planet/koel": {
-    "last_disable": "2026-01-09T00:18:20Z"
+    "last_disable": "2026-01-10T00:18:12Z"
   },
   "fork-the-planet/kompose": {
-    "last_disable": "2026-01-09T00:18:20Z"
+    "last_disable": "2026-01-10T00:18:12Z"
   },
   "fork-the-planet/kops": {
-    "last_disable": "2026-01-09T00:18:21Z"
+    "last_disable": "2026-01-10T00:18:12Z"
   },
   "fork-the-planet/kubeone": {
-    "last_disable": "2026-01-09T00:18:21Z"
+    "last_disable": "2026-01-10T00:18:13Z"
   },
   "fork-the-planet/kubernetes": {
-    "last_disable": "2026-01-09T00:18:21Z"
+    "last_disable": "2026-01-10T00:18:13Z"
   },
   "fork-the-planet/kubernetes-cost-exporter": {
-    "last_disable": "2026-01-09T00:18:22Z"
+    "last_disable": "2026-01-10T00:18:14Z"
   },
   "fork-the-planet/kumomta": {
-    "last_disable": "2026-01-09T00:18:22Z"
+    "last_disable": "2026-01-10T00:18:14Z"
   },
   "fork-the-planet/lale": {
-    "last_disable": "2026-01-09T00:18:22Z"
+    "last_disable": "2026-01-10T00:18:14Z"
   },
   "fork-the-planet/laravel": {
-    "last_disable": "2026-01-09T00:18:22Z"
+    "last_disable": "2026-01-10T00:18:15Z"
   },
   "fork-the-planet/laravel-imap": {
-    "last_disable": "2026-01-09T00:18:23Z"
+    "last_disable": "2026-01-10T00:18:15Z"
   },
   "fork-the-planet/launchd": {
-    "last_disable": "2026-01-09T00:18:23Z"
+    "last_disable": "2026-01-10T00:18:15Z"
   },
   "fork-the-planet/layerindex-web": {
-    "last_disable": "2026-01-09T00:18:23Z"
+    "last_disable": "2026-01-10T00:18:16Z"
   },
   "fork-the-planet/ld64": {
-    "last_disable": "2026-01-09T00:18:24Z"
+    "last_disable": "2026-01-10T00:18:16Z"
   },
   "fork-the-planet/lede": {
-    "last_disable": "2026-01-09T00:18:24Z"
+    "last_disable": "2026-01-10T00:18:16Z"
   },
   "fork-the-planet/lepidopter": {
-    "last_disable": "2026-01-09T00:18:24Z"
+    "last_disable": "2026-01-10T00:18:17Z"
   },
   "fork-the-planet/libdispatch": {
-    "last_disable": "2026-01-09T00:18:25Z"
+    "last_disable": "2026-01-10T00:18:17Z"
   },
   "fork-the-planet/libiconv": {
-    "last_disable": "2026-01-09T00:18:25Z"
+    "last_disable": "2026-01-10T00:18:17Z"
   },
   "fork-the-planet/liblc3codec": {
-    "last_disable": "2026-01-09T00:18:25Z"
+    "last_disable": "2026-01-10T00:18:18Z"
   },
   "fork-the-planet/libmalloc": {
-    "last_disable": "2026-01-09T00:18:26Z"
+    "last_disable": "2026-01-10T00:18:18Z"
   },
   "fork-the-planet/libopenssh": {
-    "last_disable": "2026-01-09T00:18:26Z"
+    "last_disable": "2026-01-10T00:18:18Z"
   },
   "fork-the-planet/libpthread": {
-    "last_disable": "2026-01-09T00:18:26Z"
+    "last_disable": "2026-01-10T00:18:19Z"
   },
   "fork-the-planet/libsignal": {
-    "last_disable": "2026-01-09T00:18:27Z"
+    "last_disable": "2026-01-10T00:18:19Z"
   },
   "fork-the-planet/lighttpd1.4": {
-    "last_disable": "2026-01-09T00:18:27Z"
+    "last_disable": "2026-01-10T00:18:19Z"
   },
   "fork-the-planet/lighttpd2": {
-    "last_disable": "2026-01-09T00:18:27Z"
+    "last_disable": "2026-01-10T00:18:20Z"
   },
   "fork-the-planet/livewire": {
-    "last_disable": "2026-01-09T00:18:28Z"
+    "last_disable": "2026-01-10T00:18:20Z"
   },
   "fork-the-planet/lizardfs": {
-    "last_disable": "2026-01-09T00:18:28Z"
+    "last_disable": "2026-01-10T00:18:20Z"
   },
   "fork-the-planet/llama": {
-    "last_disable": "2026-01-09T00:18:28Z"
+    "last_disable": "2026-01-10T00:18:21Z"
   },
   "fork-the-planet/llama-agents": {
-    "last_disable": "2026-01-09T00:18:29Z"
+    "last_disable": "2026-01-10T00:18:21Z"
   },
   "fork-the-planet/llama-lab": {
-    "last_disable": "2026-01-09T00:18:29Z"
+    "last_disable": "2026-01-10T00:18:21Z"
   },
   "fork-the-planet/llama.cpp": {
-    "last_disable": "2026-01-09T00:18:29Z"
+    "last_disable": "2026-01-10T00:18:22Z"
   },
   "fork-the-planet/llama_index": {
-    "last_disable": "2026-01-09T00:18:30Z"
+    "last_disable": "2026-01-10T00:18:22Z"
   },
   "fork-the-planet/llama_parse": {
-    "last_disable": "2026-01-09T00:18:30Z"
+    "last_disable": "2026-01-10T00:18:22Z"
   },
   "fork-the-planet/lol-html": {
-    "last_disable": "2026-01-09T00:18:30Z"
+    "last_disable": "2026-01-10T00:18:23Z"
   },
   "fork-the-planet/lscache_wp": {
-    "last_disable": "2026-01-09T00:18:31Z"
+    "last_disable": "2026-01-10T00:18:23Z"
   },
   "fork-the-planet/lsquic": {
-    "last_disable": "2026-01-09T00:18:31Z"
+    "last_disable": "2026-01-10T00:18:23Z"
   },
   "fork-the-planet/lua-resty-logger-socket": {
-    "last_disable": "2026-01-09T00:18:31Z"
+    "last_disable": "2026-01-10T00:18:24Z"
   },
   "fork-the-planet/luci": {
-    "last_disable": "2026-01-09T00:18:31Z"
+    "last_disable": "2026-01-10T00:18:24Z"
   },
   "fork-the-planet/luigi": {
-    "last_disable": "2026-01-09T00:18:32Z"
+    "last_disable": "2026-01-10T00:18:25Z"
   },
   "fork-the-planet/lvgl": {
-    "last_disable": "2026-01-09T00:18:32Z"
+    "last_disable": "2026-01-10T00:18:25Z"
   },
   "fork-the-planet/mDNSResponder": {
-    "last_disable": "2026-01-09T00:18:32Z"
+    "last_disable": "2026-01-10T00:18:25Z"
   },
   "fork-the-planet/mac-ibm-notifications": {
-    "last_disable": "2026-01-09T00:18:33Z"
+    "last_disable": "2026-01-10T00:18:26Z"
   },
   "fork-the-planet/madrona-mp-env": {
-    "last_disable": "2026-01-09T00:18:33Z"
+    "last_disable": "2026-01-10T00:18:26Z"
   },
   "fork-the-planet/manim": {
-    "last_disable": "2026-01-09T00:18:33Z"
+    "last_disable": "2026-01-10T00:18:26Z"
   },
   "fork-the-planet/marker": {
-    "last_disable": "2026-01-09T00:18:34Z"
+    "last_disable": "2026-01-10T00:18:27Z"
   },
   "fork-the-planet/mastodon": {
-    "last_disable": "2026-01-09T00:18:34Z"
+    "last_disable": "2026-01-10T00:18:27Z"
   },
   "fork-the-planet/matomo": {
-    "last_disable": "2026-01-09T00:18:34Z"
+    "last_disable": "2026-01-10T00:18:27Z"
   },
   "fork-the-planet/mbedtls": {
-    "last_disable": "2026-01-09T00:18:35Z"
+    "last_disable": "2026-01-10T00:18:28Z"
   },
   "fork-the-planet/mcp-server-cloudflare": {
-    "last_disable": "2026-01-09T00:18:35Z"
+    "last_disable": "2026-01-10T00:18:28Z"
   },
   "fork-the-planet/mcpat": {
-    "last_disable": "2026-01-09T00:18:35Z"
+    "last_disable": "2026-01-10T00:18:28Z"
   },
   "fork-the-planet/middleware": {
-    "last_disable": "2026-01-09T00:18:36Z"
+    "last_disable": "2026-01-10T00:18:29Z"
   },
   "fork-the-planet/milvus": {
-    "last_disable": "2026-01-09T00:18:36Z"
+    "last_disable": "2026-01-10T00:18:29Z"
   },
   "fork-the-planet/miniflare": {
-    "last_disable": "2026-01-09T00:18:36Z"
+    "last_disable": "2026-01-10T00:18:29Z"
   },
   "fork-the-planet/minikube": {
-    "last_disable": "2026-01-09T00:18:37Z"
+    "last_disable": "2026-01-10T00:18:30Z"
   },
   "fork-the-planet/ml-acn-embed": {
-    "last_disable": "2026-01-09T00:18:37Z"
+    "last_disable": "2026-01-10T00:18:30Z"
   },
   "fork-the-planet/ml-act": {
-    "last_disable": "2026-01-09T00:18:37Z"
+    "last_disable": "2026-01-10T00:18:30Z"
   },
   "fork-the-planet/ml-ademamix": {
-    "last_disable": "2026-01-09T00:18:38Z"
+    "last_disable": "2026-01-10T00:18:31Z"
   },
   "fork-the-planet/ml-aim": {
-    "last_disable": "2026-01-09T00:18:38Z"
+    "last_disable": "2026-01-10T00:18:31Z"
   },
   "fork-the-planet/ml-ane-transformers": {
-    "last_disable": "2026-01-09T00:18:38Z"
+    "last_disable": "2026-01-10T00:18:31Z"
   },
   "fork-the-planet/ml-cross-entropy": {
-    "last_disable": "2026-01-09T00:18:39Z"
+    "last_disable": "2026-01-10T00:18:32Z"
   },
   "fork-the-planet/ml-cvnets": {
-    "last_disable": "2026-01-09T00:18:39Z"
+    "last_disable": "2026-01-10T00:18:32Z"
   },
   "fork-the-planet/ml-depth-pro": {
-    "last_disable": "2026-01-09T00:18:39Z"
+    "last_disable": "2026-01-10T00:18:32Z"
   },
   "fork-the-planet/ml-divide-or-conquer": {
-    "last_disable": "2026-01-09T00:18:40Z"
+    "last_disable": "2026-01-10T00:18:33Z"
   },
   "fork-the-planet/ml-fastvit": {
-    "last_disable": "2026-01-09T00:18:40Z"
+    "last_disable": "2026-01-10T00:18:33Z"
   },
   "fork-the-planet/ml-ferret": {
-    "last_disable": "2026-01-09T00:18:40Z"
+    "last_disable": "2026-01-10T00:18:33Z"
   },
   "fork-the-planet/ml-hierarchical-confusion-matrix": {
-    "last_disable": "2026-01-09T00:18:41Z"
+    "last_disable": "2026-01-10T00:18:34Z"
   },
   "fork-the-planet/ml-hypercloning": {
-    "last_disable": "2026-01-09T00:18:41Z"
+    "last_disable": "2026-01-10T00:18:34Z"
   },
   "fork-the-planet/ml-hypersim": {
-    "last_disable": "2026-01-09T00:18:41Z"
+    "last_disable": "2026-01-10T00:18:34Z"
   },
   "fork-the-planet/ml-kg-mt": {
-    "last_disable": "2026-01-09T00:18:42Z"
+    "last_disable": "2026-01-10T00:18:35Z"
   },
   "fork-the-planet/ml-kpconvx": {
-    "last_disable": "2026-01-09T00:18:42Z"
+    "last_disable": "2026-01-10T00:18:35Z"
   },
   "fork-the-planet/ml-mdm": {
-    "last_disable": "2026-01-09T00:18:42Z"
+    "last_disable": "2026-01-10T00:18:35Z"
   },
   "fork-the-planet/ml-mgie": {
-    "last_disable": "2026-01-09T00:18:43Z"
+    "last_disable": "2026-01-10T00:18:36Z"
   },
   "fork-the-planet/ml-mobileclip": {
-    "last_disable": "2026-01-09T00:18:43Z"
+    "last_disable": "2026-01-10T00:18:36Z"
   },
   "fork-the-planet/ml-negative-sampling": {
-    "last_disable": "2026-01-09T00:18:43Z"
+    "last_disable": "2026-01-10T00:18:36Z"
   },
   "fork-the-planet/ml-pgdvs": {
-    "last_disable": "2026-01-09T00:18:43Z"
+    "last_disable": "2026-01-10T00:18:37Z"
   },
   "fork-the-planet/ml-recurrent-drafter": {
-    "last_disable": "2026-01-09T00:18:44Z"
+    "last_disable": "2026-01-10T00:18:37Z"
   },
   "fork-the-planet/ml-stable-diffusion": {
-    "last_disable": "2026-01-09T00:18:44Z"
+    "last_disable": "2026-01-10T00:18:37Z"
   },
   "fork-the-planet/ml-tarflow": {
-    "last_disable": "2026-01-09T00:18:44Z"
+    "last_disable": "2026-01-10T00:18:38Z"
   },
   "fork-the-planet/mmap-sync": {
-    "last_disable": "2026-01-09T00:18:45Z"
+    "last_disable": "2026-01-10T00:18:38Z"
   },
   "fork-the-planet/mobx-react-router": {
-    "last_disable": "2026-01-09T00:18:45Z"
+    "last_disable": "2026-01-10T00:18:38Z"
   },
   "fork-the-planet/modulus": {
-    "last_disable": "2026-01-09T00:18:45Z"
+    "last_disable": "2026-01-10T00:18:38Z"
   },
   "fork-the-planet/msdosfs": {
-    "last_disable": "2026-01-09T00:18:46Z"
+    "last_disable": "2026-01-10T00:18:39Z"
   },
   "fork-the-planet/mt76": {
-    "last_disable": "2026-01-09T00:18:46Z"
+    "last_disable": "2026-01-10T00:18:39Z"
   },
   "fork-the-planet/multiwatch": {
-    "last_disable": "2026-01-09T00:18:46Z"
+    "last_disable": "2026-01-10T00:18:39Z"
   },
   "fork-the-planet/mxcheck": {
-    "last_disable": "2026-01-09T00:18:47Z"
+    "last_disable": "2026-01-10T00:18:40Z"
   },
   "fork-the-planet/mypy": {
-    "last_disable": "2026-01-09T00:18:47Z"
+    "last_disable": "2026-01-10T00:18:40Z"
   },
   "fork-the-planet/neomutt": {
-    "last_disable": "2026-01-09T00:18:47Z"
+    "last_disable": "2026-01-10T00:18:40Z"
   },
   "fork-the-planet/net-imap": {
-    "last_disable": "2026-01-09T00:18:48Z"
+    "last_disable": "2026-01-10T00:18:41Z"
   },
   "fork-the-planet/net-snmp": {
-    "last_disable": "2026-01-09T00:18:48Z"
+    "last_disable": "2026-01-10T00:18:41Z"
   },
   "fork-the-planet/net-tools": {
-    "last_disable": "2026-01-09T00:18:48Z"
+    "last_disable": "2026-01-10T00:18:41Z"
   },
   "fork-the-planet/netperf": {
-    "last_disable": "2026-01-09T00:18:49Z"
+    "last_disable": "2026-01-10T00:18:42Z"
   },
   "fork-the-planet/netty": {
-    "last_disable": "2026-01-09T00:18:49Z"
+    "last_disable": "2026-01-10T00:18:42Z"
   },
   "fork-the-planet/network_cmds": {
-    "last_disable": "2026-01-09T00:18:49Z"
+    "last_disable": "2026-01-10T00:18:42Z"
   },
   "fork-the-planet/next-on-pages": {
-    "last_disable": "2026-01-09T00:18:50Z"
+    "last_disable": "2026-01-10T00:18:43Z"
   },
   "fork-the-planet/nextcloudpi": {
-    "last_disable": "2026-01-09T00:18:50Z"
+    "last_disable": "2026-01-10T00:18:43Z"
   },
   "fork-the-planet/nginx": {
-    "last_disable": "2026-01-09T00:18:50Z"
+    "last_disable": "2026-01-10T00:18:43Z"
   },
   "fork-the-planet/nni": {
-    "last_disable": "2026-01-09T00:18:51Z"
+    "last_disable": "2026-01-10T00:18:44Z"
   },
   "fork-the-planet/node-mqtt-for-anki-overdrive": {
-    "last_disable": "2026-01-09T00:18:51Z"
+    "last_disable": "2026-01-10T00:18:44Z"
   },
   "fork-the-planet/node_exporter": {
-    "last_disable": "2026-01-09T00:18:51Z"
+    "last_disable": "2026-01-10T00:18:44Z"
   },
   "fork-the-planet/nomad": {
-    "last_disable": "2026-01-09T00:18:52Z"
+    "last_disable": "2026-01-10T00:18:45Z"
   },
   "fork-the-planet/nss-mdns": {
-    "last_disable": "2026-01-09T00:18:52Z"
+    "last_disable": "2026-01-10T00:18:45Z"
   },
   "fork-the-planet/ntp": {
-    "last_disable": "2026-01-09T00:18:52Z"
+    "last_disable": "2026-01-10T00:18:45Z"
   },
   "fork-the-planet/nuxt": {
-    "last_disable": "2026-01-09T00:18:53Z"
+    "last_disable": "2026-01-10T00:18:46Z"
   },
   "fork-the-planet/nvm": {
-    "last_disable": "2026-01-09T00:18:53Z"
+    "last_disable": "2026-01-10T00:18:46Z"
   },
   "fork-the-planet/objc4": {
-    "last_disable": "2026-01-09T00:18:53Z"
+    "last_disable": "2026-01-10T00:18:46Z"
   },
   "fork-the-planet/oblivion": {
-    "last_disable": "2026-01-09T00:18:54Z"
+    "last_disable": "2026-01-10T00:18:47Z"
   },
   "fork-the-planet/ollama": {
-    "last_disable": "2026-01-09T00:18:54Z"
+    "last_disable": "2026-01-10T00:18:47Z"
   },
   "fork-the-planet/open-vm-tools": {
-    "last_disable": "2026-01-09T00:18:54Z"
+    "last_disable": "2026-01-10T00:18:47Z"
   },
   "fork-the-planet/open-webui": {
-    "last_disable": "2026-01-09T00:18:55Z"
+    "last_disable": "2026-01-10T00:18:48Z"
   },
   "fork-the-planet/openai-agents-python": {
-    "last_disable": "2026-01-09T00:18:55Z"
+    "last_disable": "2026-01-10T00:18:48Z"
   },
   "fork-the-planet/openapi-to-graphql": {
-    "last_disable": "2026-01-09T00:18:55Z"
+    "last_disable": "2026-01-10T00:18:48Z"
   },
   "fork-the-planet/openapi-validator": {
-    "last_disable": "2026-01-09T00:18:55Z"
+    "last_disable": "2026-01-10T00:18:49Z"
   },
   "fork-the-planet/opendkim": {
-    "last_disable": "2026-01-09T00:18:56Z"
+    "last_disable": "2026-01-10T00:18:49Z"
   },
   "fork-the-planet/openlibrary": {
-    "last_disable": "2026-01-09T00:18:56Z"
+    "last_disable": "2026-01-10T00:18:49Z"
   },
   "fork-the-planet/openlibrary-client": {
-    "last_disable": "2026-01-09T00:18:56Z"
+    "last_disable": "2026-01-10T00:18:50Z"
   },
   "fork-the-planet/openlitespeed": {
-    "last_disable": "2026-01-09T00:18:57Z"
+    "last_disable": "2026-01-10T00:18:50Z"
   },
   "fork-the-planet/openmct": {
-    "last_disable": "2026-01-09T00:18:57Z"
+    "last_disable": "2026-01-10T00:18:50Z"
   },
   "fork-the-planet/openpilot": {
-    "last_disable": "2026-01-09T00:18:57Z"
+    "last_disable": "2026-01-10T00:18:51Z"
   },
   "fork-the-planet/openresty": {
-    "last_disable": "2026-01-09T00:18:58Z"
+    "last_disable": "2026-01-10T00:18:51Z"
   },
   "fork-the-planet/openrmf-docs": {
-    "last_disable": "2026-01-09T00:18:58Z"
+    "last_disable": "2026-01-10T00:18:51Z"
   },
   "fork-the-planet/openssh-portable": {
-    "last_disable": "2026-01-09T00:18:58Z"
+    "last_disable": "2026-01-10T00:18:52Z"
   },
   "fork-the-planet/openssl": {
-    "last_disable": "2026-01-09T00:18:59Z"
+    "last_disable": "2026-01-10T00:18:52Z"
   },
   "fork-the-planet/openthread": {
-    "last_disable": "2026-01-09T00:18:59Z"
+    "last_disable": "2026-01-10T00:18:52Z"
   },
   "fork-the-planet/openwayback": {
-    "last_disable": "2026-01-09T00:19:00Z"
+    "last_disable": "2026-01-10T00:18:53Z"
   },
   "fork-the-planet/openwhisk-workshops": {
-    "last_disable": "2026-01-09T00:19:00Z"
+    "last_disable": "2026-01-10T00:18:53Z"
   },
   "fork-the-planet/openwrt": {
-    "last_disable": "2026-01-09T00:19:00Z"
+    "last_disable": "2026-01-10T00:18:53Z"
   },
   "fork-the-planet/opnsense-core": {
-    "last_disable": "2026-01-09T00:19:00Z"
+    "last_disable": "2026-01-10T00:18:54Z"
   },
   "fork-the-planet/opnsense-plugins": {
-    "last_disable": "2026-01-09T00:19:01Z"
+    "last_disable": "2026-01-10T00:18:54Z"
   },
   "fork-the-planet/opnsense-ports": {
-    "last_disable": "2026-01-09T00:19:01Z"
+    "last_disable": "2026-01-10T00:18:54Z"
   },
   "fork-the-planet/opnsense-update": {
-    "last_disable": "2026-01-09T00:19:01Z"
+    "last_disable": "2026-01-10T00:18:55Z"
   },
   "fork-the-planet/opper-python": {
-    "last_disable": "2026-01-09T00:19:02Z"
+    "last_disable": "2026-01-10T00:18:55Z"
   },
   "fork-the-planet/orange": {
-    "last_disable": "2026-01-09T00:19:02Z"
+    "last_disable": "2026-01-10T00:18:55Z"
   },
   "fork-the-planet/orchestrator": {
-    "last_disable": "2026-01-09T00:19:02Z"
+    "last_disable": "2026-01-10T00:18:56Z"
   },
   "fork-the-planet/origin-ca-issuer": {
-    "last_disable": "2026-01-09T00:19:03Z"
+    "last_disable": "2026-01-10T00:18:56Z"
   },
   "fork-the-planet/os": {
-    "last_disable": "2026-01-09T00:19:03Z"
+    "last_disable": "2026-01-10T00:18:56Z"
   },
   "fork-the-planet/owncloud-activity": {
-    "last_disable": "2026-01-09T00:19:03Z"
+    "last_disable": "2026-01-10T00:18:57Z"
   },
   "fork-the-planet/owncloud-administration": {
-    "last_disable": "2026-01-09T00:19:04Z"
+    "last_disable": "2026-01-10T00:18:57Z"
   },
   "fork-the-planet/owncloud-android": {
-    "last_disable": "2026-01-09T00:19:04Z"
+    "last_disable": "2026-01-10T00:18:57Z"
   },
   "fork-the-planet/owncloud-client": {
-    "last_disable": "2026-01-09T00:19:04Z"
+    "last_disable": "2026-01-10T00:18:58Z"
   },
   "fork-the-planet/owncloud-contacts": {
-    "last_disable": "2026-01-09T00:19:05Z"
+    "last_disable": "2026-01-10T00:18:58Z"
   },
   "fork-the-planet/owncloud-core": {
-    "last_disable": "2026-01-09T00:19:05Z"
+    "last_disable": "2026-01-10T00:18:58Z"
   },
   "fork-the-planet/owncloud-davclient.js": {
-    "last_disable": "2026-01-09T00:19:05Z"
+    "last_disable": "2026-01-10T00:18:59Z"
   },
   "fork-the-planet/owncloud-docs": {
-    "last_disable": "2026-01-09T00:19:06Z"
+    "last_disable": "2026-01-10T00:18:59Z"
   },
   "fork-the-planet/owncloud-encryption": {
-    "last_disable": "2026-01-09T00:19:06Z"
+    "last_disable": "2026-01-10T00:18:59Z"
   },
   "fork-the-planet/owncloud-files_antivirus": {
-    "last_disable": "2026-01-09T00:19:06Z"
+    "last_disable": "2026-01-10T00:19:00Z"
   },
   "fork-the-planet/owncloud-files_external_gdrive": {
-    "last_disable": "2026-01-09T00:19:07Z"
+    "last_disable": "2026-01-10T00:19:00Z"
   },
   "fork-the-planet/owncloud-files_mediaviewer": {
-    "last_disable": "2026-01-09T00:19:07Z"
+    "last_disable": "2026-01-10T00:19:00Z"
   },
   "fork-the-planet/owncloud-files_pdfviewer": {
-    "last_disable": "2026-01-09T00:19:07Z"
+    "last_disable": "2026-01-10T00:19:01Z"
   },
   "fork-the-planet/owncloud-files_primary_s3": {
-    "last_disable": "2026-01-09T00:19:07Z"
+    "last_disable": "2026-01-10T00:19:01Z"
   },
   "fork-the-planet/owncloud-files_texteditor": {
-    "last_disable": "2026-01-09T00:19:08Z"
+    "last_disable": "2026-01-10T00:19:01Z"
   },
   "fork-the-planet/owncloud-files_videoplayer": {
-    "last_disable": "2026-01-09T00:19:08Z"
+    "last_disable": "2026-01-10T00:19:02Z"
   },
   "fork-the-planet/owncloud-gallery": {
-    "last_disable": "2026-01-09T00:19:08Z"
+    "last_disable": "2026-01-10T00:19:02Z"
   },
   "fork-the-planet/owncloud-ios-app": {
-    "last_disable": "2026-01-09T00:19:09Z"
+    "last_disable": "2026-01-10T00:19:02Z"
   },
   "fork-the-planet/owncloud-ios-library": {
-    "last_disable": "2026-01-09T00:19:09Z"
+    "last_disable": "2026-01-10T00:19:03Z"
   },
   "fork-the-planet/owncloud-music": {
-    "last_disable": "2026-01-09T00:19:09Z"
+    "last_disable": "2026-01-10T00:19:03Z"
   },
   "fork-the-planet/owncloud-news-iOS-App": {
-    "last_disable": "2026-01-09T00:19:10Z"
+    "last_disable": "2026-01-10T00:19:03Z"
   },
   "fork-the-planet/owncloud-notes": {
-    "last_disable": "2026-01-09T00:19:10Z"
+    "last_disable": "2026-01-10T00:19:04Z"
   },
   "fork-the-planet/owncloud-oauth2": {
-    "last_disable": "2026-01-09T00:19:10Z"
+    "last_disable": "2026-01-10T00:19:04Z"
   },
   "fork-the-planet/owncloud-ocis": {
-    "last_disable": "2026-01-09T00:19:11Z"
+    "last_disable": "2026-01-10T00:19:04Z"
   },
   "fork-the-planet/owncloud-ocis-charts": {
-    "last_disable": "2026-01-09T00:19:11Z"
+    "last_disable": "2026-01-10T00:19:05Z"
   },
   "fork-the-planet/owncloud-pyocclient": {
-    "last_disable": "2026-01-09T00:19:11Z"
+    "last_disable": "2026-01-10T00:19:05Z"
   },
   "fork-the-planet/owncloud-smashbox": {
-    "last_disable": "2026-01-09T00:19:12Z"
+    "last_disable": "2026-01-10T00:19:05Z"
   },
   "fork-the-planet/owncloud-theme-example": {
-    "last_disable": "2026-01-09T00:19:12Z"
+    "last_disable": "2026-01-10T00:19:05Z"
   },
   "fork-the-planet/owncloud-updater": {
-    "last_disable": "2026-01-09T00:19:12Z"
+    "last_disable": "2026-01-10T00:19:06Z"
   },
   "fork-the-planet/owncloud-user_ldap": {
-    "last_disable": "2026-01-09T00:19:13Z"
+    "last_disable": "2026-01-10T00:19:06Z"
   },
   "fork-the-planet/packages": {
-    "last_disable": "2026-01-09T00:19:13Z"
+    "last_disable": "2026-01-10T00:19:06Z"
   },
   "fork-the-planet/packer": {
-    "last_disable": "2026-01-09T00:19:13Z"
+    "last_disable": "2026-01-10T00:19:07Z"
   },
   "fork-the-planet/packer-plugin-scaffolding": {
-    "last_disable": "2026-01-09T00:19:14Z"
+    "last_disable": "2026-01-10T00:19:07Z"
   },
   "fork-the-planet/pandas": {
-    "last_disable": "2026-01-09T00:19:14Z"
+    "last_disable": "2026-01-10T00:19:07Z"
   },
   "fork-the-planet/panel": {
-    "last_disable": "2026-01-09T00:19:14Z"
+    "last_disable": "2026-01-10T00:19:08Z"
   },
   "fork-the-planet/partialconv": {
-    "last_disable": "2026-01-09T00:19:15Z"
+    "last_disable": "2026-01-10T00:19:08Z"
   },
   "fork-the-planet/password-manager-resources": {
-    "last_disable": "2026-01-09T00:19:15Z"
+    "last_disable": "2026-01-10T00:19:08Z"
   },
   "fork-the-planet/peft": {
-    "last_disable": "2026-01-09T00:19:15Z"
+    "last_disable": "2026-01-10T00:19:09Z"
   },
   "fork-the-planet/peps": {
-    "last_disable": "2026-01-09T00:19:16Z"
+    "last_disable": "2026-01-10T00:19:09Z"
   },
   "fork-the-planet/pfsense": {
-    "last_disable": "2026-01-09T00:19:16Z"
+    "last_disable": "2026-01-10T00:19:09Z"
   },
   "fork-the-planet/phonebot": {
-    "last_disable": "2026-01-09T00:19:16Z"
+    "last_disable": "2026-01-10T00:19:10Z"
   },
   "fork-the-planet/photon": {
-    "last_disable": "2026-01-09T00:19:17Z"
+    "last_disable": "2026-01-10T00:19:10Z"
   },
   "fork-the-planet/php-imap": {
-    "last_disable": "2026-01-09T00:19:17Z"
+    "last_disable": "2026-01-10T00:19:10Z"
   },
   "fork-the-planet/pigeonhole": {
-    "last_disable": "2026-01-09T00:19:17Z"
+    "last_disable": "2026-01-10T00:19:11Z"
   },
   "fork-the-planet/pingora": {
-    "last_disable": "2026-01-09T00:19:18Z"
+    "last_disable": "2026-01-10T00:19:11Z"
   },
   "fork-the-planet/pint": {
-    "last_disable": "2026-01-09T00:19:18Z"
+    "last_disable": "2026-01-10T00:19:11Z"
   },
   "fork-the-planet/pipenv": {
-    "last_disable": "2026-01-09T00:19:18Z"
+    "last_disable": "2026-01-10T00:19:12Z"
   },
   "fork-the-planet/pix2pixHD": {
-    "last_disable": "2026-01-09T00:19:19Z"
+    "last_disable": "2026-01-10T00:19:12Z"
   },
   "fork-the-planet/pkl": {
-    "last_disable": "2026-01-09T00:19:19Z"
+    "last_disable": "2026-01-10T00:19:12Z"
   },
   "fork-the-planet/pkl-pantry": {
-    "last_disable": "2026-01-09T00:19:19Z"
+    "last_disable": "2026-01-10T00:19:13Z"
   },
   "fork-the-planet/plex": {
-    "last_disable": "2026-01-09T00:19:20Z"
+    "last_disable": "2026-01-10T00:19:13Z"
   },
   "fork-the-planet/pmtud": {
-    "last_disable": "2026-01-09T00:19:20Z"
+    "last_disable": "2026-01-10T00:19:13Z"
   },
   "fork-the-planet/poetry": {
-    "last_disable": "2026-01-09T00:19:20Z"
+    "last_disable": "2026-01-10T00:19:14Z"
   },
   "fork-the-planet/poky": {
-    "last_disable": "2026-01-09T00:19:21Z"
+    "last_disable": "2026-01-10T00:19:14Z"
   },
   "fork-the-planet/popa3d": {
-    "last_disable": "2026-01-09T00:19:21Z"
+    "last_disable": "2026-01-10T00:19:14Z"
   },
   "fork-the-planet/portieris": {
-    "last_disable": "2026-01-09T00:19:21Z"
+    "last_disable": "2026-01-10T00:19:15Z"
   },
   "fork-the-planet/portmaster": {
-    "last_disable": "2026-01-09T00:19:22Z"
+    "last_disable": "2026-01-10T00:19:15Z"
   },
   "fork-the-planet/postal": {
-    "last_disable": "2026-01-09T00:19:22Z"
+    "last_disable": "2026-01-10T00:19:15Z"
   },
   "fork-the-planet/postfix": {
-    "last_disable": "2026-01-09T00:19:22Z"
+    "last_disable": "2026-01-10T00:19:16Z"
   },
   "fork-the-planet/postgresql_cluster": {
-    "last_disable": "2026-01-09T00:19:23Z"
+    "last_disable": "2026-01-10T00:19:16Z"
   },
   "fork-the-planet/pp-browser-extension": {
-    "last_disable": "2026-01-09T00:19:23Z"
+    "last_disable": "2026-01-10T00:19:16Z"
   },
   "fork-the-planet/prefect": {
-    "last_disable": "2026-01-09T00:19:23Z"
+    "last_disable": "2026-01-10T00:19:17Z"
   },
   "fork-the-planet/private-gpt": {
-    "last_disable": "2026-01-09T00:19:24Z"
+    "last_disable": "2026-01-10T00:19:17Z"
   },
   "fork-the-planet/prometheus": {
-    "last_disable": "2026-01-09T00:19:24Z"
+    "last_disable": "2026-01-10T00:19:17Z"
   },
   "fork-the-planet/promptflow": {
-    "last_disable": "2026-01-09T00:19:24Z"
+    "last_disable": "2026-01-10T00:19:18Z"
   },
   "fork-the-planet/psfalcon": {
-    "last_disable": "2026-01-09T00:19:25Z"
+    "last_disable": "2026-01-10T00:19:18Z"
   },
   "fork-the-planet/public-docs": {
-    "last_disable": "2026-01-09T00:19:25Z"
+    "last_disable": "2026-01-10T00:19:18Z"
   },
   "fork-the-planet/pure-ftpd": {
-    "last_disable": "2026-01-09T00:19:25Z"
+    "last_disable": "2026-01-10T00:19:19Z"
   },
   "fork-the-planet/push-notification-plugin-chronos": {
-    "last_disable": "2026-01-09T00:19:26Z"
+    "last_disable": "2026-01-10T00:19:19Z"
   },
   "fork-the-planet/py-SMART": {
-    "last_disable": "2026-01-09T00:19:26Z"
+    "last_disable": "2026-01-10T00:19:19Z"
   },
   "fork-the-planet/py-libzfs": {
-    "last_disable": "2026-01-09T00:19:26Z"
+    "last_disable": "2026-01-10T00:19:20Z"
   },
   "fork-the-planet/pymilvus": {
-    "last_disable": "2026-01-09T00:19:27Z"
+    "last_disable": "2026-01-10T00:19:20Z"
   },
   "fork-the-planet/pyperformance": {
-    "last_disable": "2026-01-09T00:19:27Z"
+    "last_disable": "2026-01-10T00:19:20Z"
   },
   "fork-the-planet/python-ilorest-library": {
-    "last_disable": "2026-01-09T00:19:27Z"
+    "last_disable": "2026-01-10T00:19:21Z"
   },
   "fork-the-planet/python-iot-raspberry-pi": {
-    "last_disable": "2026-01-09T00:19:28Z"
+    "last_disable": "2026-01-10T00:19:21Z"
   },
   "fork-the-planet/python-jose": {
-    "last_disable": "2026-01-09T00:19:28Z"
+    "last_disable": "2026-01-10T00:19:21Z"
   },
   "fork-the-planet/python-markdownify": {
-    "last_disable": "2026-01-09T00:19:28Z"
+    "last_disable": "2026-01-10T00:19:22Z"
   },
   "fork-the-planet/pytorch": {
-    "last_disable": "2026-01-09T00:19:29Z"
+    "last_disable": "2026-01-10T00:19:22Z"
   },
   "fork-the-planet/pytorch-image-models": {
-    "last_disable": "2026-01-09T00:19:29Z"
+    "last_disable": "2026-01-10T00:19:23Z"
   },
   "fork-the-planet/pytorch-seq2seq": {
-    "last_disable": "2026-01-09T00:19:29Z"
+    "last_disable": "2026-01-10T00:19:23Z"
   },
   "fork-the-planet/pyvmomi": {
-    "last_disable": "2026-01-09T00:19:30Z"
+    "last_disable": "2026-01-10T00:19:23Z"
   },
   "fork-the-planet/quiche": {
-    "last_disable": "2026-01-09T00:19:30Z"
+    "last_disable": "2026-01-10T00:19:24Z"
   },
   "fork-the-planet/quivr": {
-    "last_disable": "2026-01-09T00:19:30Z"
+    "last_disable": "2026-01-10T00:19:24Z"
   },
   "fork-the-planet/raft": {
-    "last_disable": "2026-01-09T00:19:31Z"
+    "last_disable": "2026-01-10T00:19:24Z"
   },
   "fork-the-planet/ragflow": {
-    "last_disable": "2026-01-09T00:19:31Z"
+    "last_disable": "2026-01-10T00:19:25Z"
   },
   "fork-the-planet/rags": {
-    "last_disable": "2026-01-09T00:19:31Z"
+    "last_disable": "2026-01-10T00:19:25Z"
   },
   "fork-the-planet/rails": {
-    "last_disable": "2026-01-09T00:19:32Z"
+    "last_disable": "2026-01-10T00:19:25Z"
   },
   "fork-the-planet/rakelimit": {
-    "last_disable": "2026-01-09T00:19:32Z"
+    "last_disable": "2026-01-10T00:19:26Z"
   },
   "fork-the-planet/rathole": {
-    "last_disable": "2026-01-09T00:19:32Z"
+    "last_disable": "2026-01-10T00:19:26Z"
   },
   "fork-the-planet/react-gateway": {
-    "last_disable": "2026-01-09T00:19:33Z"
+    "last_disable": "2026-01-10T00:19:26Z"
   },
   "fork-the-planet/real-time-tone-analysis": {
-    "last_disable": "2026-01-09T00:19:33Z"
+    "last_disable": "2026-01-10T00:19:27Z"
   },
   "fork-the-planet/redli": {
-    "last_disable": "2026-01-09T00:19:33Z"
+    "last_disable": "2026-01-10T00:19:27Z"
   },
   "fork-the-planet/redoctober": {
-    "last_disable": "2026-01-09T00:19:34Z"
+    "last_disable": "2026-01-10T00:19:27Z"
   },
   "fork-the-planet/rich": {
-    "last_disable": "2026-01-09T00:19:34Z"
+    "last_disable": "2026-01-10T00:19:27Z"
   },
   "fork-the-planet/ringrtc": {
-    "last_disable": "2026-01-09T00:19:34Z"
+    "last_disable": "2026-01-10T00:19:28Z"
   },
   "fork-the-planet/routeros-scripts": {
-    "last_disable": "2026-01-09T00:19:35Z"
+    "last_disable": "2026-01-10T00:19:28Z"
   },
   "fork-the-planet/routing": {
-    "last_disable": "2026-01-09T00:19:35Z"
+    "last_disable": "2026-01-10T00:19:28Z"
   },
   "fork-the-planet/rules_pkl": {
-    "last_disable": "2026-01-09T00:19:35Z"
+    "last_disable": "2026-01-10T00:19:29Z"
   },
   "fork-the-planet/rusty-falcon": {
-    "last_disable": "2026-01-09T00:19:36Z"
+    "last_disable": "2026-01-10T00:19:29Z"
   },
   "fork-the-planet/rx-driver-package": {
-    "last_disable": "2026-01-09T00:19:36Z"
+    "last_disable": "2026-01-10T00:19:29Z"
   },
   "fork-the-planet/sandbox": {
-    "last_disable": "2026-01-09T00:19:36Z"
+    "last_disable": "2026-01-10T00:19:30Z"
   },
   "fork-the-planet/sarama": {
-    "last_disable": "2026-01-09T00:19:37Z"
+    "last_disable": "2026-01-10T00:19:30Z"
   },
   "fork-the-planet/scale-build": {
-    "last_disable": "2026-01-09T00:19:37Z"
+    "last_disable": "2026-01-10T00:19:30Z"
   },
   "fork-the-planet/scrapy": {
-    "last_disable": "2026-01-09T00:19:37Z"
+    "last_disable": "2026-01-10T00:19:31Z"
   },
   "fork-the-planet/sdk-ng": {
-    "last_disable": "2026-01-09T00:19:38Z"
+    "last_disable": "2026-01-10T00:19:31Z"
   },
   "fork-the-planet/sealos": {
-    "last_disable": "2026-01-09T00:19:38Z"
+    "last_disable": "2026-01-10T00:19:31Z"
   },
   "fork-the-planet/sec-insights": {
-    "last_disable": "2026-01-09T00:19:38Z"
+    "last_disable": "2026-01-10T00:19:32Z"
   },
   "fork-the-planet/secapp": {
-    "last_disable": "2026-01-09T00:19:39Z"
+    "last_disable": "2026-01-10T00:19:32Z"
   },
   "fork-the-planet/seclib": {
-    "last_disable": "2026-01-09T00:19:39Z"
+    "last_disable": "2026-01-10T00:19:32Z"
   },
   "fork-the-planet/secure-bitcoin-wallet": {
-    "last_disable": "2026-01-09T00:19:39Z"
+    "last_disable": "2026-01-10T00:19:33Z"
   },
   "fork-the-planet/security_certificates": {
-    "last_disable": "2026-01-09T00:19:39Z"
+    "last_disable": "2026-01-10T00:19:33Z"
   },
   "fork-the-planet/selenium": {
-    "last_disable": "2026-01-09T00:19:40Z"
+    "last_disable": "2026-01-10T00:19:33Z"
   },
   "fork-the-planet/semantic-kernel": {
-    "last_disable": "2026-01-09T00:19:40Z"
+    "last_disable": "2026-01-10T00:19:34Z"
   },
   "fork-the-planet/semantic-segmentation": {
-    "last_disable": "2026-01-09T00:19:40Z"
+    "last_disable": "2026-01-10T00:19:34Z"
   },
   "fork-the-planet/sentiment-discovery": {
-    "last_disable": "2026-01-09T00:19:41Z"
+    "last_disable": "2026-01-10T00:19:34Z"
   },
   "fork-the-planet/serf": {
-    "last_disable": "2026-01-09T00:19:41Z"
+    "last_disable": "2026-01-10T00:19:35Z"
   },
   "fork-the-planet/server": {
-    "last_disable": "2026-01-09T00:19:41Z"
+    "last_disable": "2026-01-10T00:19:35Z"
   },
   "fork-the-planet/serverinfo": {
-    "last_disable": "2026-01-09T00:19:42Z"
+    "last_disable": "2026-01-10T00:19:35Z"
   },
   "fork-the-planet/servicetalk": {
-    "last_disable": "2026-01-09T00:19:42Z"
+    "last_disable": "2026-01-10T00:19:36Z"
   },
   "fork-the-planet/setup-hcloud": {
-    "last_disable": "2026-01-09T00:19:42Z"
+    "last_disable": "2026-01-10T00:19:36Z"
   },
   "fork-the-planet/shell_cmds": {
-    "last_disable": "2026-01-09T00:19:43Z"
+    "last_disable": "2026-01-10T00:19:36Z"
   },
   "fork-the-planet/sidekiq": {
-    "last_disable": "2026-01-09T00:19:43Z"
+    "last_disable": "2026-01-10T00:19:37Z"
   },
   "fork-the-planet/skylink": {
-    "last_disable": "2026-01-09T00:19:43Z"
+    "last_disable": "2026-01-10T00:19:37Z"
   },
   "fork-the-planet/smtpd": {
-    "last_disable": "2026-01-09T00:19:43Z"
+    "last_disable": "2026-01-10T00:19:37Z"
   },
   "fork-the-planet/snipe-it": {
-    "last_disable": "2026-01-09T00:19:44Z"
+    "last_disable": "2026-01-10T00:19:38Z"
   },
   "fork-the-planet/sonar-cryptography": {
-    "last_disable": "2026-01-09T00:19:44Z"
+    "last_disable": "2026-01-10T00:19:38Z"
   },
   "fork-the-planet/spark": {
-    "last_disable": "2026-01-09T00:19:44Z"
+    "last_disable": "2026-01-10T00:19:38Z"
   },
   "fork-the-planet/spawn-fcgi": {
-    "last_disable": "2026-01-09T00:19:45Z"
+    "last_disable": "2026-01-10T00:19:39Z"
   },
   "fork-the-planet/speedtest": {
-    "last_disable": "2026-01-09T00:19:45Z"
+    "last_disable": "2026-01-10T00:19:39Z"
   },
   "fork-the-planet/spreed": {
-    "last_disable": "2026-01-09T00:19:45Z"
+    "last_disable": "2026-01-10T00:19:40Z"
   },
   "fork-the-planet/spring-boot": {
-    "last_disable": "2026-01-09T00:19:46Z"
+    "last_disable": "2026-01-10T00:19:40Z"
   },
   "fork-the-planet/sqlalchemy-clickhouse": {
-    "last_disable": "2026-01-09T00:19:46Z"
+    "last_disable": "2026-01-10T00:19:40Z"
   },
   "fork-the-planet/squest": {
-    "last_disable": "2026-01-09T00:19:46Z"
+    "last_disable": "2026-01-10T00:19:40Z"
   },
   "fork-the-planet/sslconfig": {
-    "last_disable": "2026-01-09T00:19:47Z"
+    "last_disable": "2026-01-10T00:19:41Z"
   },
   "fork-the-planet/stalwart": {
-    "last_disable": "2026-01-09T00:19:47Z"
+    "last_disable": "2026-01-10T00:19:41Z"
   },
   "fork-the-planet/stegotorus": {
-    "last_disable": "2026-01-09T00:19:47Z"
+    "last_disable": "2026-01-10T00:19:41Z"
   },
   "fork-the-planet/structpack": {
-    "last_disable": "2026-01-09T00:19:48Z"
+    "last_disable": "2026-01-10T00:19:42Z"
   },
   "fork-the-planet/supabase": {
-    "last_disable": "2026-01-09T00:19:48Z"
+    "last_disable": "2026-01-10T00:19:42Z"
   },
   "fork-the-planet/supavisor": {
-    "last_disable": "2026-01-09T00:19:49Z"
+    "last_disable": "2026-01-10T00:19:42Z"
   },
   "fork-the-planet/superset": {
-    "last_disable": "2026-01-09T00:19:49Z"
+    "last_disable": "2026-01-10T00:19:43Z"
   },
   "fork-the-planet/suricata": {
-    "last_disable": "2026-01-09T00:19:49Z"
+    "last_disable": "2026-01-10T00:19:43Z"
   },
   "fork-the-planet/swift-algorithms": {
-    "last_disable": "2026-01-09T00:19:50Z"
+    "last_disable": "2026-01-10T00:19:43Z"
   },
   "fork-the-planet/swift-argument-parser": {
-    "last_disable": "2026-01-09T00:19:50Z"
+    "last_disable": "2026-01-10T00:19:44Z"
   },
   "fork-the-planet/swift-async-algorithms": {
-    "last_disable": "2026-01-09T00:19:50Z"
+    "last_disable": "2026-01-10T00:19:44Z"
   },
   "fork-the-planet/swift-certificates": {
-    "last_disable": "2026-01-09T00:19:51Z"
+    "last_disable": "2026-01-10T00:19:44Z"
   },
   "fork-the-planet/swift-collections": {
-    "last_disable": "2026-01-09T00:19:51Z"
+    "last_disable": "2026-01-10T00:19:45Z"
   },
   "fork-the-planet/swift-container-plugin": {
-    "last_disable": "2026-01-09T00:19:51Z"
+    "last_disable": "2026-01-10T00:19:45Z"
   },
   "fork-the-planet/swift-corelibs-foundation": {
-    "last_disable": "2026-01-09T00:19:52Z"
+    "last_disable": "2026-01-10T00:19:46Z"
   },
   "fork-the-planet/swift-corelibs-libdispatch": {
-    "last_disable": "2026-01-09T00:19:52Z"
+    "last_disable": "2026-01-10T00:19:46Z"
   },
   "fork-the-planet/swift-crypto": {
-    "last_disable": "2026-01-09T00:19:52Z"
+    "last_disable": "2026-01-10T00:19:46Z"
   },
   "fork-the-planet/swift-foundation": {
-    "last_disable": "2026-01-09T00:19:53Z"
+    "last_disable": "2026-01-10T00:19:47Z"
   },
   "fork-the-planet/swift-homomorphic-encryption": {
-    "last_disable": "2026-01-09T00:19:53Z"
+    "last_disable": "2026-01-10T00:19:47Z"
   },
   "fork-the-planet/swift-http-structured-headers": {
-    "last_disable": "2026-01-09T00:19:53Z"
+    "last_disable": "2026-01-10T00:19:47Z"
   },
   "fork-the-planet/swift-http-types": {
-    "last_disable": "2026-01-09T00:19:54Z"
+    "last_disable": "2026-01-10T00:19:48Z"
   },
   "fork-the-planet/swift-log": {
-    "last_disable": "2026-01-09T00:19:54Z"
+    "last_disable": "2026-01-10T00:19:48Z"
   },
   "fork-the-planet/swift-mmio": {
-    "last_disable": "2026-01-09T00:19:54Z"
+    "last_disable": "2026-01-10T00:19:48Z"
   },
   "fork-the-planet/swift-nio": {
-    "last_disable": "2026-01-09T00:19:55Z"
+    "last_disable": "2026-01-10T00:19:49Z"
   },
   "fork-the-planet/swift-nio-http2": {
-    "last_disable": "2026-01-09T00:19:55Z"
+    "last_disable": "2026-01-10T00:19:49Z"
   },
   "fork-the-planet/swift-nio-ssl": {
-    "last_disable": "2026-01-09T00:19:55Z"
+    "last_disable": "2026-01-10T00:19:49Z"
   },
   "fork-the-planet/swift-numerics": {
-    "last_disable": "2026-01-09T00:19:56Z"
+    "last_disable": "2026-01-10T00:19:50Z"
   },
   "fork-the-planet/swift-openapi-generator": {
-    "last_disable": "2026-01-09T00:19:56Z"
+    "last_disable": "2026-01-10T00:19:50Z"
   },
   "fork-the-planet/swift-openapi-runtime": {
-    "last_disable": "2026-01-09T00:19:56Z"
+    "last_disable": "2026-01-10T00:19:50Z"
   },
   "fork-the-planet/swift-openapi-urlsession": {
-    "last_disable": "2026-01-09T00:19:56Z"
+    "last_disable": "2026-01-10T00:19:51Z"
   },
   "fork-the-planet/swift-protobuf": {
-    "last_disable": "2026-01-09T00:19:57Z"
+    "last_disable": "2026-01-10T00:19:51Z"
   },
   "fork-the-planet/swift-system": {
-    "last_disable": "2026-01-09T00:19:57Z"
+    "last_disable": "2026-01-10T00:19:51Z"
   },
   "fork-the-planet/swift-xcode-playground-support": {
-    "last_disable": "2026-01-09T00:19:57Z"
+    "last_disable": "2026-01-10T00:19:52Z"
   },
   "fork-the-planet/symfony": {
-    "last_disable": "2026-01-09T00:19:58Z"
+    "last_disable": "2026-01-10T00:19:52Z"
   },
   "fork-the-planet/sync-forked-repositories": {
-    "last_disable": "2026-01-09T00:19:58Z"
+    "last_disable": "2026-01-10T00:19:52Z"
   },
   "fork-the-planet/system_cmds": {
-    "last_disable": "2026-01-09T00:19:58Z"
+    "last_disable": "2026-01-10T00:19:53Z"
   },
   "fork-the-planet/tableflip": {
-    "last_disable": "2026-01-09T00:19:59Z"
+    "last_disable": "2026-01-10T00:19:53Z"
   },
   "fork-the-planet/tdesktop": {
-    "last_disable": "2026-01-09T00:19:59Z"
+    "last_disable": "2026-01-10T00:19:53Z"
   },
   "fork-the-planet/teleport": {
-    "last_disable": "2026-01-09T00:19:59Z"
+    "last_disable": "2026-01-10T00:19:54Z"
   },
   "fork-the-planet/templates": {
-    "last_disable": "2026-01-09T00:20:00Z"
+    "last_disable": "2026-01-10T00:19:54Z"
   },
   "fork-the-planet/terraform": {
-    "last_disable": "2026-01-09T00:20:00Z"
+    "last_disable": "2026-01-10T00:19:54Z"
   },
   "fork-the-planet/terraform-cdk": {
-    "last_disable": "2026-01-09T00:20:00Z"
+    "last_disable": "2026-01-10T00:19:55Z"
   },
   "fork-the-planet/terraform-provider-aws": {
-    "last_disable": "2026-01-09T00:20:01Z"
+    "last_disable": "2026-01-10T00:19:55Z"
   },
   "fork-the-planet/terraform-provider-cloudflare": {
-    "last_disable": "2026-01-09T00:20:01Z"
+    "last_disable": "2026-01-10T00:19:55Z"
   },
   "fork-the-planet/terraform-provider-hcloud": {
-    "last_disable": "2026-01-09T00:20:01Z"
+    "last_disable": "2026-01-10T00:19:56Z"
   },
   "fork-the-planet/terraform-provider-ibm": {
-    "last_disable": "2026-01-09T00:20:02Z"
+    "last_disable": "2026-01-10T00:19:56Z"
   },
   "fork-the-planet/text-generation-inference": {
-    "last_disable": "2026-01-09T00:20:02Z"
+    "last_disable": "2026-01-10T00:19:56Z"
   },
   "fork-the-planet/thefuck": {
-    "last_disable": "2026-01-09T00:20:03Z"
+    "last_disable": "2026-01-10T00:19:57Z"
   },
   "fork-the-planet/threagile": {
-    "last_disable": "2026-01-09T00:20:03Z"
+    "last_disable": "2026-01-10T00:19:57Z"
   },
   "fork-the-planet/threat-dragon": {
-    "last_disable": "2026-01-09T00:20:03Z"
+    "last_disable": "2026-01-10T00:19:57Z"
   },
   "fork-the-planet/tiktoken": {
-    "last_disable": "2026-01-09T00:20:04Z"
+    "last_disable": "2026-01-10T00:19:58Z"
   },
   "fork-the-planet/todo-apps": {
-    "last_disable": "2026-01-09T00:20:04Z"
+    "last_disable": "2026-01-10T00:19:58Z"
   },
   "fork-the-planet/tokenizers": {
-    "last_disable": "2026-01-09T00:20:04Z"
+    "last_disable": "2026-01-10T00:19:58Z"
   },
   "fork-the-planet/tools": {
-    "last_disable": "2026-01-09T00:20:05Z"
+    "last_disable": "2026-01-10T00:19:59Z"
   },
   "fork-the-planet/tor-media": {
-    "last_disable": "2026-01-09T00:20:05Z"
+    "last_disable": "2026-01-10T00:19:59Z"
   },
   "fork-the-planet/tor-messenger-build": {
-    "last_disable": "2026-01-09T00:20:05Z"
+    "last_disable": "2026-01-10T00:19:59Z"
   },
   "fork-the-planet/traccar": {
-    "last_disable": "2026-01-09T00:20:06Z"
+    "last_disable": "2026-01-10T00:20:00Z"
   },
   "fork-the-planet/transformers": {
-    "last_disable": "2026-01-09T00:20:06Z"
+    "last_disable": "2026-01-10T00:20:00Z"
   },
   "fork-the-planet/transition-amr-parser": {
-    "last_disable": "2026-01-09T00:20:06Z"
+    "last_disable": "2026-01-10T00:20:00Z"
   },
   "fork-the-planet/travel-laptop": {
-    "last_disable": "2026-01-09T00:20:07Z"
+    "last_disable": "2026-01-10T00:20:01Z"
   },
   "fork-the-planet/tree-sitter-pkl": {
-    "last_disable": "2026-01-09T00:20:07Z"
+    "last_disable": "2026-01-10T00:20:01Z"
   },
   "fork-the-planet/trl": {
-    "last_disable": "2026-01-09T00:20:07Z"
+    "last_disable": "2026-01-10T00:20:01Z"
   },
   "fork-the-planet/trusted-firmware-a": {
-    "last_disable": "2026-01-09T00:20:07Z"
+    "last_disable": "2026-01-10T00:20:02Z"
   },
   "fork-the-planet/trusted-firmware-m": {
-    "last_disable": "2026-01-09T00:20:08Z"
+    "last_disable": "2026-01-10T00:20:02Z"
   },
   "fork-the-planet/typeshed": {
-    "last_disable": "2026-01-09T00:20:08Z"
+    "last_disable": "2026-01-10T00:20:02Z"
   },
   "fork-the-planet/typing": {
-    "last_disable": "2026-01-09T00:20:08Z"
+    "last_disable": "2026-01-10T00:20:02Z"
   },
   "fork-the-planet/unilm": {
-    "last_disable": "2026-01-09T00:20:09Z"
+    "last_disable": "2026-01-10T00:20:03Z"
   },
   "fork-the-planet/uptime-kuma": {
-    "last_disable": "2026-01-09T00:20:09Z"
+    "last_disable": "2026-01-10T00:20:03Z"
   },
   "fork-the-planet/uv": {
-    "last_disable": "2026-01-09T00:20:10Z"
+    "last_disable": "2026-01-10T00:20:04Z"
   },
   "fork-the-planet/uw-imap": {
-    "last_disable": "2026-01-09T00:20:10Z"
+    "last_disable": "2026-01-10T00:20:04Z"
   },
   "fork-the-planet/v2flyNG": {
-    "last_disable": "2026-01-09T00:20:10Z"
+    "last_disable": "2026-01-10T00:20:04Z"
   },
   "fork-the-planet/v2ray-core": {
-    "last_disable": "2026-01-09T00:20:11Z"
+    "last_disable": "2026-01-10T00:20:04Z"
   },
   "fork-the-planet/v2rayN": {
-    "last_disable": "2026-01-09T00:20:11Z"
+    "last_disable": "2026-01-10T00:20:05Z"
   },
   "fork-the-planet/v2rayNG": {
-    "last_disable": "2026-01-09T00:20:11Z"
+    "last_disable": "2026-01-10T00:20:05Z"
   },
   "fork-the-planet/vagrant": {
-    "last_disable": "2026-01-09T00:20:12Z"
+    "last_disable": "2026-01-10T00:20:06Z"
   },
   "fork-the-planet/vault": {
-    "last_disable": "2026-01-09T00:20:12Z"
+    "last_disable": "2026-01-10T00:20:06Z"
   },
   "fork-the-planet/vesta": {
-    "last_disable": "2026-01-09T00:20:12Z"
+    "last_disable": "2026-01-10T00:20:06Z"
   },
   "fork-the-planet/vic": {
-    "last_disable": "2026-01-09T00:20:13Z"
+    "last_disable": "2026-01-10T00:20:07Z"
   },
   "fork-the-planet/vid2vid": {
-    "last_disable": "2026-01-09T00:20:13Z"
+    "last_disable": "2026-01-10T00:20:07Z"
   },
   "fork-the-planet/vllm": {
-    "last_disable": "2026-01-09T00:20:13Z"
+    "last_disable": "2026-01-10T00:20:07Z"
   },
   "fork-the-planet/vpc-file-storage-mount-helper": {
-    "last_disable": "2026-01-09T00:20:14Z"
+    "last_disable": "2026-01-10T00:20:08Z"
   },
   "fork-the-planet/vscode-bitbake": {
-    "last_disable": "2026-01-09T00:20:14Z"
+    "last_disable": "2026-01-10T00:20:08Z"
   },
   "fork-the-planet/vsphere-automation-sdk-python": {
-    "last_disable": "2026-01-09T00:20:14Z"
+    "last_disable": "2026-01-10T00:20:08Z"
   },
   "fork-the-planet/wabt": {
-    "last_disable": "2026-01-09T00:20:15Z"
+    "last_disable": "2026-01-10T00:20:09Z"
   },
   "fork-the-planet/warc": {
-    "last_disable": "2026-01-09T00:20:15Z"
+    "last_disable": "2026-01-10T00:20:09Z"
   },
   "fork-the-planet/warcprox": {
-    "last_disable": "2026-01-09T00:20:15Z"
+    "last_disable": "2026-01-10T00:20:09Z"
   },
   "fork-the-planet/warctools": {
-    "last_disable": "2026-01-09T00:20:16Z"
+    "last_disable": "2026-01-10T00:20:10Z"
   },
   "fork-the-planet/warp": {
-    "last_disable": "2026-01-09T00:20:16Z"
+    "last_disable": "2026-01-10T00:20:10Z"
   },
   "fork-the-planet/wasi-libc": {
-    "last_disable": "2026-01-09T00:20:16Z"
+    "last_disable": "2026-01-10T00:20:10Z"
   },
   "fork-the-planet/wasi-sdk": {
-    "last_disable": "2026-01-09T00:20:17Z"
+    "last_disable": "2026-01-10T00:20:11Z"
   },
   "fork-the-planet/watson-conversation-variables": {
-    "last_disable": "2026-01-09T00:20:17Z"
+    "last_disable": "2026-01-10T00:20:11Z"
   },
   "fork-the-planet/waveglow": {
-    "last_disable": "2026-01-09T00:20:17Z"
+    "last_disable": "2026-01-10T00:20:11Z"
   },
   "fork-the-planet/wayback-machine-webextension": {
-    "last_disable": "2026-01-09T00:20:18Z"
+    "last_disable": "2026-01-10T00:20:12Z"
   },
   "fork-the-planet/wazuh": {
-    "last_disable": "2026-01-09T00:20:18Z"
+    "last_disable": "2026-01-10T00:20:12Z"
   },
   "fork-the-planet/wazuh-agent": {
-    "last_disable": "2026-01-09T00:20:18Z"
+    "last_disable": "2026-01-10T00:20:12Z"
   },
   "fork-the-planet/wazuh-dashboard-plugins": {
-    "last_disable": "2026-01-09T00:20:19Z"
+    "last_disable": "2026-01-10T00:20:13Z"
   },
   "fork-the-planet/webmin": {
-    "last_disable": "2026-01-09T00:20:19Z"
+    "last_disable": "2026-01-10T00:20:13Z"
   },
   "fork-the-planet/webui": {
-    "last_disable": "2026-01-09T00:20:19Z"
+    "last_disable": "2026-01-10T00:20:13Z"
   },
   "fork-the-planet/weighttp": {
-    "last_disable": "2026-01-09T00:20:20Z"
+    "last_disable": "2026-01-10T00:20:14Z"
   },
   "fork-the-planet/west": {
-    "last_disable": "2026-01-09T00:20:20Z"
+    "last_disable": "2026-01-10T00:20:14Z"
   },
   "fork-the-planet/whois-v2": {
-    "last_disable": "2026-01-09T00:20:20Z"
+    "last_disable": "2026-01-10T00:20:14Z"
   },
   "fork-the-planet/wildebeest": {
-    "last_disable": "2026-01-09T00:20:21Z"
+    "last_disable": "2026-01-10T00:20:15Z"
   },
   "fork-the-planet/workerd": {
-    "last_disable": "2026-01-09T00:20:21Z"
+    "last_disable": "2026-01-10T00:20:15Z"
   },
   "fork-the-planet/workers-mcp": {
-    "last_disable": "2026-01-09T00:20:21Z"
+    "last_disable": "2026-01-10T00:20:15Z"
   },
   "fork-the-planet/workers-rs": {
-    "last_disable": "2026-01-09T00:20:22Z"
+    "last_disable": "2026-01-10T00:20:16Z"
   },
   "fork-the-planet/workers-sdk": {
-    "last_disable": "2026-01-09T00:20:22Z"
+    "last_disable": "2026-01-10T00:20:16Z"
   },
   "fork-the-planet/wrangler-action": {
-    "last_disable": "2026-01-09T00:20:23Z"
+    "last_disable": "2026-01-10T00:20:16Z"
   },
   "fork-the-planet/wslay": {
-    "last_disable": "2026-01-09T00:20:23Z"
+    "last_disable": "2026-01-10T00:20:17Z"
   },
   "fork-the-planet/xcache": {
-    "last_disable": "2026-01-09T00:20:23Z"
+    "last_disable": "2026-01-10T00:20:17Z"
   },
   "fork-the-planet/xnu": {
-    "last_disable": "2026-01-09T00:20:24Z"
+    "last_disable": "2026-01-10T00:20:17Z"
   },
   "fork-the-planet/yarn": {
-    "last_disable": "2026-01-09T00:20:24Z"
+    "last_disable": "2026-01-10T00:20:18Z"
   },
   "fork-the-planet/youtube-dl": {
-    "last_disable": "2026-01-09T00:20:24Z"
+    "last_disable": "2026-01-10T00:20:18Z"
   },
   "fork-the-planet/yt-dlp": {
-    "last_disable": "2026-01-09T00:20:25Z"
+    "last_disable": "2026-01-10T00:20:18Z"
   },
   "fork-the-planet/zaproxy": {
-    "last_disable": "2026-01-09T00:20:25Z"
+    "last_disable": "2026-01-10T00:20:19Z"
   },
   "fork-the-planet/zephyr": {
-    "last_disable": "2026-01-09T00:20:25Z"
+    "last_disable": "2026-01-10T00:20:19Z"
   },
   "fork-the-planet/zephyrproject-rtos-mbedtls": {
-    "last_disable": "2026-01-09T00:20:26Z"
+    "last_disable": "2026-01-10T00:20:19Z"
   },
   "fork-the-planet/zeroskip": {
-    "last_disable": "2026-01-09T00:20:26Z"
+    "last_disable": "2026-01-10T00:20:20Z"
   },
   "fork-the-planet/zettarepl": {
-    "last_disable": "2026-01-09T00:20:26Z"
+    "last_disable": "2026-01-10T00:20:20Z"
   },
   "fork-the-planet/zm-mailbox": {
-    "last_disable": "2026-01-09T00:20:27Z"
+    "last_disable": "2026-01-10T00:20:20Z"
   },
   "fork-the-planet/zm-web-client": {
-    "last_disable": "2026-01-09T00:20:27Z"
+    "last_disable": "2026-01-10T00:20:21Z"
   },
   "fork-the-planet/zscilib": {
-    "last_disable": "2026-01-09T00:20:27Z"
+    "last_disable": "2026-01-10T00:20:21Z"
   },
   "fork-the-planet/zsh": {
-    "last_disable": "2026-01-09T00:20:28Z"
+    "last_disable": "2026-01-10T00:20:21Z"
   },
   "fork-the-planet/zshot": {
-    "last_disable": "2026-01-09T00:20:28Z"
+    "last_disable": "2026-01-10T00:20:21Z"
   },
   "fork-the-planet/zulip": {
-    "last_disable": "2026-01-09T00:20:28Z"
+    "last_disable": "2026-01-10T00:20:22Z"
   }
 }
