@@ -2077,34 +2077,34 @@
   },
   "last_run": "2026-01-11 00:20:20",
   "fork-the-planet/MailKit": {
-    "last_update": "2026-01-11T00:06:21Z"
+    "last_update": "2026-01-12T00:06:13Z"
   },
   "fork-the-planet/OpenSMTPD": {
-    "last_update": "2026-01-11T00:06:21Z"
+    "last_update": "2026-01-12T00:06:14Z"
   },
   "fork-the-planet/aiosmtpd": {
-    "last_update": "2026-01-11T00:06:22Z"
+    "last_update": "2026-01-12T00:06:15Z"
   },
   "fork-the-planet/caesonia": {
-    "last_update": "2026-01-11T00:06:23Z"
+    "last_update": "2026-01-12T00:06:15Z"
   },
   "fork-the-planet/coi": {
-    "last_update": "2026-01-11T00:06:24Z"
+    "last_update": "2026-01-12T00:06:16Z"
   },
   "fork-the-planet/courier": {
-    "last_update": "2026-01-11T00:06:25Z"
+    "last_update": "2026-01-12T00:06:17Z"
   },
   "fork-the-planet/cyrus-imapd": {
-    "last_update": "2026-01-11T00:06:26Z"
+    "last_update": "2026-01-12T00:06:17Z"
   },
   "fork-the-planet/cyrus-sasl": {
-    "last_update": "2026-01-11T00:06:26Z"
+    "last_update": "2026-01-12T00:06:18Z"
   },
   "fork-the-planet/cyruslibs": {
-    "last_update": "2026-01-11T00:06:27Z"
+    "last_update": "2026-01-12T00:06:19Z"
   },
   "fork-the-planet/doveadm-http-cli": {
-    "last_update": "2026-01-11T00:06:28Z"
+    "last_update": "2026-01-12T00:06:19Z"
   },
   "fork-the-planet/dovecot-core": {
     "last_update": "2026-01-11T00:06:29Z"
