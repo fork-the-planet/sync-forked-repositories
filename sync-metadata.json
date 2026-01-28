@@ -1,6 +1,6 @@
 {
   "fork-the-planet/AKS": {
-    "last_update": "2026-01-27T00:07:07Z"
+    "last_update": "2026-01-28T00:06:46Z"
   },
   "fork-the-planet/AppleFileSystemDriver": {
     "last_update": "2026-01-27T00:07:10Z"
@@ -2134,31 +2134,31 @@
     "last_update": "2026-01-28T00:06:38Z"
   },
   "fork-the-planet/mxcheck": {
-    "last_update": "2026-01-27T00:07:00Z"
+    "last_update": "2026-01-28T00:06:39Z"
   },
   "fork-the-planet/neomutt": {
-    "last_update": "2026-01-27T00:07:00Z"
+    "last_update": "2026-01-28T00:06:40Z"
   },
   "fork-the-planet/net-imap": {
-    "last_update": "2026-01-27T00:07:01Z"
+    "last_update": "2026-01-28T00:06:41Z"
   },
   "fork-the-planet/opendkim": {
-    "last_update": "2026-01-27T00:07:02Z"
+    "last_update": "2026-01-28T00:06:41Z"
   },
   "fork-the-planet/php-imap": {
-    "last_update": "2026-01-27T00:07:03Z"
+    "last_update": "2026-01-28T00:06:42Z"
   },
   "fork-the-planet/pigeonhole": {
-    "last_update": "2026-01-27T00:07:04Z"
+    "last_update": "2026-01-28T00:06:42Z"
   },
   "fork-the-planet/popa3d": {
-    "last_update": "2026-01-27T00:07:05Z"
+    "last_update": "2026-01-28T00:06:43Z"
   },
   "fork-the-planet/postal": {
-    "last_update": "2026-01-27T00:07:06Z"
+    "last_update": "2026-01-28T00:06:44Z"
   },
   "fork-the-planet/postfix": {
-    "last_update": "2026-01-27T00:07:06Z"
+    "last_update": "2026-01-28T00:06:45Z"
   },
   "fork-the-planet/push-notification-plugin-chronos": {
     "last_update": "2026-01-27T00:07:08Z"
