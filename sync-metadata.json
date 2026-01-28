@@ -2077,7 +2077,7 @@
   },
   "last_run": "2026-01-27 00:19:34",
   "fork-the-planet/MailKit": {
-    "last_update": "2026-01-27T00:06:37Z"
+    "last_update": "2026-01-28T00:06:21Z"
   },
   "fork-the-planet/OpenSMTPD": {
     "last_update": "2026-01-27T00:06:41Z"
@@ -2179,19 +2179,19 @@
     "last_update": "2026-01-27T00:07:13Z"
   },
   "fork-the-planet/accel-pptp": {
-    "last_update": "2026-01-27T00:06:34Z"
+    "last_update": "2026-01-28T00:06:18Z"
   },
   "fork-the-planet/apcupsd": {
-    "last_update": "2026-01-27T00:06:35Z"
+    "last_update": "2026-01-28T00:06:19Z"
   },
   "fork-the-planet/comgt": {
-    "last_update": "2026-01-27T00:06:38Z"
+    "last_update": "2026-01-28T00:06:21Z"
   },
   "fork-the-planet/dhcpv6": {
-    "last_update": "2026-01-27T00:06:38Z"
+    "last_update": "2026-01-28T00:06:22Z"
   },
   "fork-the-planet/ipt_account": {
-    "last_update": "2026-01-27T00:06:39Z"
+    "last_update": "2026-01-28T00:06:23Z"
   },
   "fork-the-planet/nocatsplash": {
     "last_update": "2026-01-27T00:06:40Z"
@@ -2200,15 +2200,15 @@
     "last_update": "2026-01-27T00:06:42Z"
   },
   "fork-the-planet/dnstt": {
-    "last_update": "2026-01-27T00:06:36Z"
+    "last_update": "2026-01-28T00:06:20Z"
   },
   "fork-the-planet/conduit": {
-    "last_update": "2026-01-27T00:06:33Z"
+    "last_update": "2026-01-28T00:06:18Z"
   },
   "fork-the-planet/husarnet": {
-    "last_update": "2026-01-27T00:06:35Z"
+    "last_update": "2026-01-28T00:06:20Z"
   },
   "fork-the-planet/psiphon-tunnel-core": {
-    "last_update": "2026-01-27T00:06:32Z"
+    "last_update": "2026-01-28T00:06:17Z"
   }
 }
