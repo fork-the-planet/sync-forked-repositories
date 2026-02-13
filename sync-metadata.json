@@ -2061,23 +2061,23 @@
     "last_update": "2026-02-13T00:14:11Z"
   },
   "fork-the-planet/zm-web-client": {
-    "last_update": "2026-02-12T00:11:01Z"
+    "last_update": "2026-02-13T00:14:12Z"
   },
   "fork-the-planet/zscilib": {
-    "last_update": "2026-02-12T00:11:01Z"
+    "last_update": "2026-02-13T00:14:13Z"
   },
   "fork-the-planet/zsh": {
-    "last_update": "2026-02-12T00:11:02Z"
+    "last_update": "2026-02-13T00:14:14Z"
   },
   "fork-the-planet/zshot": {
-    "last_update": "2026-02-12T00:11:03Z"
+    "last_update": "2026-02-13T00:14:15Z"
   },
   "fork-the-planet/zulip": {
-    "last_update": "2026-02-12T00:11:04Z"
+    "last_update": "2026-02-13T00:14:17Z"
   },
   "last_run": "2026-02-12 00:19:35",
   "fork-the-planet/MailKit": {
-    "last_update": "2026-02-12T00:11:05Z"
+    "last_update": "2026-02-13T00:14:17Z"
   },
   "fork-the-planet/OpenSMTPD": {
     "last_update": "2026-02-12T00:11:12Z"
@@ -2179,13 +2179,13 @@
     "last_update": "2026-02-12T00:11:42Z"
   },
   "fork-the-planet/accel-pptp": {
-    "last_update": "2026-02-12T00:11:04Z"
+    "last_update": "2026-02-13T00:14:16Z"
   },
   "fork-the-planet/apcupsd": {
-    "last_update": "2026-02-12T00:11:06Z"
+    "last_update": "2026-02-13T00:14:18Z"
   },
   "fork-the-planet/comgt": {
-    "last_update": "2026-02-12T00:11:07Z"
+    "last_update": "2026-02-13T00:14:20Z"
   },
   "fork-the-planet/dhcpv6": {
     "last_update": "2026-02-12T00:11:10Z"
@@ -2209,6 +2209,6 @@
     "last_update": "2026-02-12T00:11:09Z"
   },
   "fork-the-planet/psiphon-tunnel-core": {
-    "last_update": "2026-02-12T00:11:06Z"
+    "last_update": "2026-02-13T00:14:19Z"
   }
 }
