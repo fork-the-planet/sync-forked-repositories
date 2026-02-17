@@ -1161,31 +1161,31 @@
     "last_update": "2026-02-16T00:17:53Z"
   },
   "fork-the-planet/ml-mgie": {
-    "last_update": "2026-02-16T00:08:02Z"
+    "last_update": "2026-02-17T00:08:53Z"
   },
   "fork-the-planet/ml-mobileclip": {
-    "last_update": "2026-02-16T00:08:03Z"
+    "last_update": "2026-02-17T00:08:54Z"
   },
   "fork-the-planet/ml-negative-sampling": {
-    "last_update": "2026-02-16T00:08:03Z"
+    "last_update": "2026-02-17T00:08:54Z"
   },
   "fork-the-planet/ml-pgdvs": {
-    "last_update": "2026-02-16T00:08:04Z"
+    "last_update": "2026-02-17T00:08:55Z"
   },
   "fork-the-planet/ml-recurrent-drafter": {
-    "last_update": "2026-02-16T00:08:05Z"
+    "last_update": "2026-02-17T00:08:56Z"
   },
   "fork-the-planet/ml-stable-diffusion": {
-    "last_update": "2026-02-16T00:08:06Z"
+    "last_update": "2026-02-17T00:08:57Z"
   },
   "fork-the-planet/ml-tarflow": {
-    "last_update": "2026-02-16T00:08:07Z"
+    "last_update": "2026-02-17T00:08:58Z"
   },
   "fork-the-planet/mmap-sync": {
-    "last_update": "2026-02-16T00:08:08Z"
+    "last_update": "2026-02-17T00:08:58Z"
   },
   "fork-the-planet/mobx-react-router": {
-    "last_update": "2026-02-16T00:08:08Z"
+    "last_update": "2026-02-17T00:08:59Z"
   },
   "fork-the-planet/modulus": {
     "last_update": "2026-02-16T00:08:09Z"
@@ -2210,5 +2210,8 @@
   },
   "fork-the-planet/psiphon-tunnel-core": {
     "last_update": "2026-02-16T00:12:12Z"
+  },
+  "fork-the-planet/surya": {
+    "last_update": "2026-02-17T00:08:52Z"
   }
 }
