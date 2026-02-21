@@ -1161,28 +1161,28 @@
     "last_update": "2026-02-20T00:16:54Z"
   },
   "fork-the-planet/ml-mgie": {
-    "last_update": "2026-02-20T00:08:01Z"
+    "last_update": "2026-02-21T00:07:55Z"
   },
   "fork-the-planet/ml-mobileclip": {
-    "last_update": "2026-02-20T00:08:02Z"
+    "last_update": "2026-02-21T00:07:56Z"
   },
   "fork-the-planet/ml-negative-sampling": {
-    "last_update": "2026-02-20T00:08:03Z"
+    "last_update": "2026-02-21T00:07:57Z"
   },
   "fork-the-planet/ml-pgdvs": {
-    "last_update": "2026-02-20T00:08:03Z"
+    "last_update": "2026-02-21T00:07:57Z"
   },
   "fork-the-planet/ml-recurrent-drafter": {
-    "last_update": "2026-02-20T00:08:04Z"
+    "last_update": "2026-02-21T00:07:58Z"
   },
   "fork-the-planet/ml-stable-diffusion": {
-    "last_update": "2026-02-20T00:08:05Z"
+    "last_update": "2026-02-21T00:07:59Z"
   },
   "fork-the-planet/ml-tarflow": {
-    "last_update": "2026-02-20T00:08:05Z"
+    "last_update": "2026-02-21T00:08:00Z"
   },
   "fork-the-planet/mmap-sync": {
-    "last_update": "2026-02-20T00:08:06Z"
+    "last_update": "2026-02-21T00:08:00Z"
   },
   "fork-the-planet/mobx-react-router": {
     "last_update": "2026-02-20T00:08:07Z"
@@ -2212,6 +2212,9 @@
     "last_update": "2026-02-20T00:11:52Z"
   },
   "fork-the-planet/surya": {
-    "last_update": "2026-02-20T00:08:01Z"
+    "last_update": "2026-02-21T00:07:55Z"
+  },
+  "fork-the-planet/arq": {
+    "last_update": "2026-02-21T00:07:54Z"
   }
 }
