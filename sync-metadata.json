@@ -2067,23 +2067,23 @@
     "last_update": "2026-03-07T00:08:08Z"
   },
   "fork-the-planet/zsh": {
-    "last_update": "2026-03-05T00:09:14Z"
+    "last_update": "2026-03-07T00:08:10Z"
   },
   "fork-the-planet/zshot": {
-    "last_update": "2026-03-05T00:09:15Z"
+    "last_update": "2026-03-07T00:08:10Z"
   },
   "fork-the-planet/zulip": {
-    "last_update": "2026-03-05T00:09:18Z"
+    "last_update": "2026-03-07T00:08:13Z"
   },
   "last_run": "2026-03-05 00:24:50",
   "fork-the-planet/MailKit": {
-    "last_update": "2026-03-05T00:09:12Z"
+    "last_update": "2026-03-07T00:08:09Z"
   },
   "fork-the-planet/OpenSMTPD": {
-    "last_update": "2026-03-05T00:09:19Z"
+    "last_update": "2026-03-07T00:08:14Z"
   },
   "fork-the-planet/aiosmtpd": {
-    "last_update": "2026-03-05T00:09:20Z"
+    "last_update": "2026-03-07T00:08:14Z"
   },
   "fork-the-planet/caesonia": {
     "last_update": "2026-03-05T00:09:26Z"
@@ -2179,13 +2179,13 @@
     "last_update": "2026-03-05T00:10:06Z"
   },
   "fork-the-planet/accel-pptp": {
-    "last_update": "2026-03-05T00:09:13Z"
+    "last_update": "2026-03-07T00:08:09Z"
   },
   "fork-the-planet/apcupsd": {
-    "last_update": "2026-03-05T00:09:16Z"
+    "last_update": "2026-03-07T00:08:11Z"
   },
   "fork-the-planet/comgt": {
-    "last_update": "2026-03-05T00:09:17Z"
+    "last_update": "2026-03-07T00:08:12Z"
   },
   "fork-the-planet/dhcpv6": {
     "last_update": "2026-03-05T00:09:23Z"
@@ -2203,7 +2203,7 @@
     "last_update": "2026-03-05T00:09:21Z"
   },
   "fork-the-planet/conduit": {
-    "last_update": "2026-03-05T00:09:18Z"
+    "last_update": "2026-03-07T00:08:12Z"
   },
   "fork-the-planet/husarnet": {
     "last_update": "2026-03-05T00:09:24Z"
