@@ -2101,28 +2101,28 @@
     "last_update": "2026-03-10T00:06:57Z"
   },
   "fork-the-planet/cyruslibs": {
-    "last_update": "2026-03-09T00:08:19Z"
+    "last_update": "2026-03-10T00:06:58Z"
   },
   "fork-the-planet/doveadm-http-cli": {
-    "last_update": "2026-03-09T00:08:20Z"
+    "last_update": "2026-03-10T00:06:59Z"
   },
   "fork-the-planet/dovecot-core": {
-    "last_update": "2026-03-09T00:08:22Z"
+    "last_update": "2026-03-10T00:07:00Z"
   },
   "fork-the-planet/dovecot-message-hashing": {
-    "last_update": "2026-03-09T00:08:23Z"
+    "last_update": "2026-03-10T00:07:01Z"
   },
   "fork-the-planet/dovecot-tools": {
-    "last_update": "2026-03-09T00:08:24Z"
+    "last_update": "2026-03-10T00:07:02Z"
   },
   "fork-the-planet/exim": {
-    "last_update": "2026-03-09T00:08:25Z"
+    "last_update": "2026-03-10T00:07:03Z"
   },
   "fork-the-planet/git-perl-utils": {
-    "last_update": "2026-03-09T00:08:26Z"
+    "last_update": "2026-03-10T00:07:03Z"
   },
   "fork-the-planet/imap": {
-    "last_update": "2026-03-09T00:08:27Z"
+    "last_update": "2026-03-10T00:07:04Z"
   },
   "fork-the-planet/imapd": {
     "last_update": "2026-03-09T00:08:27Z"
@@ -2194,10 +2194,10 @@
     "last_update": "2026-03-10T00:06:55Z"
   },
   "fork-the-planet/nocatsplash": {
-    "last_update": "2026-03-09T00:08:21Z"
+    "last_update": "2026-03-10T00:06:59Z"
   },
   "fork-the-planet/tomato64": {
-    "last_update": "2026-03-09T00:08:23Z"
+    "last_update": "2026-03-10T00:07:01Z"
   },
   "fork-the-planet/dnstt": {
     "last_update": "2026-03-10T00:06:51Z"
