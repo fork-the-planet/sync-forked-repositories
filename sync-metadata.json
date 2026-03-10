@@ -1,6 +1,6 @@
 {
   "fork-the-planet/AKS": {
-    "last_update": "2026-03-09T00:08:34Z"
+    "last_update": "2026-03-10T00:07:12Z"
   },
   "fork-the-planet/AppleFileSystemDriver": {
     "last_update": "2026-03-09T00:08:36Z"
@@ -2125,31 +2125,31 @@
     "last_update": "2026-03-10T00:07:04Z"
   },
   "fork-the-planet/imapd": {
-    "last_update": "2026-03-09T00:08:27Z"
+    "last_update": "2026-03-10T00:07:05Z"
   },
   "fork-the-planet/kumomta": {
-    "last_update": "2026-03-09T00:08:28Z"
+    "last_update": "2026-03-10T00:07:06Z"
   },
   "fork-the-planet/laravel-imap": {
-    "last_update": "2026-03-09T00:08:29Z"
+    "last_update": "2026-03-10T00:07:06Z"
   },
   "fork-the-planet/mxcheck": {
-    "last_update": "2026-03-09T00:08:30Z"
+    "last_update": "2026-03-10T00:07:07Z"
   },
   "fork-the-planet/neomutt": {
-    "last_update": "2026-03-09T00:08:31Z"
+    "last_update": "2026-03-10T00:07:08Z"
   },
   "fork-the-planet/net-imap": {
-    "last_update": "2026-03-09T00:08:32Z"
+    "last_update": "2026-03-10T00:07:09Z"
   },
   "fork-the-planet/opendkim": {
-    "last_update": "2026-03-09T00:08:33Z"
+    "last_update": "2026-03-10T00:07:11Z"
   },
   "fork-the-planet/php-imap": {
-    "last_update": "2026-03-09T00:08:33Z"
+    "last_update": "2026-03-10T00:07:11Z"
   },
   "fork-the-planet/pigeonhole": {
-    "last_update": "2026-03-09T00:08:35Z"
+    "last_update": "2026-03-10T00:07:13Z"
   },
   "fork-the-planet/popa3d": {
     "last_update": "2026-03-09T00:08:37Z"
