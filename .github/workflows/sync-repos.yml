@@ -75,26 +75,61 @@ jobs:
         sync_repo() {
           fork=$1
           echo "Updating $fork"
-          
+
           # Attempt to sync the repository
-          OUTPUT=$(gh repo sync $fork --force 2>&1)
+          OUTPUT=$(gh repo sync "$fork" --force 2>&1)
           EXIT_CODE=$?
-          
+
           # Check for rate limit error
-          if echo "$OUTPUT" | grep -qi "rate limit" || echo "$OUTPUT" | grep -qi "API rate limit exceeded"; then
+          if echo "$OUTPUT" | grep -qi "rate limit" || echo "$OUTPUT" | grep -qi "API rate limit exceeded" || echo "$OUTPUT" | grep -qi "secondary rate limit"; then
             echo "Rate limit reached while syncing $fork"
             echo "$fork rate_limited" >> rate_limited_repos.log
             return 2
           elif [ $EXIT_CODE -ne 0 ]; then
-            echo "$fork failed" >> failed_repos.log
-            return 1
+            echo "gh repo sync failed for $fork: $OUTPUT"
+            echo "Attempting API-based force sync for $fork..."
+
+            # Get fork's default branch and parent info
+            FORK_INFO=$(gh api "repos/$fork" --jq '{default_branch: .default_branch, parent_full_name: .parent.full_name, parent_default_branch: .parent.default_branch}' 2>&1)
+            if [ $? -ne 0 ]; then
+              echo "$fork failed: could not get fork info ($FORK_INFO)" >> failed_repos.log
+              return 1
+            fi
+
+            FORK_BRANCH=$(echo "$FORK_INFO" | jq -r '.default_branch')
+            PARENT_REPO=$(echo "$FORK_INFO" | jq -r '.parent_full_name')
+            PARENT_BRANCH=$(echo "$FORK_INFO" | jq -r '.parent_default_branch')
+
+            # Get upstream's default branch SHA
+            UPSTREAM_SHA=$(gh api "repos/$PARENT_REPO/branches/$PARENT_BRANCH" --jq '.commit.sha' 2>&1)
+            if [ $? -ne 0 ]; then
+              echo "$fork failed: could not get upstream SHA ($UPSTREAM_SHA)" >> failed_repos.log
+              return 1
+            fi
+
+            # Force-update fork's default branch via GitHub API
+            PATCH_OUTPUT=$(gh api --method PATCH "/repos/$fork/git/refs/heads/$FORK_BRANCH" \
+              -f sha="$UPSTREAM_SHA" \
+              -F force=true 2>&1)
+            PATCH_EXIT=$?
+
+            if echo "$PATCH_OUTPUT" | grep -qi "rate limit" || echo "$PATCH_OUTPUT" | grep -qi "secondary rate limit"; then
+              echo "Rate limit reached while syncing $fork (API fallback)"
+              echo "$fork rate_limited" >> rate_limited_repos.log
+              return 2
+            elif [ $PATCH_EXIT -ne 0 ]; then
+              echo "$fork failed (API fallback): $PATCH_OUTPUT" >> failed_repos.log
+              return 1
+            fi
+
+            echo "Successfully force-synced $fork via API fallback"
           fi
-          
+
           # Update metadata with successful sync
           current_time=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           jq --arg repo "$fork" --arg time "$current_time" '.[$repo] = {"last_update": $time}' "$SYNC_METADATA_FILE" > temp.json
           mv temp.json "$SYNC_METADATA_FILE"
-          
+
           return 0
         }
 
@@ -104,25 +139,25 @@ jobs:
 
         # Track number of successful syncs
         SYNC_COUNT=0
-        
-        # Process repositories one by one, stopping on rate limit
+        FAIL_COUNT=0
+
+        # Process repositories one by one, stopping only on rate limit
         while IFS= read -r fork; do
           if [ -n "$fork" ]; then
             set +e
             sync_repo "$fork"
             RESULT=$?
             set -e
-            
-            # If rate limited, stop processing
+
             if [ $RESULT -eq 2 ]; then
               echo "Rate limit reached, stopping sync process"
               break
             elif [ $RESULT -eq 1 ]; then
-              echo "Error encountered, stopping sync process (will resume next run)"
-              break
+              FAIL_COUNT=$((FAIL_COUNT + 1))
+              echo "Failed to sync $fork, continuing with next repository..."
             elif [ $RESULT -eq 0 ]; then
               SYNC_COUNT=$((SYNC_COUNT + 1))
-              
+
               # Commit progress every 10 successful syncs
               if [ $((SYNC_COUNT % 10)) -eq 0 ]; then
                 echo "Committing progress after $SYNC_COUNT successful syncs..."
@@ -138,13 +173,14 @@ jobs:
           echo "Some repositories failed to sync:"
           cat failed_repos.log
         fi
-        
+
         if [ -f rate_limited_repos.log ]; then
           echo "Rate limit reached for these repositories:"
           cat rate_limited_repos.log
         fi
-        
+
         echo "Total repositories successfully synced: $SYNC_COUNT"
+        echo "Total repositories failed: $FAIL_COUNT"
 
     - name: Disable actions for all except whitelisted workflows
       run: |
