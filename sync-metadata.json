@@ -2052,19 +2052,19 @@
     "last_update": "2026-06-05T00:39:30Z"
   },
   "fork-the-planet/zephyrproject-rtos-mbedtls": {
-    "last_update": "2026-06-05T00:28:04Z"
+    "last_update": "2026-06-06T00:26:44Z"
   },
   "fork-the-planet/zettarepl": {
-    "last_update": "2026-06-05T00:28:05Z"
+    "last_update": "2026-06-06T00:26:45Z"
   },
   "fork-the-planet/zm-mailbox": {
-    "last_update": "2026-06-05T00:28:08Z"
+    "last_update": "2026-06-06T00:26:47Z"
   },
   "fork-the-planet/zm-web-client": {
-    "last_update": "2026-06-05T00:28:09Z"
+    "last_update": "2026-06-06T00:26:48Z"
   },
   "fork-the-planet/zscilib": {
-    "last_update": "2026-06-05T00:28:10Z"
+    "last_update": "2026-06-06T00:26:49Z"
   },
   "fork-the-planet/zsh": {
     "last_update": "2026-06-05T00:28:13Z"
@@ -2077,10 +2077,10 @@
   },
   "last_run": "2026-06-05 00:43:40",
   "fork-the-planet/MailKit": {
-    "last_update": "2026-06-05T00:28:06Z"
+    "last_update": "2026-06-06T00:26:45Z"
   },
   "fork-the-planet/OpenSMTPD": {
-    "last_update": "2026-06-05T00:28:10Z"
+    "last_update": "2026-06-06T00:26:49Z"
   },
   "fork-the-planet/aiosmtpd": {
     "last_update": "2026-06-05T00:28:12Z"
@@ -2179,7 +2179,7 @@
     "last_update": "2026-06-05T00:29:05Z"
   },
   "fork-the-planet/accel-pptp": {
-    "last_update": "2026-06-05T00:28:07Z"
+    "last_update": "2026-06-06T00:26:46Z"
   },
   "fork-the-planet/apcupsd": {
     "last_update": "2026-06-05T00:28:11Z"
@@ -2222,5 +2222,11 @@
   },
   "fork-the-planet/openai-agents-js": {
     "last_update": "2026-06-05T00:38:37Z"
+  },
+  "fork-the-planet/claude-code": {
+    "last_update": "2026-06-06T00:26:42Z"
+  },
+  "fork-the-planet/plate": {
+    "last_update": "2026-06-06T00:26:43Z"
   }
 }
