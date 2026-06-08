@@ -2073,7 +2073,7 @@
     "last_update": "2026-06-08T00:28:56Z"
   },
   "fork-the-planet/zulip": {
-    "last_update": "2026-06-07T00:27:14Z"
+    "last_update": "2026-06-08T00:29:00Z"
   },
   "last_run": "2026-06-07 00:34:48",
   "fork-the-planet/MailKit": {
@@ -2095,19 +2095,19 @@
     "last_update": "2026-06-08T00:28:57Z"
   },
   "fork-the-planet/cyrus-imapd": {
-    "last_update": "2026-06-07T00:27:13Z"
+    "last_update": "2026-06-08T00:28:59Z"
   },
   "fork-the-planet/cyrus-sasl": {
-    "last_update": "2026-06-07T00:27:15Z"
+    "last_update": "2026-06-08T00:29:01Z"
   },
   "fork-the-planet/cyruslibs": {
-    "last_update": "2026-06-07T00:27:15Z"
+    "last_update": "2026-06-08T00:29:02Z"
   },
   "fork-the-planet/doveadm-http-cli": {
-    "last_update": "2026-06-07T00:27:16Z"
+    "last_update": "2026-06-08T00:29:03Z"
   },
   "fork-the-planet/dovecot-core": {
-    "last_update": "2026-06-07T00:27:17Z"
+    "last_update": "2026-06-08T00:29:04Z"
   },
   "fork-the-planet/dovecot-message-hashing": {
     "last_update": "2026-06-07T00:27:18Z"
@@ -2191,7 +2191,7 @@
     "last_update": "2026-06-08T00:28:57Z"
   },
   "fork-the-planet/ipt_account": {
-    "last_update": "2026-06-07T00:27:17Z"
+    "last_update": "2026-06-08T00:29:05Z"
   },
   "fork-the-planet/nocatsplash": {
     "last_update": "2026-06-07T00:27:19Z"
@@ -2200,16 +2200,16 @@
     "last_update": "2026-06-07T00:27:22Z"
   },
   "fork-the-planet/dnstt": {
-    "last_update": "2026-06-07T00:27:12Z"
+    "last_update": "2026-06-08T00:28:58Z"
   },
   "fork-the-planet/conduit": {
     "last_update": "2026-06-08T00:28:54Z"
   },
   "fork-the-planet/husarnet": {
-    "last_update": "2026-06-07T00:27:13Z"
+    "last_update": "2026-06-08T00:29:00Z"
   },
   "fork-the-planet/psiphon-tunnel-core": {
-    "last_update": "2026-06-07T00:27:16Z"
+    "last_update": "2026-06-08T00:29:04Z"
   },
   "fork-the-planet/surya": {
     "last_update": "2026-06-07T00:31:35Z"
