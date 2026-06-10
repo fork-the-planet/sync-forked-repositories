@@ -2228,5 +2228,35 @@
   },
   "fork-the-planet/plate": {
     "last_update": "2026-06-09T00:23:55Z"
+  },
+  "fork-the-planet/DesktopEditors": {
+    "last_update": "2026-06-10T00:29:45Z"
+  },
+  "fork-the-planet/desktop-apps": {
+    "last_update": "2026-06-10T00:29:45Z"
+  },
+  "fork-the-planet/desktop-sdk": {
+    "last_update": "2026-06-10T00:29:46Z"
+  },
+  "fork-the-planet/euro-office-core": {
+    "last_update": "2026-06-10T00:29:46Z"
+  },
+  "fork-the-planet/euro-office-core-fonts": {
+    "last_update": "2026-06-10T00:29:47Z"
+  },
+  "fork-the-planet/euro-office-server": {
+    "last_update": "2026-06-10T00:29:48Z"
+  },
+  "fork-the-planet/euro-office-web-apps": {
+    "last_update": "2026-06-10T00:29:48Z"
+  },
+  "fork-the-planet/eurooffice-nextcloud": {
+    "last_update": "2026-06-10T00:29:49Z"
+  },
+  "fork-the-planet/plugin-aiautofill": {
+    "last_update": "2026-06-10T00:29:50Z"
+  },
+  "fork-the-planet/sdkjs": {
+    "last_update": "2026-06-10T00:29:50Z"
   }
 }
