@@ -1356,34 +1356,34 @@
     "last_update": "2026-06-16T00:42:29Z"
   },
   "fork-the-planet/owncloud-core": {
-    "last_update": "2026-06-15T00:37:31Z"
+    "last_update": "2026-06-16T00:42:30Z"
   },
   "fork-the-planet/owncloud-davclient.js": {
-    "last_update": "2026-06-15T00:37:32Z"
+    "last_update": "2026-06-16T00:42:31Z"
   },
   "fork-the-planet/owncloud-docs": {
-    "last_update": "2026-06-15T00:37:33Z"
+    "last_update": "2026-06-16T00:42:31Z"
   },
   "fork-the-planet/owncloud-encryption": {
-    "last_update": "2026-06-15T00:37:33Z"
+    "last_update": "2026-06-16T00:42:33Z"
   },
   "fork-the-planet/owncloud-files_antivirus": {
-    "last_update": "2026-06-15T00:37:34Z"
+    "last_update": "2026-06-16T00:42:34Z"
   },
   "fork-the-planet/owncloud-files_external_gdrive": {
-    "last_update": "2026-06-15T00:37:35Z"
+    "last_update": "2026-06-16T00:42:34Z"
   },
   "fork-the-planet/owncloud-files_mediaviewer": {
-    "last_update": "2026-06-15T00:37:36Z"
+    "last_update": "2026-06-16T00:42:35Z"
   },
   "fork-the-planet/owncloud-files_pdfviewer": {
-    "last_update": "2026-06-15T00:37:37Z"
+    "last_update": "2026-06-16T00:42:36Z"
   },
   "fork-the-planet/owncloud-files_primary_s3": {
-    "last_update": "2026-06-15T00:37:37Z"
+    "last_update": "2026-06-16T00:42:37Z"
   },
   "fork-the-planet/owncloud-files_texteditor": {
-    "last_update": "2026-06-15T00:37:38Z"
+    "last_update": "2026-06-16T00:42:37Z"
   },
   "fork-the-planet/owncloud-files_videoplayer": {
     "last_update": "2026-06-15T00:37:39Z"
