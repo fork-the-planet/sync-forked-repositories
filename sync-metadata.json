@@ -399,7 +399,7 @@
     "last_update": "2026-06-19T00:37:38Z"
   },
   "fork-the-planet/azure-functions-host": {
-    "last_update": "2026-06-19T00:35:28Z"
+    "last_update": "2026-06-20T00:27:47Z"
   },
   "fork-the-planet/azure-powershell": {
     "last_update": "2026-06-19T00:37:39Z"
@@ -2052,10 +2052,10 @@
     "last_update": "2026-06-19T00:44:13Z"
   },
   "fork-the-planet/zephyrproject-rtos-mbedtls": {
-    "last_update": "2026-06-19T00:35:31Z"
+    "last_update": "2026-06-20T00:27:50Z"
   },
   "fork-the-planet/zettarepl": {
-    "last_update": "2026-06-19T00:35:34Z"
+    "last_update": "2026-06-20T00:27:52Z"
   },
   "fork-the-planet/zm-mailbox": {
     "last_update": "2026-06-19T00:35:34Z"
@@ -2080,7 +2080,7 @@
     "last_update": "2026-06-20T00:27:44Z"
   },
   "fork-the-planet/OpenSMTPD": {
-    "last_update": "2026-06-19T00:35:32Z"
+    "last_update": "2026-06-20T00:27:51Z"
   },
   "fork-the-planet/aiosmtpd": {
     "last_update": "2026-06-19T00:35:35Z"
@@ -2179,10 +2179,10 @@
     "last_update": "2026-06-19T00:36:20Z"
   },
   "fork-the-planet/accel-pptp": {
-    "last_update": "2026-06-19T00:35:29Z"
+    "last_update": "2026-06-20T00:27:48Z"
   },
   "fork-the-planet/apcupsd": {
-    "last_update": "2026-06-19T00:35:33Z"
+    "last_update": "2026-06-20T00:27:52Z"
   },
   "fork-the-planet/comgt": {
     "last_update": "2026-06-19T00:35:37Z"
@@ -2224,10 +2224,10 @@
     "last_update": "2026-06-19T00:43:34Z"
   },
   "fork-the-planet/claude-code": {
-    "last_update": "2026-06-19T00:35:30Z"
+    "last_update": "2026-06-20T00:27:49Z"
   },
   "fork-the-planet/plate": {
-    "last_update": "2026-06-19T00:35:31Z"
+    "last_update": "2026-06-20T00:27:50Z"
   },
   "fork-the-planet/DesktopEditors": {
     "last_update": "2026-06-20T00:27:39Z"
@@ -2257,9 +2257,9 @@
     "last_update": "2026-06-20T00:27:45Z"
   },
   "fork-the-planet/sdkjs": {
-    "last_update": "2026-06-19T00:35:27Z"
+    "last_update": "2026-06-20T00:27:46Z"
   },
   "fork-the-planet/sdkjs-forms": {
-    "last_update": "2026-06-19T00:35:29Z"
+    "last_update": "2026-06-20T00:27:48Z"
   }
 }
