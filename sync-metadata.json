@@ -2052,10 +2052,10 @@
     "last_update": "2026-06-22T00:39:30Z"
   },
   "fork-the-planet/zephyrproject-rtos-mbedtls": {
-    "last_update": "2026-06-22T00:30:07Z"
+    "last_update": "2026-06-23T00:28:02Z"
   },
   "fork-the-planet/zettarepl": {
-    "last_update": "2026-06-22T00:30:09Z"
+    "last_update": "2026-06-23T00:28:04Z"
   },
   "fork-the-planet/zm-mailbox": {
     "last_update": "2026-06-22T00:30:09Z"
@@ -2080,7 +2080,7 @@
     "last_update": "2026-06-23T00:27:51Z"
   },
   "fork-the-planet/OpenSMTPD": {
-    "last_update": "2026-06-22T00:30:07Z"
+    "last_update": "2026-06-23T00:28:01Z"
   },
   "fork-the-planet/aiosmtpd": {
     "last_update": "2026-06-22T00:30:10Z"
@@ -2179,10 +2179,10 @@
     "last_update": "2026-06-22T00:30:59Z"
   },
   "fork-the-planet/accel-pptp": {
-    "last_update": "2026-06-22T00:30:04Z"
+    "last_update": "2026-06-23T00:27:57Z"
   },
   "fork-the-planet/apcupsd": {
-    "last_update": "2026-06-22T00:30:08Z"
+    "last_update": "2026-06-23T00:28:03Z"
   },
   "fork-the-planet/comgt": {
     "last_update": "2026-06-22T00:30:13Z"
@@ -2224,10 +2224,10 @@
     "last_update": "2026-06-22T00:38:45Z"
   },
   "fork-the-planet/claude-code": {
-    "last_update": "2026-06-22T00:30:05Z"
+    "last_update": "2026-06-23T00:27:59Z"
   },
   "fork-the-planet/plate": {
-    "last_update": "2026-06-22T00:30:06Z"
+    "last_update": "2026-06-23T00:28:00Z"
   },
   "fork-the-planet/DesktopEditors": {
     "last_update": "2026-06-23T00:27:46Z"
@@ -2254,12 +2254,12 @@
     "last_update": "2026-06-23T00:27:53Z"
   },
   "fork-the-planet/plugin-aiautofill": {
-    "last_update": "2026-06-22T00:30:02Z"
+    "last_update": "2026-06-23T00:27:56Z"
   },
   "fork-the-planet/sdkjs": {
-    "last_update": "2026-06-22T00:30:03Z"
+    "last_update": "2026-06-23T00:27:56Z"
   },
   "fork-the-planet/sdkjs-forms": {
-    "last_update": "2026-06-22T00:30:05Z"
+    "last_update": "2026-06-23T00:27:59Z"
   }
 }
