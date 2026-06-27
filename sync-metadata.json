@@ -399,7 +399,7 @@
     "last_update": "2026-06-26T00:31:58Z"
   },
   "fork-the-planet/azure-functions-host": {
-    "last_update": "2026-06-26T00:29:03Z"
+    "last_update": "2026-06-27T00:26:54Z"
   },
   "fork-the-planet/azure-powershell": {
     "last_update": "2026-06-26T00:31:59Z"
@@ -2052,7 +2052,7 @@
     "last_update": "2026-06-26T00:40:40Z"
   },
   "fork-the-planet/zephyrproject-rtos-mbedtls": {
-    "last_update": "2026-06-26T00:29:10Z"
+    "last_update": "2026-06-27T00:27:01Z"
   },
   "fork-the-planet/zettarepl": {
     "last_update": "2026-06-26T00:29:12Z"
@@ -2080,7 +2080,7 @@
     "last_update": "2026-06-27T00:26:51Z"
   },
   "fork-the-planet/OpenSMTPD": {
-    "last_update": "2026-06-26T00:29:09Z"
+    "last_update": "2026-06-27T00:27:00Z"
   },
   "fork-the-planet/aiosmtpd": {
     "last_update": "2026-06-26T00:29:13Z"
@@ -2179,7 +2179,7 @@
     "last_update": "2026-06-26T00:30:15Z"
   },
   "fork-the-planet/accel-pptp": {
-    "last_update": "2026-06-26T00:29:06Z"
+    "last_update": "2026-06-27T00:26:57Z"
   },
   "fork-the-planet/apcupsd": {
     "last_update": "2026-06-26T00:29:11Z"
@@ -2224,10 +2224,10 @@
     "last_update": "2026-06-26T00:39:46Z"
   },
   "fork-the-planet/claude-code": {
-    "last_update": "2026-06-26T00:29:07Z"
+    "last_update": "2026-06-27T00:26:58Z"
   },
   "fork-the-planet/plate": {
-    "last_update": "2026-06-26T00:29:07Z"
+    "last_update": "2026-06-27T00:26:59Z"
   },
   "fork-the-planet/DesktopEditors": {
     "last_update": "2026-06-27T00:26:47Z"
@@ -2251,16 +2251,16 @@
     "last_update": "2026-06-27T00:26:53Z"
   },
   "fork-the-planet/eurooffice-nextcloud": {
-    "last_update": "2026-06-26T00:29:02Z"
+    "last_update": "2026-06-27T00:26:54Z"
   },
   "fork-the-planet/plugin-aiautofill": {
-    "last_update": "2026-06-26T00:29:04Z"
+    "last_update": "2026-06-27T00:26:55Z"
   },
   "fork-the-planet/sdkjs": {
-    "last_update": "2026-06-26T00:29:05Z"
+    "last_update": "2026-06-27T00:26:56Z"
   },
   "fork-the-planet/sdkjs-forms": {
-    "last_update": "2026-06-26T00:29:08Z"
+    "last_update": "2026-06-27T00:26:59Z"
   },
   "fork-the-planet/pysaml2": {
     "last_update": "2026-06-27T00:26:46Z"
