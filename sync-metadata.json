@@ -2073,7 +2073,7 @@
     "last_update": "2026-06-30T00:27:00Z"
   },
   "fork-the-planet/zulip": {
-    "last_update": "2026-06-29T00:27:48Z"
+    "last_update": "2026-06-30T00:27:03Z"
   },
   "last_run": "2026-06-29 00:42:31",
   "fork-the-planet/MailKit": {
@@ -2107,25 +2107,25 @@
     "last_update": "2026-06-30T00:27:02Z"
   },
   "fork-the-planet/dovecot-core": {
-    "last_update": "2026-06-29T00:27:49Z"
+    "last_update": "2026-06-30T00:27:03Z"
   },
   "fork-the-planet/dovecot-message-hashing": {
-    "last_update": "2026-06-29T00:27:50Z"
+    "last_update": "2026-06-30T00:27:04Z"
   },
   "fork-the-planet/dovecot-tools": {
-    "last_update": "2026-06-29T00:27:51Z"
+    "last_update": "2026-06-30T00:27:05Z"
   },
   "fork-the-planet/exim": {
-    "last_update": "2026-06-29T00:27:51Z"
+    "last_update": "2026-06-30T00:27:05Z"
   },
   "fork-the-planet/git-perl-utils": {
-    "last_update": "2026-06-29T00:27:54Z"
+    "last_update": "2026-06-30T00:27:07Z"
   },
   "fork-the-planet/imap": {
-    "last_update": "2026-06-29T00:27:55Z"
+    "last_update": "2026-06-30T00:27:08Z"
   },
   "fork-the-planet/imapd": {
-    "last_update": "2026-06-29T00:27:56Z"
+    "last_update": "2026-06-30T00:27:08Z"
   },
   "fork-the-planet/kumomta": {
     "last_update": "2026-06-29T00:27:57Z"
@@ -2191,7 +2191,7 @@
     "last_update": "2026-06-30T00:26:58Z"
   },
   "fork-the-planet/ipt_account": {
-    "last_update": "2026-06-29T00:27:52Z"
+    "last_update": "2026-06-30T00:27:06Z"
   },
   "fork-the-planet/nocatsplash": {
     "last_update": "2026-06-29T00:28:00Z"
@@ -2209,7 +2209,7 @@
     "last_update": "2026-06-30T00:27:00Z"
   },
   "fork-the-planet/psiphon-tunnel-core": {
-    "last_update": "2026-06-29T00:27:53Z"
+    "last_update": "2026-06-30T00:27:07Z"
   },
   "fork-the-planet/surya": {
     "last_update": "2026-06-29T00:34:03Z"
