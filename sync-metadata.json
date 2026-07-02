@@ -1830,31 +1830,31 @@
     "last_update": "2026-07-02T00:37:13Z"
   },
   "fork-the-planet/templates": {
-    "last_update": "2026-07-01T00:35:36Z"
+    "last_update": "2026-07-02T00:37:14Z"
   },
   "fork-the-planet/terraform": {
-    "last_update": "2026-07-01T00:35:37Z"
+    "last_update": "2026-07-02T00:37:15Z"
   },
   "fork-the-planet/terraform-cdk": {
-    "last_update": "2026-07-01T00:35:38Z"
+    "last_update": "2026-07-02T00:37:16Z"
   },
   "fork-the-planet/terraform-provider-aws": {
-    "last_update": "2026-07-01T00:35:39Z"
+    "last_update": "2026-07-02T00:37:17Z"
   },
   "fork-the-planet/terraform-provider-cloudflare": {
-    "last_update": "2026-07-01T00:35:39Z"
+    "last_update": "2026-07-02T00:37:18Z"
   },
   "fork-the-planet/terraform-provider-hcloud": {
-    "last_update": "2026-07-01T00:35:40Z"
+    "last_update": "2026-07-02T00:37:19Z"
   },
   "fork-the-planet/terraform-provider-ibm": {
-    "last_update": "2026-07-01T00:35:41Z"
+    "last_update": "2026-07-02T00:37:20Z"
   },
   "fork-the-planet/text-generation-inference": {
-    "last_update": "2026-07-01T00:35:41Z"
+    "last_update": "2026-07-02T00:37:20Z"
   },
   "fork-the-planet/thefuck": {
-    "last_update": "2026-07-01T00:35:42Z"
+    "last_update": "2026-07-02T00:37:21Z"
   },
   "fork-the-planet/threagile": {
     "last_update": "2026-07-01T00:35:43Z"
@@ -2218,7 +2218,7 @@
     "last_update": "2026-07-02T00:33:45Z"
   },
   "fork-the-planet/get-gke-credentials": {
-    "last_update": "2026-07-01T00:35:43Z"
+    "last_update": "2026-07-02T00:37:22Z"
   },
   "fork-the-planet/openai-agents-js": {
     "last_update": "2026-07-01T00:35:49Z"
